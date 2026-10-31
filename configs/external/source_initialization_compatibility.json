@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "component_checks": [
+    {
+      "seed": 20260903,
+      "global_state_exact": true,
+      "source_scaler_exact": true,
+      "all_domain_encoders_exact": true,
+      "source_checkpoint": "checkpoints/source/source_seed_20260903.pt",
+      "source_checkpoint_sha256": "523a1cf48ae8d596084fe3c7013a46b2bd73e6fdf788264ba7e96439b907579d",
+      "final_component_sha256": "5cea9a4911a386a8e5c2173ed6b600c18d72a31fdfa3f1d2d1561ab00a8286ab"
+    },
+    {
+      "seed": 20260904,
+      "global_state_exact": true,
+      "source_scaler_exact": true,
+      "all_domain_encoders_exact": true,
+      "source_checkpoint": "checkpoints/source/source_seed_20260904.pt",
+      "source_checkpoint_sha256": "cde7b1a4ef2d8bbd94bcb5d0bfebc238f79607e206cba0ffe58e272bee45e2a1",
+      "final_component_sha256": "a6c4b402b1005cb28d5938b12487556831392c11195538b3c656d6935eb96859"
+    },
+    {
+      "seed": 20260905,
+      "global_state_exact": true,
+      "source_scaler_exact": true,
+      "all_domain_encoders_exact": true,
+      "source_checkpoint": "checkpoints/source/source_seed_20260905.pt",
+      "source_checkpoint_sha256": "49305674e50164c827700b0ba96e17613023a29e04372aa63f8b4f8f7e5f5ef0",
+      "final_component_sha256": "15f720f487bfac7febf753dda7bc905400e505a0d59af207fc2111a54a3adb58"
+    }
+  ],
+  "inference_settings": [
+    "CfC时间步长",
+    "CfC时间常数初始化",
+    "启用协议元数据",
+    "协议适配器隐藏维度"
+  ],
+  "interpretation": "external adapters use the identical transferred global source model and source scaler;their own protocol-specific fitting remains explicit"
+}

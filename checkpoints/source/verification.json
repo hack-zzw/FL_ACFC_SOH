@@ -1,0 +1,16 @@
+{
+  "smoke": false,
+  "checkpoint_count": 3,
+  "max_absolute_metric_differences": {
+    "mae": 8.673617379884035e-17,
+    "mape": 0.0,
+    "rmse": 9.367506770274758e-17,
+    "r2": 1.1102230246251565e-16
+  },
+  "matches_registered_baseline": true,
+  "checkpoint_sha256": {
+    "source_seed_20260903.pt": "523a1cf48ae8d596084fe3c7013a46b2bd73e6fdf788264ba7e96439b907579d",
+    "source_seed_20260904.pt": "cde7b1a4ef2d8bbd94bcb5d0bfebc238f79607e206cba0ffe58e272bee45e2a1",
+    "source_seed_20260905.pt": "49305674e50164c827700b0ba96e17613023a29e04372aa63f8b4f8f7e5f5ef0"
+  }
+}

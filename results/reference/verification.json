@@ -1,0 +1,1484 @@
+{
+  "scope": "Recorded validation of the preceding verified archive; new-layout validation is reported separately.",
+  "records": {
+    "validation/ablations_integrity.json": {
+      "passed": true,
+      "arms": [
+        "full_method",
+        "uniform_support_budget",
+        "no_monotonic_projection"
+      ],
+      "component_replays": [
+        {
+          "arm": "full_method",
+          "seed": 20260903,
+          "batteries": 75,
+          "queries": 58214,
+          "label_rejection_and_prefix_checks": 64,
+          "canonical_bit_exact": true
+        },
+        {
+          "arm": "full_method",
+          "seed": 20260904,
+          "batteries": 75,
+          "queries": 58214,
+          "label_rejection_and_prefix_checks": 64,
+          "canonical_bit_exact": true
+        },
+        {
+          "arm": "full_method",
+          "seed": 20260905,
+          "batteries": 75,
+          "queries": 58214,
+          "label_rejection_and_prefix_checks": 64,
+          "canonical_bit_exact": true
+        },
+        {
+          "arm": "uniform_support_budget",
+          "seed": 20260903,
+          "batteries": 75,
+          "queries": 58214,
+          "label_rejection_and_prefix_checks": 64,
+          "canonical_bit_exact": false
+        },
+        {
+          "arm": "uniform_support_budget",
+          "seed": 20260904,
+          "batteries": 75,
+          "queries": 58214,
+          "label_rejection_and_prefix_checks": 64,
+          "canonical_bit_exact": false
+        },
+        {
+          "arm": "uniform_support_budget",
+          "seed": 20260905,
+          "batteries": 75,
+          "queries": 58214,
+          "label_rejection_and_prefix_checks": 64,
+          "canonical_bit_exact": false
+        },
+        {
+          "arm": "no_monotonic_projection",
+          "seed": 20260903,
+          "batteries": 75,
+          "queries": 58214,
+          "label_rejection_and_prefix_checks": 64,
+          "canonical_bit_exact": false
+        },
+        {
+          "arm": "no_monotonic_projection",
+          "seed": 20260904,
+          "batteries": 75,
+          "queries": 58214,
+          "label_rejection_and_prefix_checks": 64,
+          "canonical_bit_exact": false
+        },
+        {
+          "arm": "no_monotonic_projection",
+          "seed": 20260905,
+          "batteries": 75,
+          "queries": 58214,
+          "label_rejection_and_prefix_checks": 64,
+          "canonical_bit_exact": false
+        }
+      ],
+      "full_method_bit_exact": true,
+      "full_ensemble_matches_frozen_primary_result": true,
+      "matched_rng_entries": 675,
+      "encoder_frozen_during_all_support_adaptation": true,
+      "projection_modules": 5,
+      "projection_sites": 6,
+      "clipping_preserved": true,
+      "no_source_or_domain_refit": true,
+      "model_and_source_hashes_unchanged": true,
+      "policy_search_executed": false,
+      "main_model_replaced": false
+    },
+    "validation/ablations_replay.json": {
+      "passed": true,
+      "checks": [
+        {
+          "arm": "full_method",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "arm": "uniform_support_budget",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "arm": "no_monotonic_projection",
+          "maximum_prediction_difference": 0.0
+        }
+      ]
+    },
+    "validation/controls_replay.json": {
+      "passed": true,
+      "checks": [
+        {
+          "stage": "01_capacity",
+          "prediction_file": "domain__clip_only__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "01_capacity",
+          "prediction_file": "domain__projected__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "01_capacity",
+          "prediction_file": "material__clip_only__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "01_capacity",
+          "prediction_file": "material__projected__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "01_capacity",
+          "prediction_file": "shared__clip_only__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "01_capacity",
+          "prediction_file": "shared__projected__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "02_representation",
+          "prediction_file": "learned__clip_only__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "02_representation",
+          "prediction_file": "learned__projected__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "02_representation",
+          "prediction_file": "random__clip_only__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "02_representation",
+          "prediction_file": "random__projected__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "02_representation",
+          "prediction_file": "raw__clip_only__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "02_representation",
+          "prediction_file": "raw__projected__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "03_semantic_groups",
+          "prediction_file": "pseudo_1__clip_only__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "03_semantic_groups",
+          "prediction_file": "pseudo_1__projected__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "03_semantic_groups",
+          "prediction_file": "pseudo_2__clip_only__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "03_semantic_groups",
+          "prediction_file": "pseudo_2__projected__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "03_semantic_groups",
+          "prediction_file": "pseudo_3__clip_only__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "03_semantic_groups",
+          "prediction_file": "pseudo_3__projected__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "03_semantic_groups",
+          "prediction_file": "pseudo_4__clip_only__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "03_semantic_groups",
+          "prediction_file": "pseudo_4__projected__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "03_semantic_groups",
+          "prediction_file": "pseudo_5__clip_only__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "03_semantic_groups",
+          "prediction_file": "pseudo_5__projected__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "03_semantic_groups",
+          "prediction_file": "true_domain__clip_only__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "03_semantic_groups",
+          "prediction_file": "true_domain__projected__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "04_federated",
+          "prediction_file": "F00__clip_only__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "04_federated",
+          "prediction_file": "F00__projected__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "04_federated",
+          "prediction_file": "F01__clip_only__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "04_federated",
+          "prediction_file": "F01__projected__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "04_federated",
+          "prediction_file": "F10__clip_only__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "04_federated",
+          "prediction_file": "F10__projected__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "04_federated",
+          "prediction_file": "F11__clip_only__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "04_federated",
+          "prediction_file": "F11__projected__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        }
+      ]
+    },
+    "validation/external_replay.json": {
+      "passed": true,
+      "checks": [
+        {
+          "dataset": "NASA",
+          "shots": 20,
+          "seed": 20260903,
+          "client": "NASA_01",
+          "maximum_prediction_difference": 1.9408285312216833e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 20,
+          "seed": 20260903,
+          "client": "NASA_02",
+          "maximum_prediction_difference": 1.3098770634822898e-07
+        },
+        {
+          "dataset": "NASA",
+          "shots": 20,
+          "seed": 20260903,
+          "client": "NASA_07",
+          "maximum_prediction_difference": 7.218585207358075e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 20,
+          "seed": 20260903,
+          "client": "NASA_09",
+          "maximum_prediction_difference": 3.7413905862315744e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 20,
+          "seed": 20260904,
+          "client": "NASA_01",
+          "maximum_prediction_difference": 4.1855585775074644e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 20,
+          "seed": 20260904,
+          "client": "NASA_02",
+          "maximum_prediction_difference": 2.0837509018267752e-07
+        },
+        {
+          "dataset": "NASA",
+          "shots": 20,
+          "seed": 20260904,
+          "client": "NASA_07",
+          "maximum_prediction_difference": 7.717030198195474e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 20,
+          "seed": 20260904,
+          "client": "NASA_09",
+          "maximum_prediction_difference": 5.956986470767589e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 20,
+          "seed": 20260905,
+          "client": "NASA_01",
+          "maximum_prediction_difference": 2.8197614243552493e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 20,
+          "seed": 20260905,
+          "client": "NASA_02",
+          "maximum_prediction_difference": 1.1835323154851807e-07
+        },
+        {
+          "dataset": "NASA",
+          "shots": 20,
+          "seed": 20260905,
+          "client": "NASA_07",
+          "maximum_prediction_difference": 9.049196458832398e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 20,
+          "seed": 20260905,
+          "client": "NASA_09",
+          "maximum_prediction_difference": 4.5667760795176093e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 40,
+          "seed": 20260903,
+          "client": "NASA_01",
+          "maximum_prediction_difference": 2.0869348027474643e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 40,
+          "seed": 20260903,
+          "client": "NASA_02",
+          "maximum_prediction_difference": 8.446158750174959e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 40,
+          "seed": 20260903,
+          "client": "NASA_07",
+          "maximum_prediction_difference": 6.967197907492562e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 40,
+          "seed": 20260903,
+          "client": "NASA_09",
+          "maximum_prediction_difference": 5.1650335342046105e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 40,
+          "seed": 20260904,
+          "client": "NASA_01",
+          "maximum_prediction_difference": 2.6804862884866054e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 40,
+          "seed": 20260904,
+          "client": "NASA_02",
+          "maximum_prediction_difference": 1.2529924564574912e-07
+        },
+        {
+          "dataset": "NASA",
+          "shots": 40,
+          "seed": 20260904,
+          "client": "NASA_07",
+          "maximum_prediction_difference": 7.71121292375554e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 40,
+          "seed": 20260904,
+          "client": "NASA_09",
+          "maximum_prediction_difference": 3.378725355052126e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 40,
+          "seed": 20260905,
+          "client": "NASA_01",
+          "maximum_prediction_difference": 2.657019260166038e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 40,
+          "seed": 20260905,
+          "client": "NASA_02",
+          "maximum_prediction_difference": 6.335188662554003e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 40,
+          "seed": 20260905,
+          "client": "NASA_07",
+          "maximum_prediction_difference": 5.968788330257269e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 40,
+          "seed": 20260905,
+          "client": "NASA_09",
+          "maximum_prediction_difference": 3.513821622558311e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 60,
+          "seed": 20260903,
+          "client": "NASA_01",
+          "maximum_prediction_difference": 2.64789145054678e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 60,
+          "seed": 20260903,
+          "client": "NASA_02",
+          "maximum_prediction_difference": 7.365722687335818e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 60,
+          "seed": 20260903,
+          "client": "NASA_07",
+          "maximum_prediction_difference": 5.6518289048845816e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 60,
+          "seed": 20260903,
+          "client": "NASA_09",
+          "maximum_prediction_difference": 8.639058490800267e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 60,
+          "seed": 20260904,
+          "client": "NASA_01",
+          "maximum_prediction_difference": 2.0530684152753054e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 60,
+          "seed": 20260904,
+          "client": "NASA_02",
+          "maximum_prediction_difference": 9.255204036495712e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 60,
+          "seed": 20260904,
+          "client": "NASA_07",
+          "maximum_prediction_difference": 8.932258388494319e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 60,
+          "seed": 20260904,
+          "client": "NASA_09",
+          "maximum_prediction_difference": 4.082232230029348e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 60,
+          "seed": 20260905,
+          "client": "NASA_01",
+          "maximum_prediction_difference": 2.8323755674186657e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 60,
+          "seed": 20260905,
+          "client": "NASA_02",
+          "maximum_prediction_difference": 4.104186590581094e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 60,
+          "seed": 20260905,
+          "client": "NASA_07",
+          "maximum_prediction_difference": 5.98452596922705e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 60,
+          "seed": 20260905,
+          "client": "NASA_09",
+          "maximum_prediction_difference": 7.628162213002554e-08
+        },
+        {
+          "dataset": "Oxford",
+          "shots": 0,
+          "seed": 20260903,
+          "maximum_prediction_difference": 5.960464466436832e-08
+        },
+        {
+          "dataset": "Oxford",
+          "shots": 0,
+          "seed": 20260904,
+          "maximum_prediction_difference": 1.1920928955078125e-07
+        },
+        {
+          "dataset": "Oxford",
+          "shots": 0,
+          "seed": 20260905,
+          "maximum_prediction_difference": 5.960464488641293e-08
+        },
+        {
+          "dataset": "Oxford",
+          "shots": 5,
+          "seed": 20260903,
+          "maximum_prediction_difference": 1.1920928955078125e-07
+        },
+        {
+          "dataset": "Oxford",
+          "shots": 5,
+          "seed": 20260904,
+          "maximum_prediction_difference": 1.1920928955078125e-07
+        },
+        {
+          "dataset": "Oxford",
+          "shots": 5,
+          "seed": 20260905,
+          "maximum_prediction_difference": 1.1920928955078125e-07
+        },
+        {
+          "dataset": "Oxford",
+          "shots": 10,
+          "seed": 20260903,
+          "maximum_prediction_difference": 5.960464477539063e-08
+        },
+        {
+          "dataset": "Oxford",
+          "shots": 10,
+          "seed": 20260904,
+          "maximum_prediction_difference": 1.1920928955078125e-07
+        },
+        {
+          "dataset": "Oxford",
+          "shots": 10,
+          "seed": 20260905,
+          "maximum_prediction_difference": 5.960464477539063e-08
+        },
+        {
+          "dataset": "Oxford",
+          "shots": 20,
+          "seed": 20260903,
+          "maximum_prediction_difference": 5.960464477539063e-08
+        },
+        {
+          "dataset": "Oxford",
+          "shots": 20,
+          "seed": 20260904,
+          "maximum_prediction_difference": 1.1920928955078125e-07
+        },
+        {
+          "dataset": "Oxford",
+          "shots": 20,
+          "seed": 20260905,
+          "maximum_prediction_difference": 5.960464477539063e-08
+        }
+      ]
+    },
+    "validation/feature_cache_against_original.json": {
+      "passed": true,
+      "scope": "independent rebuilt arrays compared with archived input cache;archived files used only as verification references",
+      "checks": [
+        {
+          "file": "source_embedding_20260903.npy",
+          "bit_exact": true
+        },
+        {
+          "file": "source_embedding_20260904.npy",
+          "bit_exact": true
+        },
+        {
+          "file": "source_embedding_20260905.npy",
+          "bit_exact": true
+        },
+        {
+          "file": "source_numeric.npy",
+          "bit_exact": true
+        },
+        {
+          "file": "target_embedding_20260903.npy",
+          "bit_exact": true
+        },
+        {
+          "file": "target_embedding_20260904.npy",
+          "bit_exact": true
+        },
+        {
+          "file": "target_embedding_20260905.npy",
+          "bit_exact": true
+        },
+        {
+          "file": "target_numeric.npy",
+          "bit_exact": true
+        }
+      ]
+    },
+    "validation/feature_reconstruction.json": {
+      "passed": true,
+      "scope": "processed features to observable descriptors and embeddings",
+      "checks": [
+        {
+          "file": "source_numeric.npy",
+          "shape": [
+            242461,
+            223
+          ],
+          "bit_exact": true
+        },
+        {
+          "file": "target_numeric.npy",
+          "shape": [
+            59714,
+            223
+          ],
+          "bit_exact": true
+        }
+      ]
+    },
+    "validation/main_integrity.json": {
+      "passed": true,
+      "replays": [
+        {
+          "seed": 20260903,
+          "batteries": 75,
+          "queries": 58214,
+          "bit_exact": true,
+          "label_rejection_and_prefix_checks": 64
+        },
+        {
+          "seed": 20260904,
+          "batteries": 75,
+          "queries": 58214,
+          "bit_exact": true,
+          "label_rejection_and_prefix_checks": 64
+        },
+        {
+          "seed": 20260905,
+          "batteries": 75,
+          "queries": 58214,
+          "bit_exact": true,
+          "label_rejection_and_prefix_checks": 64
+        }
+      ],
+      "support_labels": 20,
+      "metrics": [
+        {
+          "domain": "LFP|HUST",
+          "batteries": 15,
+          "queries": 27625,
+          "mae": 0.013646046112739986,
+          "rmse": 0.022953185801248395,
+          "r2": 0.9088809975062039,
+          "mape": 1.5301547885395763
+        },
+        {
+          "domain": "LFP|MIT",
+          "batteries": 25,
+          "queries": 15683,
+          "mae": 0.004516572182153989,
+          "rmse": 0.006562941159577784,
+          "r2": 0.9161405946352725,
+          "mape": 0.4909973020439356
+        },
+        {
+          "domain": "NCA|TJU",
+          "batteries": 13,
+          "queries": 4771,
+          "mae": 0.005207496357014305,
+          "rmse": 0.006519718076735848,
+          "r2": 0.9414248675163223,
+          "mape": 0.6486879279384087
+        },
+        {
+          "domain": "NCM|TJU",
+          "batteries": 11,
+          "queries": 6229,
+          "mae": 0.009004093860544297,
+          "rmse": 0.010258559949438193,
+          "r2": 0.9134069301227036,
+          "mape": 1.1179860428011221
+        },
+        {
+          "domain": "NCM|XJTU",
+          "batteries": 11,
+          "queries": 3906,
+          "mae": 0.0086326233135184,
+          "rmse": 0.011030887549554615,
+          "r2": 0.9131335081259674,
+          "mape": 0.9389140804217774
+        }
+      ]
+    },
+    "validation/native_replay.json": {
+      "passed": true,
+      "checks": [
+        {
+          "configuration": "centralized",
+          "maximum_prediction_difference": 0.0,
+          "queries": 58214
+        },
+        {
+          "configuration": "fedavg",
+          "maximum_prediction_difference": 0.0,
+          "queries": 58214
+        },
+        {
+          "configuration": "material_balanced",
+          "maximum_prediction_difference": 0.0,
+          "queries": 58214
+        },
+        {
+          "configuration": "fedprox_mu_1e-4",
+          "maximum_prediction_difference": 0.0,
+          "queries": 58214
+        },
+        {
+          "configuration": "fedprox_mu_1e-2",
+          "maximum_prediction_difference": 0.0,
+          "queries": 58214
+        },
+        {
+          "configuration": "fedprox_mu_1e-1",
+          "maximum_prediction_difference": 0.0,
+          "queries": 58214
+        },
+        {
+          "configuration": "clustered",
+          "maximum_prediction_difference": 0.0,
+          "queries": 58214
+        }
+      ]
+    },
+    "validation/numerical_checks.csv": [
+      {
+        "experiment": "main",
+        "max_difference": "0.0"
+      },
+      {
+        "experiment": "main_battery_bootstrap",
+        "max_difference": "0.0"
+      },
+      {
+        "experiment": "Table1_all_eight_configurations",
+        "max_difference": "9.020562075079397e-17"
+      },
+      {
+        "experiment": "mapping_granularity",
+        "max_difference": "0.0"
+      },
+      {
+        "experiment": "mapping_bootstrap",
+        "max_difference": "0.0"
+      },
+      {
+        "experiment": "01_capacity",
+        "max_difference": "0.0"
+      },
+      {
+        "experiment": "02_representation",
+        "max_difference": "0.0"
+      },
+      {
+        "experiment": "03_semantic_groups",
+        "max_difference": "0.0"
+      },
+      {
+        "experiment": "04_federated",
+        "max_difference": "0.0"
+      },
+      {
+        "experiment": "controlled_paired_bootstrap",
+        "max_difference": "4.163336342344337e-17"
+      },
+      {
+        "experiment": "federated_factorial_bootstrap",
+        "max_difference": "0.0"
+      },
+      {
+        "experiment": "pipeline_interventions",
+        "max_difference": "0.0"
+      },
+      {
+        "experiment": "NASA",
+        "max_difference": "0.0"
+      },
+      {
+        "experiment": "Oxford",
+        "max_difference": "0.0"
+      }
+    ],
+    "validation/numerical_tolerance.json": {
+      "passed": true,
+      "batteries_checked": 75,
+      "comparison_prediction_atol": 1e-06,
+      "verification_perturbation": 1e-07,
+      "reported_predictions_modified": false,
+      "metric_bounds": "MAE/RMSE norm inequalities; R2 SSE perturbation identity; MAPE absolute bound"
+    },
+    "validation/readouts_replay.json": {
+      "passed": true,
+      "checks": [
+        {
+          "arm": "M1_shared_mapping",
+          "variant": "projected",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "arm": "M1_shared_mapping",
+          "variant": "clip_only",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "arm": "Mmid_material_mapping",
+          "variant": "projected",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "arm": "Mmid_material_mapping",
+          "variant": "clip_only",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "arm": "M2_domain_mapping",
+          "variant": "projected",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "arm": "M2_domain_mapping",
+          "variant": "clip_only",
+          "maximum_prediction_difference": 0.0
+        }
+      ]
+    },
+    "validation/result_recomputation.json": {
+      "passed": true,
+      "checks": 14,
+      "maximum_metric_difference": 9.020562075079397e-17,
+      "main_pooled": {
+        "mae": 0.009347051198636335,
+        "rmse": 0.017265080409686273,
+        "r2": 0.963488486334106,
+        "mape": 1.0602713114209514,
+        "batteries": 75,
+        "queries": 58214,
+        "battery_macro_r2": 0.9182293056922992,
+        "battery_macro_mae": 0.007724084504011
+      },
+      "reference_predictions_used": true,
+      "model_inference_performed": false
+    },
+    "validation/static_code_audit.json": {
+      "python_files": 105,
+      "syntax_passed": true,
+      "absolute_filesystem_literals": []
+    },
+    "validation/training/controls/training_01_capacity_domain_20260903.json": {
+      "passed": true,
+      "stage": "01_capacity",
+      "method": "domain",
+      "seed": 20260903,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\01_capacity\\domain\\seed_20260903\\all\\epoch_10.pt"
+    },
+    "validation/training/controls/training_01_capacity_domain_20260904.json": {
+      "passed": true,
+      "stage": "01_capacity",
+      "method": "domain",
+      "seed": 20260904,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\01_capacity\\domain\\seed_20260904\\all\\epoch_20.pt"
+    },
+    "validation/training/controls/training_01_capacity_domain_20260905.json": {
+      "passed": true,
+      "stage": "01_capacity",
+      "method": "domain",
+      "seed": 20260905,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\01_capacity\\domain\\seed_20260905\\all\\epoch_20.pt"
+    },
+    "validation/training/controls/training_01_capacity_material_20260903.json": {
+      "passed": true,
+      "stage": "01_capacity",
+      "method": "material",
+      "seed": 20260903,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\01_capacity\\material\\seed_20260903\\all\\epoch_20.pt"
+    },
+    "validation/training/controls/training_01_capacity_material_20260904.json": {
+      "passed": true,
+      "stage": "01_capacity",
+      "method": "material",
+      "seed": 20260904,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\01_capacity\\material\\seed_20260904\\all\\epoch_10.pt"
+    },
+    "validation/training/controls/training_01_capacity_material_20260905.json": {
+      "passed": true,
+      "stage": "01_capacity",
+      "method": "material",
+      "seed": 20260905,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\01_capacity\\material\\seed_20260905\\all\\epoch_20.pt"
+    },
+    "validation/training/controls/training_01_capacity_shared_20260903.json": {
+      "passed": true,
+      "stage": "01_capacity",
+      "method": "shared",
+      "seed": 20260903,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\01_capacity\\shared\\seed_20260903\\all\\epoch_10.pt"
+    },
+    "validation/training/controls/training_01_capacity_shared_20260904.json": {
+      "passed": true,
+      "stage": "01_capacity",
+      "method": "shared",
+      "seed": 20260904,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\01_capacity\\shared\\seed_20260904\\all\\epoch_20.pt"
+    },
+    "validation/training/controls/training_01_capacity_shared_20260905.json": {
+      "passed": true,
+      "stage": "01_capacity",
+      "method": "shared",
+      "seed": 20260905,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\01_capacity\\shared\\seed_20260905\\all\\epoch_20.pt"
+    },
+    "validation/training/controls/training_02_representation_learned_20260903.json": {
+      "passed": true,
+      "stage": "02_representation",
+      "method": "learned",
+      "seed": 20260903,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\02_representation\\learned\\seed_20260903\\all\\epoch_10.pt"
+    },
+    "validation/training/controls/training_02_representation_learned_20260904.json": {
+      "passed": true,
+      "stage": "02_representation",
+      "method": "learned",
+      "seed": 20260904,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\02_representation\\learned\\seed_20260904\\all\\epoch_20.pt"
+    },
+    "validation/training/controls/training_02_representation_learned_20260905.json": {
+      "passed": true,
+      "stage": "02_representation",
+      "method": "learned",
+      "seed": 20260905,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\02_representation\\learned\\seed_20260905\\all\\epoch_20.pt"
+    },
+    "validation/training/controls/training_02_representation_random_20260903.json": {
+      "passed": true,
+      "stage": "02_representation",
+      "method": "random",
+      "seed": 20260903,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\02_representation\\random\\seed_20260903\\all\\epoch_20.pt"
+    },
+    "validation/training/controls/training_02_representation_random_20260904.json": {
+      "passed": true,
+      "stage": "02_representation",
+      "method": "random",
+      "seed": 20260904,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\02_representation\\random\\seed_20260904\\all\\epoch_20.pt"
+    },
+    "validation/training/controls/training_02_representation_random_20260905.json": {
+      "passed": true,
+      "stage": "02_representation",
+      "method": "random",
+      "seed": 20260905,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\02_representation\\random\\seed_20260905\\all\\epoch_20.pt"
+    },
+    "validation/training/controls/training_02_representation_raw_20260903.json": {
+      "passed": true,
+      "stage": "02_representation",
+      "method": "raw",
+      "seed": 20260903,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\02_representation\\raw\\seed_20260903\\all\\epoch_20.pt"
+    },
+    "validation/training/controls/training_02_representation_raw_20260904.json": {
+      "passed": true,
+      "stage": "02_representation",
+      "method": "raw",
+      "seed": 20260904,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\02_representation\\raw\\seed_20260904\\all\\epoch_10.pt"
+    },
+    "validation/training/controls/training_02_representation_raw_20260905.json": {
+      "passed": true,
+      "stage": "02_representation",
+      "method": "raw",
+      "seed": 20260905,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\02_representation\\raw\\seed_20260905\\all\\epoch_10.pt"
+    },
+    "validation/training/controls/training_03_semantic_groups_pseudo_1_20260903.json": {
+      "passed": true,
+      "stage": "03_semantic_groups",
+      "method": "pseudo_1",
+      "seed": 20260903,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\03_semantic_groups\\pseudo_1\\seed_20260903\\all\\epoch_10.pt"
+    },
+    "validation/training/controls/training_03_semantic_groups_pseudo_1_20260904.json": {
+      "passed": true,
+      "stage": "03_semantic_groups",
+      "method": "pseudo_1",
+      "seed": 20260904,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\03_semantic_groups\\pseudo_1\\seed_20260904\\all\\epoch_10.pt"
+    },
+    "validation/training/controls/training_03_semantic_groups_pseudo_1_20260905.json": {
+      "passed": true,
+      "stage": "03_semantic_groups",
+      "method": "pseudo_1",
+      "seed": 20260905,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\03_semantic_groups\\pseudo_1\\seed_20260905\\all\\epoch_20.pt"
+    },
+    "validation/training/controls/training_03_semantic_groups_pseudo_2_20260903.json": {
+      "passed": true,
+      "stage": "03_semantic_groups",
+      "method": "pseudo_2",
+      "seed": 20260903,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\03_semantic_groups\\pseudo_2\\seed_20260903\\all\\epoch_10.pt"
+    },
+    "validation/training/controls/training_03_semantic_groups_pseudo_2_20260904.json": {
+      "passed": true,
+      "stage": "03_semantic_groups",
+      "method": "pseudo_2",
+      "seed": 20260904,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\03_semantic_groups\\pseudo_2\\seed_20260904\\all\\epoch_20.pt"
+    },
+    "validation/training/controls/training_03_semantic_groups_pseudo_2_20260905.json": {
+      "passed": true,
+      "stage": "03_semantic_groups",
+      "method": "pseudo_2",
+      "seed": 20260905,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\03_semantic_groups\\pseudo_2\\seed_20260905\\all\\epoch_20.pt"
+    },
+    "validation/training/controls/training_03_semantic_groups_pseudo_3_20260903.json": {
+      "passed": true,
+      "stage": "03_semantic_groups",
+      "method": "pseudo_3",
+      "seed": 20260903,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\03_semantic_groups\\pseudo_3\\seed_20260903\\all\\epoch_10.pt"
+    },
+    "validation/training/controls/training_03_semantic_groups_pseudo_3_20260904.json": {
+      "passed": true,
+      "stage": "03_semantic_groups",
+      "method": "pseudo_3",
+      "seed": 20260904,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\03_semantic_groups\\pseudo_3\\seed_20260904\\all\\epoch_5.pt"
+    },
+    "validation/training/controls/training_03_semantic_groups_pseudo_3_20260905.json": {
+      "passed": true,
+      "stage": "03_semantic_groups",
+      "method": "pseudo_3",
+      "seed": 20260905,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\03_semantic_groups\\pseudo_3\\seed_20260905\\all\\epoch_20.pt"
+    },
+    "validation/training/controls/training_03_semantic_groups_pseudo_4_20260903.json": {
+      "passed": true,
+      "stage": "03_semantic_groups",
+      "method": "pseudo_4",
+      "seed": 20260903,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\03_semantic_groups\\pseudo_4\\seed_20260903\\all\\epoch_20.pt"
+    },
+    "validation/training/controls/training_03_semantic_groups_pseudo_4_20260904.json": {
+      "passed": true,
+      "stage": "03_semantic_groups",
+      "method": "pseudo_4",
+      "seed": 20260904,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\03_semantic_groups\\pseudo_4\\seed_20260904\\all\\epoch_10.pt"
+    },
+    "validation/training/controls/training_03_semantic_groups_pseudo_4_20260905.json": {
+      "passed": true,
+      "stage": "03_semantic_groups",
+      "method": "pseudo_4",
+      "seed": 20260905,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\03_semantic_groups\\pseudo_4\\seed_20260905\\all\\epoch_20.pt"
+    },
+    "validation/training/controls/training_03_semantic_groups_pseudo_5_20260903.json": {
+      "passed": true,
+      "stage": "03_semantic_groups",
+      "method": "pseudo_5",
+      "seed": 20260903,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\03_semantic_groups\\pseudo_5\\seed_20260903\\all\\epoch_10.pt"
+    },
+    "validation/training/controls/training_03_semantic_groups_pseudo_5_20260904.json": {
+      "passed": true,
+      "stage": "03_semantic_groups",
+      "method": "pseudo_5",
+      "seed": 20260904,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\03_semantic_groups\\pseudo_5\\seed_20260904\\all\\epoch_10.pt"
+    },
+    "validation/training/controls/training_03_semantic_groups_pseudo_5_20260905.json": {
+      "passed": true,
+      "stage": "03_semantic_groups",
+      "method": "pseudo_5",
+      "seed": 20260905,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\03_semantic_groups\\pseudo_5\\seed_20260905\\all\\epoch_10.pt"
+    },
+    "validation/training/controls/training_03_semantic_groups_true_domain_20260903.json": {
+      "passed": true,
+      "stage": "03_semantic_groups",
+      "method": "true_domain",
+      "seed": 20260903,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\03_semantic_groups\\true_domain\\seed_20260903\\all\\epoch_10.pt"
+    },
+    "validation/training/controls/training_03_semantic_groups_true_domain_20260904.json": {
+      "passed": true,
+      "stage": "03_semantic_groups",
+      "method": "true_domain",
+      "seed": 20260904,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\03_semantic_groups\\true_domain\\seed_20260904\\all\\epoch_20.pt"
+    },
+    "validation/training/controls/training_03_semantic_groups_true_domain_20260905.json": {
+      "passed": true,
+      "stage": "03_semantic_groups",
+      "method": "true_domain",
+      "seed": 20260905,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\03_semantic_groups\\true_domain\\seed_20260905\\all\\epoch_20.pt"
+    },
+    "validation/training/controls/training_04_federated_F00_20260903.json": {
+      "passed": true,
+      "stage": "04_federated",
+      "method": "F00",
+      "seed": 20260903,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\04_federated\\F00\\seed_20260903\\model.pt"
+    },
+    "validation/training/controls/training_04_federated_F00_20260904.json": {
+      "passed": true,
+      "stage": "04_federated",
+      "method": "F00",
+      "seed": 20260904,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\04_federated\\F00\\seed_20260904\\model.pt"
+    },
+    "validation/training/controls/training_04_federated_F00_20260905.json": {
+      "passed": true,
+      "stage": "04_federated",
+      "method": "F00",
+      "seed": 20260905,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\04_federated\\F00\\seed_20260905\\model.pt"
+    },
+    "validation/training/controls/training_04_federated_F01_20260903.json": {
+      "passed": true,
+      "stage": "04_federated",
+      "method": "F01",
+      "seed": 20260903,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\04_federated\\F01\\seed_20260903\\model.pt"
+    },
+    "validation/training/controls/training_04_federated_F01_20260904.json": {
+      "passed": true,
+      "stage": "04_federated",
+      "method": "F01",
+      "seed": 20260904,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\04_federated\\F01\\seed_20260904\\model.pt"
+    },
+    "validation/training/controls/training_04_federated_F01_20260905.json": {
+      "passed": true,
+      "stage": "04_federated",
+      "method": "F01",
+      "seed": 20260905,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\04_federated\\F01\\seed_20260905\\model.pt"
+    },
+    "validation/training/controls/training_04_federated_F10_20260903.json": {
+      "passed": true,
+      "stage": "04_federated",
+      "method": "F10",
+      "seed": 20260903,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\04_federated\\F10\\seed_20260903\\model.pt"
+    },
+    "validation/training/controls/training_04_federated_F10_20260904.json": {
+      "passed": true,
+      "stage": "04_federated",
+      "method": "F10",
+      "seed": 20260904,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\04_federated\\F10\\seed_20260904\\model.pt"
+    },
+    "validation/training/controls/training_04_federated_F10_20260905.json": {
+      "passed": true,
+      "stage": "04_federated",
+      "method": "F10",
+      "seed": 20260905,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\04_federated\\F10\\seed_20260905\\model.pt"
+    },
+    "validation/training/controls/training_04_federated_F11_20260903.json": {
+      "passed": true,
+      "stage": "04_federated",
+      "method": "F11",
+      "seed": 20260903,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\04_federated\\F11\\seed_20260903\\model.pt"
+    },
+    "validation/training/controls/training_04_federated_F11_20260904.json": {
+      "passed": true,
+      "stage": "04_federated",
+      "method": "F11",
+      "seed": 20260904,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\04_federated\\F11\\seed_20260904\\model.pt"
+    },
+    "validation/training/controls/training_04_federated_F11_20260905.json": {
+      "passed": true,
+      "stage": "04_federated",
+      "method": "F11",
+      "seed": 20260905,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training\\controls\\04_federated\\F11\\seed_20260905\\model.pt"
+    },
+    "validation/training/external_fit/NASA/verification_20_20260903.json": {
+      "passed": true,
+      "dataset": "NASA",
+      "budget": 20,
+      "seed": 20260903,
+      "query_records": 200,
+      "maximum_prediction_difference": 0.0,
+      "query_labels_used_for_fitting": false
+    },
+    "validation/training/external_fit/Oxford/verification_20_20260903.json": {
+      "passed": true,
+      "dataset": "Oxford",
+      "budget": 20,
+      "seed": 20260903,
+      "query_records": 111,
+      "maximum_prediction_difference": 0.0,
+      "query_labels_used_for_fitting": false
+    },
+    "validation/training/training_domain/HUST/verification_20260903.json": {
+      "passed": true,
+      "domain": "LFP|HUST",
+      "seed": 20260903,
+      "elapsed_seconds": 9.725176900043152,
+      "source_batteries": 62,
+      "normalization_bit_exact": true,
+      "maximum_parameter_difference": 0.0,
+      "scope": "registered initial conditional head; XJTU continuation and residual fitting are separate stages"
+    },
+    "validation/training/training_domain/NCA/verification_20260903.json": {
+      "passed": true,
+      "domain": "NCA|TJU",
+      "seed": 20260903,
+      "elapsed_seconds": 8.75547789997654,
+      "source_batteries": 53,
+      "normalization_bit_exact": true,
+      "maximum_parameter_difference": 0.0,
+      "scope": "registered initial conditional head; XJTU continuation and residual fitting are separate stages"
+    },
+    "validation/training/training_domain/XJTU/verification_20260903.json": {
+      "passed": true,
+      "domain": "NCM|XJTU",
+      "seed": 20260903,
+      "elapsed_seconds": 7.035513599985279,
+      "source_batteries": 44,
+      "normalization_bit_exact": true,
+      "maximum_parameter_difference": 0.0,
+      "scope": "registered initial conditional head; XJTU continuation and residual fitting are separate stages"
+    },
+    "validation/training/training_native/fedavg/verification_20260903.json": {
+      "passed": true,
+      "configuration": "fedavg",
+      "seed": 20260903,
+      "smoke": true,
+      "elapsed_seconds": 7.67061620001914,
+      "source_batteries": 303,
+      "registered_parameter_state_bit_exact": false
+    },
+    "validation/training/training_readouts/M1_shared_mapping/verification_20260903.json": {
+      "passed": true,
+      "scope": "global",
+      "seed": 20260903,
+      "lambda_value": 0.001,
+      "source_selected_again": false,
+      "maximum_parameter_difference": 0.0,
+      "source_batteries": 303,
+      "target_labels_used": false
+    },
+    "validation/training/training_readouts/M2_domain_mapping/verification_20260903.json": {
+      "passed": true,
+      "scope": "domain",
+      "seed": 20260903,
+      "lambda_value": 0.001,
+      "source_selected_again": false,
+      "maximum_parameter_difference": 0.0,
+      "source_batteries": 303,
+      "target_labels_used": false
+    },
+    "validation/training/training_readouts/Mmid_material_mapping/verification_20260903.json": {
+      "passed": true,
+      "scope": "material",
+      "seed": 20260903,
+      "lambda_value": 0.001,
+      "source_selected_again": false,
+      "maximum_parameter_difference": 0.0,
+      "source_batteries": 303,
+      "target_labels_used": false
+    },
+    "validation/training/training_source/source/verification_20260903.json": {
+      "passed": true,
+      "seed": 20260903,
+      "smoke": false,
+      "source_batteries": 303,
+      "source_records": 205946,
+      "elapsed_seconds": 542.643976500025,
+      "registered_source_state_bit_exact": true,
+      "scope": "source encoder and initial domain states; domain-fitting stages have separate entry points",
+      "checkpoint": "E:\\claude_work\\temp\\paper_code_release_20261031\\SOH_DomainBoundary_Reproducibility\\outputs\\training_source\\source\\source_seed_20260903.pt"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+arm,module,calls,disabled_calls,elements
+full_method,acfc_pinn_fl_soh.selected_runtime.experiments_main,642,0,512850
+full_method,acfc_pinn_fl_soh.selected_runtime.experiments_ncm_bias_ensemble,225,0,117831
+full_method,acfc_pinn_fl_soh.selected_runtime.protocol_v2,168,0,145929
+full_method,acfc_pinn_fl_soh.selected_runtime.nca_half,144,0,42990
+full_method,acfc_pinn_fl_soh.selected_runtime.inference_qv,6,0,42
+uniform_support_budget,acfc_pinn_fl_soh.selected_runtime.experiments_main,642,0,512850
+uniform_support_budget,acfc_pinn_fl_soh.selected_runtime.experiments_ncm_bias_ensemble,225,0,117831
+uniform_support_budget,acfc_pinn_fl_soh.selected_runtime.protocol_v2,168,0,145929
+uniform_support_budget,acfc_pinn_fl_soh.selected_runtime.nca_half,144,0,42990
+uniform_support_budget,acfc_pinn_fl_soh.selected_runtime.inference_qv,6,0,42
+no_monotonic_projection,acfc_pinn_fl_soh.selected_runtime.experiments_main,642,225,512850
+no_monotonic_projection,acfc_pinn_fl_soh.selected_runtime.experiments_ncm_bias_ensemble,225,225,117831
+no_monotonic_projection,acfc_pinn_fl_soh.selected_runtime.protocol_v2,168,168,145929
+no_monotonic_projection,acfc_pinn_fl_soh.selected_runtime.nca_half,144,144,42990
+no_monotonic_projection,acfc_pinn_fl_soh.selected_runtime.inference_qv,6,6,42

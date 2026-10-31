@@ -1,0 +1,33 @@
+{
+  "method_id": "paper_method_20shot_equal3_20261025",
+  "source_batteries": 303,
+  "target_batteries": 75,
+  "source_clients": 12,
+  "shots": 20,
+  "queries": 58214,
+  "domain_r2": {
+    "LFP|HUST": 0.9088809975062039,
+    "LFP|MIT": 0.9161405946352725,
+    "NCA|TJU": 0.9414248675163223,
+    "NCM|TJU": 0.9134069301227036,
+    "NCM|XJTU": 0.9131335081259674
+  },
+  "components": [
+    {
+      "seed": 20260903,
+      "path": "checkpoints/main/seed_20260903.pt",
+      "weight": 0.3333333333333333
+    },
+    {
+      "seed": 20260904,
+      "path": "checkpoints/main/seed_20260904.pt",
+      "weight": 0.3333333333333333
+    },
+    {
+      "seed": 20260905,
+      "path": "checkpoints/main/seed_20260905.pt",
+      "weight": 0.3333333333333333
+    }
+  ],
+  "aggregation": "equal mean of component final predictions in every domain;no post-ensemble projection"
+}

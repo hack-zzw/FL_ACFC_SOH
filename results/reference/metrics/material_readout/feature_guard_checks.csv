@@ -1,0 +1,6 @@
+domain,cached_numeric_exact,future_observation_prefix_invariant,query_label_column_rejected
+LFP|HUST,True,True,True
+LFP|MIT,True,True,True
+NCA|TJU,True,True,True
+NCM|TJU,True,True,True
+NCM|XJTU,True,True,True

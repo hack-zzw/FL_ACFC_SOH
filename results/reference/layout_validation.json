@@ -1,0 +1,972 @@
+{
+  "scope": "Checks of the simplified project before final ZIP validation; the final extracted-ZIP report is delivered alongside the archive.",
+  "records": {
+    "validation/result_recomputation.json": {
+      "passed": true,
+      "checks": 14,
+      "maximum_metric_difference": 1.3736941584241436e-07,
+      "main_pooled": {
+        "mae": 0.009347051198636335,
+        "rmse": 0.017265080409686273,
+        "r2": 0.963488486334106,
+        "mape": 1.0602713114209514,
+        "batteries": 75,
+        "queries": 58214,
+        "battery_macro_r2": 0.9182293056922992,
+        "battery_macro_mae": 0.007724084504011
+      },
+      "model_inference_performed": true,
+      "reference_predictions_used_for_statistics": false,
+      "statistics_input": "current-run model predictions",
+      "current_prediction_files": [
+        {
+          "path": "main\\actual_replay_20260903.csv",
+          "sha256": "7500f02bb01470a4b132119f3055229b38dfe08e299758f52ca709c97a4f1405"
+        },
+        {
+          "path": "main\\actual_replay_20260904.csv",
+          "sha256": "e700b504529b2acd498de2235682b660cb18aed545f0cca40d354de1d3825f3e"
+        },
+        {
+          "path": "main\\actual_replay_20260905.csv",
+          "sha256": "24942a009be38683e8803e2bdd6a98a0307c0d1142497b1576a73d81cf66efb3"
+        },
+        {
+          "path": "native\\centralized__ensemble.csv.gz",
+          "sha256": "3142c9a18478119472c332b99025dddf13c93b2e17f6dd0885eb8f18c34ff112"
+        },
+        {
+          "path": "native\\fedavg__ensemble.csv.gz",
+          "sha256": "dff3757ab5d41f5815ed4b6ffed5ec57d8bfd0da67d5ada772c631b5ac192bd8"
+        },
+        {
+          "path": "native\\material_balanced__ensemble.csv.gz",
+          "sha256": "8bc7e430bdc90d4c86f4f46fdb8487c1e0a6cafc76f61413c2e16f7428beb2e0"
+        },
+        {
+          "path": "native\\fedprox_mu_1e-4__ensemble.csv.gz",
+          "sha256": "814503ea81c75b110b09607c550063d6043e139c6a02c8e32704df700ad44db8"
+        },
+        {
+          "path": "native\\fedprox_mu_1e-2__ensemble.csv.gz",
+          "sha256": "b65fe6bfd53755dd756073e57c5ab2f86aa5c347236820dd750c323541c72fbb"
+        },
+        {
+          "path": "native\\fedprox_mu_1e-1__ensemble.csv.gz",
+          "sha256": "ba54e1fab340d79ad8b87c6c821fdfd9aa018e9abec3f61c2c883e48df9133d1"
+        },
+        {
+          "path": "native\\clustered__ensemble.csv.gz",
+          "sha256": "37be0385bea6c15a72bd9fe4969e68e392d478e1ad74be6add05110b6264ede8"
+        },
+        {
+          "path": "readouts_replay\\M1_shared_mapping__projected__ensemble.csv.gz",
+          "sha256": "348efdcc1cd5f88860a83c6787e1cf44139339c7cf601f0c732b0fd8617c284e"
+        },
+        {
+          "path": "readouts_replay\\M1_shared_mapping__clip_only__ensemble.csv.gz",
+          "sha256": "6f348ddff58e17114e2415ec5fb6b79923658d65387539e8cbd54789cc3ce860"
+        },
+        {
+          "path": "readouts_replay\\Mmid_material_mapping__projected__ensemble.csv.gz",
+          "sha256": "1096aaa4f8ed4980b95566a3ff82e68bbe02440ba06af44563e43c8b9f790c0e"
+        },
+        {
+          "path": "readouts_replay\\Mmid_material_mapping__clip_only__ensemble.csv.gz",
+          "sha256": "996343fa109408567799841deb1a0647205822bff4706e0ea237815b41cc0c27"
+        },
+        {
+          "path": "readouts_replay\\M2_domain_mapping__projected__ensemble.csv.gz",
+          "sha256": "b4789915c267578f5659a99f26254cf385b1880675017a8daa3d98424cd4ac4c"
+        },
+        {
+          "path": "readouts_replay\\M2_domain_mapping__clip_only__ensemble.csv.gz",
+          "sha256": "14ac3ba3215a1f33c1ed14411db05456c00d5605dd1cec90a57ac4710d70b620"
+        },
+        {
+          "path": "controls\\01_capacity\\predictions\\domain__clip_only__ensemble.csv.gz",
+          "sha256": "71907e7cf1e027541f09e888941183022c2fb9641324d2cb5f30aa33e613f7ec"
+        },
+        {
+          "path": "controls\\01_capacity\\predictions\\domain__projected__ensemble.csv.gz",
+          "sha256": "14046c22c31a31e7c44119592b2eae9d8fdd1a57431c2d2b64f5243e2bf76155"
+        },
+        {
+          "path": "controls\\01_capacity\\predictions\\material__clip_only__ensemble.csv.gz",
+          "sha256": "54435eaae486b307325e697f1973b76c2cbd1428b9963503543d0da89d2e6e3e"
+        },
+        {
+          "path": "controls\\01_capacity\\predictions\\material__projected__ensemble.csv.gz",
+          "sha256": "d1b10da38769a30555cdfd1eec1cc3cb1f4c2255ec8b0eecd337efc0df18af32"
+        },
+        {
+          "path": "controls\\01_capacity\\predictions\\shared__clip_only__ensemble.csv.gz",
+          "sha256": "95f16d475e10ad615b60d1c177f3490b37f4e65ad18cd949e12ee4a3c8877930"
+        },
+        {
+          "path": "controls\\01_capacity\\predictions\\shared__projected__ensemble.csv.gz",
+          "sha256": "9d51ee36c7aab2607067ec3122f10cacb55ead1038fef20632aa65998581ebb4"
+        },
+        {
+          "path": "controls\\02_representation\\predictions\\learned__clip_only__ensemble.csv.gz",
+          "sha256": "e6698c5c41d5b122ac23c233b8b788e095329d8ea3fcc9cf09f85f786215a328"
+        },
+        {
+          "path": "controls\\02_representation\\predictions\\learned__projected__ensemble.csv.gz",
+          "sha256": "120374c8afdf495b641cb498caf77944e03127afc49cfd95eea9ff6e81c0a8ff"
+        },
+        {
+          "path": "controls\\02_representation\\predictions\\random__clip_only__ensemble.csv.gz",
+          "sha256": "62786f2c2f24850573dca535611d8a70376f69f6bcd5599afd3157c3cb576957"
+        },
+        {
+          "path": "controls\\02_representation\\predictions\\random__projected__ensemble.csv.gz",
+          "sha256": "f6a10e70d0a14e0ee43b96bc8a0925d0803f437a8ce4083778defa40035eb9d1"
+        },
+        {
+          "path": "controls\\02_representation\\predictions\\raw__clip_only__ensemble.csv.gz",
+          "sha256": "4412a32b57ee6cfdd5a313640319e680c86f24698ef045a53523038b7dc89a4c"
+        },
+        {
+          "path": "controls\\02_representation\\predictions\\raw__projected__ensemble.csv.gz",
+          "sha256": "91f8147539b1ab2b0b45702a657d14dd6338cabf83485652b4f9a2b2b8a76890"
+        },
+        {
+          "path": "controls\\03_semantic_groups\\predictions\\pseudo_1__clip_only__ensemble.csv.gz",
+          "sha256": "a5e48de27778530ac4663408b72aea65c4017c724fdd930684935fd3a6ea712f"
+        },
+        {
+          "path": "controls\\03_semantic_groups\\predictions\\pseudo_1__projected__ensemble.csv.gz",
+          "sha256": "d0f6f9757e89c38ab36e962fafcde58e5fced3946a91e4aa61fd072942fd5b58"
+        },
+        {
+          "path": "controls\\03_semantic_groups\\predictions\\pseudo_2__clip_only__ensemble.csv.gz",
+          "sha256": "e32931be9f289e17bfe41866ae099bbc34c1730610957614b202ae4d42d86283"
+        },
+        {
+          "path": "controls\\03_semantic_groups\\predictions\\pseudo_2__projected__ensemble.csv.gz",
+          "sha256": "20b730839b9b6ef5ebc98fa9ca0cc1c6f3dd14b99016040b3d7058727ef385ad"
+        },
+        {
+          "path": "controls\\03_semantic_groups\\predictions\\pseudo_3__clip_only__ensemble.csv.gz",
+          "sha256": "acc8754425398889f8bfe00d017cafc39dd2d5d616d30d8419a38673651090c2"
+        },
+        {
+          "path": "controls\\03_semantic_groups\\predictions\\pseudo_3__projected__ensemble.csv.gz",
+          "sha256": "de84a83c9af0673f2a8d4a47f0a56c1dc0e320a5d678e79c61cb31c428254872"
+        },
+        {
+          "path": "controls\\03_semantic_groups\\predictions\\pseudo_4__clip_only__ensemble.csv.gz",
+          "sha256": "d7a5278569ab73cf7f542ba660829823dc70458082cc8aa3a15909b5f1be4d41"
+        },
+        {
+          "path": "controls\\03_semantic_groups\\predictions\\pseudo_4__projected__ensemble.csv.gz",
+          "sha256": "e6dcee83a4fd006f4464b433dfa4fcfd57d5773395f9db48183597f78b36f618"
+        },
+        {
+          "path": "controls\\03_semantic_groups\\predictions\\pseudo_5__clip_only__ensemble.csv.gz",
+          "sha256": "f0b6c15a17a1cf3a1cc2547a149888960e28070575654dbc946666d4452e367c"
+        },
+        {
+          "path": "controls\\03_semantic_groups\\predictions\\pseudo_5__projected__ensemble.csv.gz",
+          "sha256": "223e4c4b49a08c70b5de7e3907499b3e6107d86ad912b0eafd0bad739984262e"
+        },
+        {
+          "path": "controls\\03_semantic_groups\\predictions\\true_domain__clip_only__ensemble.csv.gz",
+          "sha256": "873cc3f9235fefc0fb3a9ea8e009dd9902263bfe6909fb1815e5e653e089af88"
+        },
+        {
+          "path": "controls\\03_semantic_groups\\predictions\\true_domain__projected__ensemble.csv.gz",
+          "sha256": "7b1ace4fc0bff31d9fa28c89381b1c344f0fee5985683b444d9b907aec55f37a"
+        },
+        {
+          "path": "controls\\04_federated\\predictions\\F00__clip_only__ensemble.csv.gz",
+          "sha256": "136c010e81fe6a4e38dc5b5d374fcba406a35b6279006a136551cb3fdfe7174e"
+        },
+        {
+          "path": "controls\\04_federated\\predictions\\F00__projected__ensemble.csv.gz",
+          "sha256": "2e608c0613635ec3c29a56933653211177a186eaaf449a5f892b58d19d04f768"
+        },
+        {
+          "path": "controls\\04_federated\\predictions\\F01__clip_only__ensemble.csv.gz",
+          "sha256": "0c2e4a09af82db32fd645efa27b9edc72161c160bbe4a45a4fc0a1d23e9273e9"
+        },
+        {
+          "path": "controls\\04_federated\\predictions\\F01__projected__ensemble.csv.gz",
+          "sha256": "ebc5c91c0f3768086f9cf5bd98a96a6439de0ea70aac852e53146ef9bdb11544"
+        },
+        {
+          "path": "controls\\04_federated\\predictions\\F10__clip_only__ensemble.csv.gz",
+          "sha256": "f251f30ff3a1d03ad6eb0bdae31509445ffb1acc4a664a8764b77deda3bf85b7"
+        },
+        {
+          "path": "controls\\04_federated\\predictions\\F10__projected__ensemble.csv.gz",
+          "sha256": "774867811601f34e35e1d1242d03e0282da09d62ee5b92ef599bc58a68dda918"
+        },
+        {
+          "path": "controls\\04_federated\\predictions\\F11__clip_only__ensemble.csv.gz",
+          "sha256": "530a72666808b747dd964ad3b5667fa2b7826a58e52d7886d6e47a30fd1d2d8f"
+        },
+        {
+          "path": "controls\\04_federated\\predictions\\F11__projected__ensemble.csv.gz",
+          "sha256": "0f5fbafb9ccdc4be0d4fbb780aca232d8cb17849064b0f29cf96bf70ea3eca65"
+        },
+        {
+          "path": "ablations\\full_method\\predictions_ensemble.csv",
+          "sha256": "97056ae620d9b5de4a060eb7f7a4182d74088d50dd59b2ef92771a215bfcc9d1"
+        },
+        {
+          "path": "ablations\\uniform_support_budget\\predictions_ensemble.csv",
+          "sha256": "2868f84f881f799119186af59b7e6626478a49b09b332301f84ef8a852bd3121"
+        },
+        {
+          "path": "ablations\\no_monotonic_projection\\predictions_ensemble.csv",
+          "sha256": "bc6fe49047ed06278f3bf9bd5e2ade3d5df057dcfb797ac058de9bc527b210c5"
+        },
+        {
+          "path": "external\\NASA.csv.gz",
+          "sha256": "0eeb415726bbaf9b137505cb66648bf384cb923e93f5e1a749ad28a1a86d050b"
+        },
+        {
+          "path": "external\\Oxford.csv.gz",
+          "sha256": "78fe28b081fd5176afecef9798bb158a1d22206cdffb49d693fd26816db6ad47"
+        }
+      ]
+    },
+    "validation/numerical_checks.csv": "experiment,max_difference,maximum_roundoff_bound\nmain,0.0,\nmain_battery_bootstrap,0.0,\nTable1_all_eight_configurations,0.0,\nmapping_granularity,0.0,\nmapping_bootstrap,0.0,\n01_capacity,0.0,\n02_representation,0.0,\n03_semantic_groups,0.0,\n04_federated,0.0,\ncontrolled_paired_bootstrap,4.163336342344337e-17,\nfederated_factorial_bootstrap,0.0,\npipeline_interventions,0.0,\nNASA,1.3736941584241436e-07,2.9776284831359234e-07\nOxford,0.0,1e-12\n",
+    "training/validation/training_01_capacity_domain_20260904.json": {
+      "passed": true,
+      "stage": "01_capacity",
+      "method": "domain",
+      "seed": 20260904,
+      "smoke": false,
+      "full_registered_training": true,
+      "source_records_only": true,
+      "model": "E:\\claude_work\\temp\\paper_code_simplified_20261031\\SOH_Repro\\results\\generated\\training\\controls\\01_capacity\\domain\\seed_20260904\\all\\epoch_20.pt"
+    },
+    "training_domain/NCA/verification_20260903.json": {
+      "passed": true,
+      "domain": "NCA|TJU",
+      "seed": 20260903,
+      "elapsed_seconds": 8.39943700004369,
+      "source_batteries": 53,
+      "normalization_bit_exact": true,
+      "maximum_parameter_difference": 0.0,
+      "scope": "registered initial conditional head; XJTU continuation and residual fitting are separate stages"
+    },
+    "training_readouts/M2_domain_mapping/verification_20260903.json": {
+      "passed": true,
+      "scope": "domain",
+      "seed": 20260903,
+      "lambda_value": 0.001,
+      "source_selected_again": false,
+      "maximum_parameter_difference": 0.0,
+      "source_batteries": 303,
+      "target_labels_used": false
+    },
+    "external_fit/NASA/verification_20_20260903.json": {
+      "passed": true,
+      "dataset": "NASA",
+      "budget": 20,
+      "seed": 20260903,
+      "query_records": 200,
+      "maximum_prediction_difference": 0.0,
+      "query_labels_used_for_fitting": false
+    },
+    "external_fit/Oxford/verification_20_20260903.json": {
+      "passed": true,
+      "dataset": "Oxford",
+      "budget": 20,
+      "seed": 20260903,
+      "query_records": 111,
+      "maximum_prediction_difference": 0.0,
+      "query_labels_used_for_fitting": false
+    },
+    "training_source/source/verification_20260903.json": {
+      "passed": true,
+      "seed": 20260903,
+      "smoke": true,
+      "source_batteries": 303,
+      "source_records": 205946,
+      "elapsed_seconds": 7.332346900017001,
+      "registered_source_state_bit_exact": false,
+      "scope": "source encoder and initial domain states; domain-fitting stages have separate entry points",
+      "checkpoint": "E:\\claude_work\\temp\\paper_code_simplified_20261031\\SOH_Repro\\results\\generated\\training_source\\source\\source_seed_20260903.pt"
+    },
+    "training_native/fedavg/verification_20260903.json": {
+      "passed": true,
+      "configuration": "fedavg",
+      "seed": 20260903,
+      "smoke": true,
+      "elapsed_seconds": 7.05151089996798,
+      "source_batteries": 303,
+      "registered_parameter_state_bit_exact": false
+    },
+    "validation\\ablations_replay.json": {
+      "passed": true,
+      "checks": [
+        {
+          "arm": "full_method",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "arm": "uniform_support_budget",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "arm": "no_monotonic_projection",
+          "maximum_prediction_difference": 0.0
+        }
+      ]
+    },
+    "validation\\controls_replay.json": {
+      "passed": true,
+      "checks": [
+        {
+          "stage": "01_capacity",
+          "prediction_file": "domain__clip_only__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "01_capacity",
+          "prediction_file": "domain__projected__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "01_capacity",
+          "prediction_file": "material__clip_only__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "01_capacity",
+          "prediction_file": "material__projected__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "01_capacity",
+          "prediction_file": "shared__clip_only__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "01_capacity",
+          "prediction_file": "shared__projected__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "02_representation",
+          "prediction_file": "learned__clip_only__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "02_representation",
+          "prediction_file": "learned__projected__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "02_representation",
+          "prediction_file": "random__clip_only__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "02_representation",
+          "prediction_file": "random__projected__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "02_representation",
+          "prediction_file": "raw__clip_only__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "02_representation",
+          "prediction_file": "raw__projected__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "03_semantic_groups",
+          "prediction_file": "pseudo_1__clip_only__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "03_semantic_groups",
+          "prediction_file": "pseudo_1__projected__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "03_semantic_groups",
+          "prediction_file": "pseudo_2__clip_only__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "03_semantic_groups",
+          "prediction_file": "pseudo_2__projected__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "03_semantic_groups",
+          "prediction_file": "pseudo_3__clip_only__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "03_semantic_groups",
+          "prediction_file": "pseudo_3__projected__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "03_semantic_groups",
+          "prediction_file": "pseudo_4__clip_only__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "03_semantic_groups",
+          "prediction_file": "pseudo_4__projected__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "03_semantic_groups",
+          "prediction_file": "pseudo_5__clip_only__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "03_semantic_groups",
+          "prediction_file": "pseudo_5__projected__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "03_semantic_groups",
+          "prediction_file": "true_domain__clip_only__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "03_semantic_groups",
+          "prediction_file": "true_domain__projected__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "04_federated",
+          "prediction_file": "F00__clip_only__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "04_federated",
+          "prediction_file": "F00__projected__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "04_federated",
+          "prediction_file": "F01__clip_only__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "04_federated",
+          "prediction_file": "F01__projected__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "04_federated",
+          "prediction_file": "F10__clip_only__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "04_federated",
+          "prediction_file": "F10__projected__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "04_federated",
+          "prediction_file": "F11__clip_only__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "stage": "04_federated",
+          "prediction_file": "F11__projected__ensemble.csv.gz",
+          "maximum_prediction_difference": 0.0
+        }
+      ]
+    },
+    "validation\\external_replay.json": {
+      "passed": true,
+      "checks": [
+        {
+          "dataset": "NASA",
+          "shots": 20,
+          "seed": 20260903,
+          "client": "NASA_01",
+          "maximum_prediction_difference": 1.9408285312216833e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 20,
+          "seed": 20260903,
+          "client": "NASA_02",
+          "maximum_prediction_difference": 1.3098770634822898e-07
+        },
+        {
+          "dataset": "NASA",
+          "shots": 20,
+          "seed": 20260903,
+          "client": "NASA_07",
+          "maximum_prediction_difference": 7.218585207358075e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 20,
+          "seed": 20260903,
+          "client": "NASA_09",
+          "maximum_prediction_difference": 3.7413905862315744e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 20,
+          "seed": 20260904,
+          "client": "NASA_01",
+          "maximum_prediction_difference": 4.1855585775074644e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 20,
+          "seed": 20260904,
+          "client": "NASA_02",
+          "maximum_prediction_difference": 2.0837509018267752e-07
+        },
+        {
+          "dataset": "NASA",
+          "shots": 20,
+          "seed": 20260904,
+          "client": "NASA_07",
+          "maximum_prediction_difference": 7.717030198195474e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 20,
+          "seed": 20260904,
+          "client": "NASA_09",
+          "maximum_prediction_difference": 5.956986470767589e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 20,
+          "seed": 20260905,
+          "client": "NASA_01",
+          "maximum_prediction_difference": 2.8197614243552493e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 20,
+          "seed": 20260905,
+          "client": "NASA_02",
+          "maximum_prediction_difference": 1.1835323154851807e-07
+        },
+        {
+          "dataset": "NASA",
+          "shots": 20,
+          "seed": 20260905,
+          "client": "NASA_07",
+          "maximum_prediction_difference": 9.049196458832398e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 20,
+          "seed": 20260905,
+          "client": "NASA_09",
+          "maximum_prediction_difference": 4.5667760795176093e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 40,
+          "seed": 20260903,
+          "client": "NASA_01",
+          "maximum_prediction_difference": 2.0869348027474643e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 40,
+          "seed": 20260903,
+          "client": "NASA_02",
+          "maximum_prediction_difference": 8.446158750174959e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 40,
+          "seed": 20260903,
+          "client": "NASA_07",
+          "maximum_prediction_difference": 6.967197907492562e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 40,
+          "seed": 20260903,
+          "client": "NASA_09",
+          "maximum_prediction_difference": 5.1650335342046105e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 40,
+          "seed": 20260904,
+          "client": "NASA_01",
+          "maximum_prediction_difference": 2.6804862884866054e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 40,
+          "seed": 20260904,
+          "client": "NASA_02",
+          "maximum_prediction_difference": 1.2529924564574912e-07
+        },
+        {
+          "dataset": "NASA",
+          "shots": 40,
+          "seed": 20260904,
+          "client": "NASA_07",
+          "maximum_prediction_difference": 7.71121292375554e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 40,
+          "seed": 20260904,
+          "client": "NASA_09",
+          "maximum_prediction_difference": 3.378725355052126e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 40,
+          "seed": 20260905,
+          "client": "NASA_01",
+          "maximum_prediction_difference": 2.657019260166038e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 40,
+          "seed": 20260905,
+          "client": "NASA_02",
+          "maximum_prediction_difference": 6.335188662554003e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 40,
+          "seed": 20260905,
+          "client": "NASA_07",
+          "maximum_prediction_difference": 5.968788330257269e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 40,
+          "seed": 20260905,
+          "client": "NASA_09",
+          "maximum_prediction_difference": 3.513821622558311e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 60,
+          "seed": 20260903,
+          "client": "NASA_01",
+          "maximum_prediction_difference": 2.64789145054678e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 60,
+          "seed": 20260903,
+          "client": "NASA_02",
+          "maximum_prediction_difference": 7.365722687335818e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 60,
+          "seed": 20260903,
+          "client": "NASA_07",
+          "maximum_prediction_difference": 5.6518289048845816e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 60,
+          "seed": 20260903,
+          "client": "NASA_09",
+          "maximum_prediction_difference": 8.639058490800267e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 60,
+          "seed": 20260904,
+          "client": "NASA_01",
+          "maximum_prediction_difference": 2.0530684152753054e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 60,
+          "seed": 20260904,
+          "client": "NASA_02",
+          "maximum_prediction_difference": 9.255204036495712e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 60,
+          "seed": 20260904,
+          "client": "NASA_07",
+          "maximum_prediction_difference": 8.932258388494319e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 60,
+          "seed": 20260904,
+          "client": "NASA_09",
+          "maximum_prediction_difference": 4.082232230029348e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 60,
+          "seed": 20260905,
+          "client": "NASA_01",
+          "maximum_prediction_difference": 2.8323755674186657e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 60,
+          "seed": 20260905,
+          "client": "NASA_02",
+          "maximum_prediction_difference": 4.104186590581094e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 60,
+          "seed": 20260905,
+          "client": "NASA_07",
+          "maximum_prediction_difference": 5.98452596922705e-08
+        },
+        {
+          "dataset": "NASA",
+          "shots": 60,
+          "seed": 20260905,
+          "client": "NASA_09",
+          "maximum_prediction_difference": 7.628162213002554e-08
+        },
+        {
+          "dataset": "Oxford",
+          "shots": 0,
+          "seed": 20260903,
+          "maximum_prediction_difference": 5.960464466436832e-08
+        },
+        {
+          "dataset": "Oxford",
+          "shots": 0,
+          "seed": 20260904,
+          "maximum_prediction_difference": 1.1920928955078125e-07
+        },
+        {
+          "dataset": "Oxford",
+          "shots": 0,
+          "seed": 20260905,
+          "maximum_prediction_difference": 5.960464488641293e-08
+        },
+        {
+          "dataset": "Oxford",
+          "shots": 5,
+          "seed": 20260903,
+          "maximum_prediction_difference": 1.1920928955078125e-07
+        },
+        {
+          "dataset": "Oxford",
+          "shots": 5,
+          "seed": 20260904,
+          "maximum_prediction_difference": 1.1920928955078125e-07
+        },
+        {
+          "dataset": "Oxford",
+          "shots": 5,
+          "seed": 20260905,
+          "maximum_prediction_difference": 1.1920928955078125e-07
+        },
+        {
+          "dataset": "Oxford",
+          "shots": 10,
+          "seed": 20260903,
+          "maximum_prediction_difference": 5.960464477539063e-08
+        },
+        {
+          "dataset": "Oxford",
+          "shots": 10,
+          "seed": 20260904,
+          "maximum_prediction_difference": 1.1920928955078125e-07
+        },
+        {
+          "dataset": "Oxford",
+          "shots": 10,
+          "seed": 20260905,
+          "maximum_prediction_difference": 5.960464477539063e-08
+        },
+        {
+          "dataset": "Oxford",
+          "shots": 20,
+          "seed": 20260903,
+          "maximum_prediction_difference": 5.960464477539063e-08
+        },
+        {
+          "dataset": "Oxford",
+          "shots": 20,
+          "seed": 20260904,
+          "maximum_prediction_difference": 1.1920928955078125e-07
+        },
+        {
+          "dataset": "Oxford",
+          "shots": 20,
+          "seed": 20260905,
+          "maximum_prediction_difference": 5.960464477539063e-08
+        }
+      ]
+    },
+    "validation\\native_replay.json": {
+      "passed": true,
+      "checks": [
+        {
+          "configuration": "centralized",
+          "maximum_prediction_difference": 0.0,
+          "queries": 58214
+        },
+        {
+          "configuration": "fedavg",
+          "maximum_prediction_difference": 0.0,
+          "queries": 58214
+        },
+        {
+          "configuration": "material_balanced",
+          "maximum_prediction_difference": 0.0,
+          "queries": 58214
+        },
+        {
+          "configuration": "fedprox_mu_1e-4",
+          "maximum_prediction_difference": 0.0,
+          "queries": 58214
+        },
+        {
+          "configuration": "fedprox_mu_1e-2",
+          "maximum_prediction_difference": 0.0,
+          "queries": 58214
+        },
+        {
+          "configuration": "fedprox_mu_1e-1",
+          "maximum_prediction_difference": 0.0,
+          "queries": 58214
+        },
+        {
+          "configuration": "clustered",
+          "maximum_prediction_difference": 0.0,
+          "queries": 58214
+        }
+      ]
+    },
+    "validation\\readouts_replay.json": {
+      "passed": true,
+      "checks": [
+        {
+          "arm": "M1_shared_mapping",
+          "variant": "projected",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "arm": "M1_shared_mapping",
+          "variant": "clip_only",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "arm": "Mmid_material_mapping",
+          "variant": "projected",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "arm": "Mmid_material_mapping",
+          "variant": "clip_only",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "arm": "M2_domain_mapping",
+          "variant": "projected",
+          "maximum_prediction_difference": 0.0
+        },
+        {
+          "arm": "M2_domain_mapping",
+          "variant": "clip_only",
+          "maximum_prediction_difference": 0.0
+        }
+      ]
+    },
+    "main/integrity.json": {
+      "passed": true,
+      "replays": [
+        {
+          "seed": 20260903,
+          "batteries": 75,
+          "queries": 58214,
+          "bit_exact": true,
+          "maximum_prediction_difference": 0.0,
+          "prediction_atol": 0.0,
+          "label_rejection_and_prefix_checks": 64
+        },
+        {
+          "seed": 20260904,
+          "batteries": 75,
+          "queries": 58214,
+          "bit_exact": true,
+          "maximum_prediction_difference": 0.0,
+          "prediction_atol": 0.0,
+          "label_rejection_and_prefix_checks": 64
+        },
+        {
+          "seed": 20260905,
+          "batteries": 75,
+          "queries": 58214,
+          "bit_exact": true,
+          "maximum_prediction_difference": 0.0,
+          "prediction_atol": 0.0,
+          "label_rejection_and_prefix_checks": 64
+        }
+      ],
+      "support_labels": 20,
+      "metrics": [
+        {
+          "domain": "LFP|HUST",
+          "batteries": 15,
+          "queries": 27625,
+          "mae": 0.013646046112739986,
+          "rmse": 0.022953185801248395,
+          "r2": 0.9088809975062039,
+          "mape": 1.5301547885395763
+        },
+        {
+          "domain": "LFP|MIT",
+          "batteries": 25,
+          "queries": 15683,
+          "mae": 0.004516572182153989,
+          "rmse": 0.006562941159577784,
+          "r2": 0.9161405946352725,
+          "mape": 0.4909973020439356
+        },
+        {
+          "domain": "NCA|TJU",
+          "batteries": 13,
+          "queries": 4771,
+          "mae": 0.005207496357014305,
+          "rmse": 0.006519718076735848,
+          "r2": 0.9414248675163223,
+          "mape": 0.6486879279384087
+        },
+        {
+          "domain": "NCM|TJU",
+          "batteries": 11,
+          "queries": 6229,
+          "mae": 0.009004093860544297,
+          "rmse": 0.010258559949438193,
+          "r2": 0.9134069301227036,
+          "mape": 1.1179860428011221
+        },
+        {
+          "domain": "NCM|XJTU",
+          "batteries": 11,
+          "queries": 3906,
+          "mae": 0.0086326233135184,
+          "rmse": 0.011030887549554615,
+          "r2": 0.9131335081259674,
+          "mape": 0.9389140804217774
+        }
+      ]
+    }
+  }
+}

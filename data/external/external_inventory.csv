@@ -1,0 +1,11 @@
+dataset,protocol,key,battery_count,eligible_batteries,records,cycle_semantics,soh_normalization
+NASA,24C_CC_2A,NASA_01,1,1,195,physical_discharge_ordinal,fixed_rated_capacity_2Ah
+NASA,24C_CC_4A,NASA_02,2,2,384,physical_discharge_ordinal,fixed_rated_capacity_2Ah
+NASA,24C_square_wave_4A_0.05Hz,NASA_03,4,4,112,physical_discharge_ordinal,fixed_rated_capacity_2Ah
+NASA,24_44C_mixed_1_2_4A,NASA_04,3,3,126,physical_discharge_ordinal,fixed_rated_capacity_2Ah
+NASA,43C_CC_4A,NASA_05,4,4,156,physical_discharge_ordinal,fixed_rated_capacity_2Ah
+NASA,4C_CC_1A,NASA_06,4,4,273,physical_discharge_ordinal,fixed_rated_capacity_2Ah
+NASA,4C_CC_2A,NASA_07,8,6,416,physical_discharge_ordinal,fixed_rated_capacity_2Ah
+NASA,4C_mixed_1_4A,NASA_08,4,4,220,physical_discharge_ordinal,fixed_rated_capacity_2Ah
+NASA,room_temperature_CC_2A,NASA_09,4,4,633,physical_discharge_ordinal,fixed_rated_capacity_2Ah
+Oxford,40C_Urban_Artemis_1C_characterization_every_100_cycles,Oxford_10,8,8,519,physical_cycle_from_cyc_field,fixed_rated_capacity_0.74Ah

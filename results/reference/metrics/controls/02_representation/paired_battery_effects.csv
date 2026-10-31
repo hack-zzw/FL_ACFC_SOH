@@ -1,0 +1,9 @@
+variant,reference,candidate,metric,mean_paired_difference,conditional_95_low,conditional_95_high,bootstrap_draws,conditioning
+projected,raw,random,mae,-1.2224384755171042e-05,-0.0008999030069920222,0.000868185973942741,5000,fixed fitted 3-component ensemble; stratified paired battery resampling
+projected,raw,random,r2,0.032465059279081936,-0.01636760632455589,0.11129831384291429,5000,fixed fitted 3-component ensemble; stratified paired battery resampling
+projected,random,learned,mae,-0.0010907800550147893,-0.0018623690704119905,-0.000401088473269557,5000,fixed fitted 3-component ensemble; stratified paired battery resampling
+projected,random,learned,r2,0.009916997050727731,-0.023230296848459665,0.04445407733873885,5000,fixed fitted 3-component ensemble; stratified paired battery resampling
+clip_only,raw,random,mae,-0.00011135639395519343,-0.0009569451061584951,0.0007359437029335129,5000,fixed fitted 3-component ensemble; stratified paired battery resampling
+clip_only,raw,random,r2,0.014188827654133866,-0.007432055551455082,0.04189284204314762,5000,fixed fitted 3-component ensemble; stratified paired battery resampling
+clip_only,random,learned,mae,-0.0010745190779764175,-0.00202214933798166,-0.00036950578434280686,5000,fixed fitted 3-component ensemble; stratified paired battery resampling
+clip_only,random,learned,r2,0.007165835216648995,-0.007556388073400202,0.020123740222285715,5000,fixed fitted 3-component ensemble; stratified paired battery resampling

@@ -1,0 +1,4 @@
+seed,lambda_value,head_level_source_cv_mae,source_batteries,source_query_records,target_metrics_accessed
+20260903,0.001,0.008648988308354411,303,236401,False
+20260904,0.001,0.008853670253186178,303,236401,False
+20260905,0.001,0.00847948066852123,303,236401,False

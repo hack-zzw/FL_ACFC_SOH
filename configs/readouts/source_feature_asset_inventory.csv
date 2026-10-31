@@ -1,0 +1,8 @@
+role,domain,path,exists,sha256,records,batteries,expected_source_records,expected_source_batteries,covered_records,record_coverage,duplicate_key_rows,unexpected_batteries,direct_label_columns
+HUST_window,LFP|HUST,data/windows/source/HUST_window.pkl,True,3a064791dbf70da2adc299a9397ce77b1f022aa917f00cf92c10abff0153e1ca,116441,62,116441,62,116441,1.0,0,0,
+MIT_window_quality,LFP|MIT,data/windows/source/MIT_window_quality.pkl,True,6e6b05a88399e7a480bcf3735a8b1bcc55baaf12f13dd22287e4254bc64a0261,69394,100,69394,100,69394,1.0,0,0,
+NCA_observation_linkage,NCA|TJU,data/windows/source/NCA_observation_linkage.pkl,True,b91429bfce4976b9517b599b61062062023d918a9e5ac88ed405c3d44b146e6f,16866,53,16866,53,16866,1.0,0,0,
+XJTU_window_canonical,NCM|XJTU,data/windows/source/XJTU_window_canonical.pkl,True,81eecfa9654b0650bea8cdaf3e981760ce4e7286ea8a713ce0f60c612e38a195,19020,44,19020,44,19020,1.0,0,0,
+NCA_QV,NCA|TJU,data/windows/source/NCA_QV.pkl,True,d9e0f67f7b3695e9bf3f5f636fe7ef34fe428d131e51d3c88fdab7755b5bd9a8,249,8,16866,53,249,0.014763429384560654,0,0,
+NCA_halfC_QV,NCA|TJU,data/windows/source/NCA_halfC_QV.pkl,True,db7045e06a5be2f335e44fe33125bd538c54ff48f08c682a95d013a193cf7561,14452,38,16866,53,14452,0.8568718131151429,0,0,
+XJTU_low_voltage,NCM|XJTU,data/windows/source/XJTU_low_voltage.pkl,True,31cddcf65bb3dca0d161d5de53a282635b9fb89878b3b3821dcc418995f424da,19020,44,19020,44,19020,1.0,0,0,

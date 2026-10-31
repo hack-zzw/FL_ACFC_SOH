@@ -1,0 +1,410 @@
+file,field,dtype,role,unit
+data/windows/source/HUST_window.pkl,battery_id,str,identifier,source-defined / derived;see preprocessing
+data/windows/source/HUST_window.pkl,cycle_index,float64,identifier,source-defined / derived;see preprocessing
+data/windows/source/HUST_window.pkl,native_cycle,float64,identifier,source-defined / derived;see preprocessing
+data/windows/source/HUST_window.pkl,raw_cycle_reference,int64,identifier,source-defined / derived;see preprocessing
+data/windows/source/HUST_window.pkl,observation_end_raw_index,int64,identifier,source-defined / derived;see preprocessing
+data/windows/source/HUST_window.pkl,window_match,float64,quality_flag,source-defined / derived;see preprocessing
+data/windows/source/HUST_window.pkl,native_delta_cycle,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/HUST_window.pkl,cc_points,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/HUST_window.pkl,cv_points,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/HUST_window.pkl,cc_v_span,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/HUST_window.pkl,cc_current_A,float64,observation_or_descriptor,A
+data/windows/source/HUST_window.pkl,cc_current_cv,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/HUST_window.pkl,cc_voltage_time_curvature,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/HUST_window.pkl,cc_time_fraction_0,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/HUST_window.pkl,cc_time_fraction_1,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/HUST_window.pkl,cc_time_fraction_2,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/HUST_window.pkl,cc_q_fraction_0,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/HUST_window.pkl,cc_q_fraction_1,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/HUST_window.pkl,cc_q_fraction_2,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/HUST_window.pkl,cc_integrated_Ah,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/HUST_window.pkl,cv_integrated_Ah,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/HUST_window.pkl,cc_counter_integral_difference,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/HUST_window.pkl,cv_counter_integral_difference,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/HUST_window.pkl,cv_time_high_fraction,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/HUST_window.pkl,cv_log_i_slope,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/HUST_window.pkl,cv_log_i_rmse,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/HUST_window.pkl,cv_log_i_curvature,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/HUST_window.pkl,cc_temperature_mean,float64,observation_or_descriptor,degC
+data/windows/source/HUST_window.pkl,cv_temperature_mean,float64,observation_or_descriptor,degC
+data/windows/source/HUST_window.pkl,cc_temperature_change,float64,observation_or_descriptor,degC
+data/windows/source/HUST_window.pkl,cv_temperature_change,float64,observation_or_descriptor,degC
+data/windows/source/HUST_window.pkl,cc_max_gap_s,float64,observation_or_descriptor,s
+data/windows/source/HUST_window.pkl,cv_max_gap_s,float64,observation_or_descriptor,s
+data/windows/source/MIT_window_quality.pkl,battery_id,object,identifier,source-defined / derived;see preprocessing
+data/windows/source/MIT_window_quality.pkl,cycle_index,int64,identifier,source-defined / derived;see preprocessing
+data/windows/source/MIT_window_quality.pkl,native_cycle,float64,identifier,source-defined / derived;see preprocessing
+data/windows/source/MIT_window_quality.pkl,native_delta_cycle,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/MIT_window_quality.pkl,native_counter_reset,int64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/MIT_window_quality.pkl,raw_cell_index,int64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/MIT_window_quality.pkl,raw_cycle_reference,int64,identifier,source-defined / derived;see preprocessing
+data/windows/source/MIT_window_quality.pkl,raw_batch,object,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/MIT_window_quality.pkl,window_match,float64,quality_flag,source-defined / derived;see preprocessing
+data/windows/source/MIT_window_quality.pkl,observation_end_raw_index,int64,identifier,source-defined / derived;see preprocessing
+data/windows/source/MIT_window_quality.pkl,protocol_C1,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/MIT_window_quality.pkl,protocol_switch_SOC,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/MIT_window_quality.pkl,protocol_C2,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/MIT_window_quality.pkl,cc_points,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/MIT_window_quality.pkl,cv_points,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/MIT_window_quality.pkl,cc_start_v,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/MIT_window_quality.pkl,cc_end_v,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/MIT_window_quality.pkl,cc_v_span,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/MIT_window_quality.pkl,cc_dt_max_s,float64,observation_or_descriptor,s
+data/windows/source/MIT_window_quality.pkl,cv_dt_max_s,float64,observation_or_descriptor,s
+data/windows/source/MIT_window_quality.pkl,cc_i_median,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/MIT_window_quality.pkl,cc_i_cv,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/MIT_window_quality.pkl,cv_time_high_s,float64,observation_or_descriptor,s
+data/windows/source/MIT_window_quality.pkl,cv_time_low_s,float64,observation_or_descriptor,s
+data/windows/source/MIT_window_quality.pkl,cv_time_high_fraction,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/MIT_window_quality.pkl,cv_log_i_slope,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/MIT_window_quality.pkl,cv_log_i_rmse,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/MIT_window_quality.pkl,cc_temperature_mean,float64,observation_or_descriptor,degC
+data/windows/source/MIT_window_quality.pkl,cv_temperature_mean,float64,observation_or_descriptor,degC
+data/windows/source/MIT_window_quality.pkl,cc_temperature_change,float64,observation_or_descriptor,degC
+data/windows/source/MIT_window_quality.pkl,cv_temperature_change,float64,observation_or_descriptor,degC
+data/windows/source/MIT_window_quality.pkl,cc_bin0_time_fraction,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/MIT_window_quality.pkl,cc_bin1_time_fraction,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/MIT_window_quality.pkl,cc_bin2_time_fraction,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/MIT_window_quality.pkl,cc_bin0_q_fraction,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/MIT_window_quality.pkl,cc_bin1_q_fraction,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/MIT_window_quality.pkl,cc_bin2_q_fraction,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_halfC_QV.pkl,battery_id,str,identifier,source-defined / derived;see preprocessing
+data/windows/source/NCA_halfC_QV.pkl,cycle_index,int64,identifier,source-defined / derived;see preprocessing
+data/windows/source/NCA_halfC_QV.pkl,qv_valid,bool,quality_flag,source-defined / derived;see preprocessing
+data/windows/source/NCA_halfC_QV.pkl,qv_points,int64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_halfC_QV.pkl,qv_span,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_halfC_QV.pkl,qv_00,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_halfC_QV.pkl,qv_01,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_halfC_QV.pkl,qv_02,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_halfC_QV.pkl,qv_03,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_halfC_QV.pkl,qv_04,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_halfC_QV.pkl,qv_05,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_halfC_QV.pkl,qv_06,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_halfC_QV.pkl,qv_07,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_halfC_QV.pkl,qv_08,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_halfC_QV.pkl,qv_09,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_halfC_QV.pkl,qv_10,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_halfC_QV.pkl,qv_11,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_halfC_QV.pkl,qv_12,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_halfC_QV.pkl,qv_13,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_halfC_QV.pkl,qv_14,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_halfC_QV.pkl,qv_15,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_halfC_QV.pkl,qv_16,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_halfC_QV.pkl,qv_17,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_halfC_QV.pkl,qv_18,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_halfC_QV.pkl,qv_19,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_halfC_QV.pkl,qv_20,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_halfC_QV.pkl,qv_21,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_halfC_QV.pkl,qv_22,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_halfC_QV.pkl,qv_23,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_halfC_QV.pkl,qv_24,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_observation_linkage.pkl,battery_id,str,identifier,source-defined / derived;see preprocessing
+data/windows/source/NCA_observation_linkage.pkl,cycle_index,int64,identifier,source-defined / derived;see preprocessing
+data/windows/source/NCA_observation_linkage.pkl,native_cycle,float64,identifier,source-defined / derived;see preprocessing
+data/windows/source/NCA_observation_linkage.pkl,raw_cycle_reference,int64,identifier,source-defined / derived;see preprocessing
+data/windows/source/NCA_observation_linkage.pkl,observation_end_raw_index,int64,identifier,source-defined / derived;see preprocessing
+data/windows/source/NCA_observation_linkage.pkl,window_match,float64,quality_flag,source-defined / derived;see preprocessing
+data/windows/source/NCA_observation_linkage.pkl,native_delta_cycle,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_observation_linkage.pkl,cc_points,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_observation_linkage.pkl,cv_points,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_observation_linkage.pkl,cc_v_span,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_observation_linkage.pkl,cc_current_A,float64,observation_or_descriptor,A
+data/windows/source/NCA_observation_linkage.pkl,cc_current_cv,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_observation_linkage.pkl,cc_voltage_time_curvature,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_observation_linkage.pkl,cc_time_fraction_0,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_observation_linkage.pkl,cc_time_fraction_1,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_observation_linkage.pkl,cc_time_fraction_2,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_observation_linkage.pkl,cc_q_fraction_0,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_observation_linkage.pkl,cc_q_fraction_1,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_observation_linkage.pkl,cc_q_fraction_2,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_observation_linkage.pkl,cc_integrated_Ah,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_observation_linkage.pkl,cv_integrated_Ah,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_observation_linkage.pkl,cc_counter_integral_difference,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_observation_linkage.pkl,cv_counter_integral_difference,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_observation_linkage.pkl,cv_time_high_fraction,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_observation_linkage.pkl,cv_log_i_slope,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_observation_linkage.pkl,cv_log_i_rmse,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_observation_linkage.pkl,cv_log_i_curvature,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_observation_linkage.pkl,cc_temperature_mean,float64,observation_or_descriptor,degC
+data/windows/source/NCA_observation_linkage.pkl,cv_temperature_mean,float64,observation_or_descriptor,degC
+data/windows/source/NCA_observation_linkage.pkl,cc_temperature_change,float64,observation_or_descriptor,degC
+data/windows/source/NCA_observation_linkage.pkl,cv_temperature_change,float64,observation_or_descriptor,degC
+data/windows/source/NCA_observation_linkage.pkl,cc_max_gap_s,float64,observation_or_descriptor,s
+data/windows/source/NCA_observation_linkage.pkl,cv_max_gap_s,float64,observation_or_descriptor,s
+data/windows/source/NCA_QV.pkl,battery_id,str,identifier,source-defined / derived;see preprocessing
+data/windows/source/NCA_QV.pkl,cycle_index,int64,identifier,source-defined / derived;see preprocessing
+data/windows/source/NCA_QV.pkl,qv_valid,bool,quality_flag,source-defined / derived;see preprocessing
+data/windows/source/NCA_QV.pkl,qv_points,int64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_QV.pkl,qv_span,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_QV.pkl,qv_00,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_QV.pkl,qv_01,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_QV.pkl,qv_02,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_QV.pkl,qv_03,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_QV.pkl,qv_04,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_QV.pkl,qv_05,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_QV.pkl,qv_06,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_QV.pkl,qv_07,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_QV.pkl,qv_08,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_QV.pkl,qv_09,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_QV.pkl,qv_10,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_QV.pkl,qv_11,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_QV.pkl,qv_12,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_QV.pkl,qv_13,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_QV.pkl,qv_14,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_QV.pkl,qv_15,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_QV.pkl,qv_16,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_QV.pkl,qv_17,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_QV.pkl,qv_18,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_QV.pkl,qv_19,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_QV.pkl,qv_20,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_QV.pkl,qv_21,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_QV.pkl,qv_22,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_QV.pkl,qv_23,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/NCA_QV.pkl,qv_24,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/XJTU_low_voltage.pkl,battery_id,str,identifier,source-defined / derived;see preprocessing
+data/windows/source/XJTU_low_voltage.pkl,cycle_index,int64,identifier,source-defined / derived;see preprocessing
+data/windows/source/XJTU_low_voltage.pkl,low38_40_Q,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/XJTU_low_voltage.pkl,low38_40_time_s,float64,observation_or_descriptor,s
+data/windows/source/XJTU_low_voltage.pkl,low38_40_counter_Q,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/XJTU_low_voltage.pkl,low38_40_points,int64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/XJTU_low_voltage.pkl,low38_40_span,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/XJTU_low_voltage.pkl,low_window_valid,bool,quality_flag,source-defined / derived;see preprocessing
+data/windows/source/XJTU_window_canonical.pkl,battery_id,str,identifier,source-defined / derived;see preprocessing
+data/windows/source/XJTU_window_canonical.pkl,cycle_index,float32,identifier,source-defined / derived;see preprocessing
+data/windows/source/XJTU_window_canonical.pkl,native_cycle,float64,identifier,source-defined / derived;see preprocessing
+data/windows/source/XJTU_window_canonical.pkl,raw_cycle_reference,int64,identifier,source-defined / derived;see preprocessing
+data/windows/source/XJTU_window_canonical.pkl,observation_end_raw_index,int64,identifier,source-defined / derived;see preprocessing
+data/windows/source/XJTU_window_canonical.pkl,window_match,float64,quality_flag,source-defined / derived;see preprocessing
+data/windows/source/XJTU_window_canonical.pkl,native_delta_cycle,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/XJTU_window_canonical.pkl,cc_points,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/XJTU_window_canonical.pkl,cv_points,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/XJTU_window_canonical.pkl,cc_v_span,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/XJTU_window_canonical.pkl,cc_current_A,float64,observation_or_descriptor,A
+data/windows/source/XJTU_window_canonical.pkl,cc_current_cv,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/XJTU_window_canonical.pkl,cc_voltage_time_curvature,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/XJTU_window_canonical.pkl,cc_time_fraction_0,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/XJTU_window_canonical.pkl,cc_time_fraction_1,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/XJTU_window_canonical.pkl,cc_time_fraction_2,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/XJTU_window_canonical.pkl,cc_q_fraction_0,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/XJTU_window_canonical.pkl,cc_q_fraction_1,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/XJTU_window_canonical.pkl,cc_q_fraction_2,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/XJTU_window_canonical.pkl,cc_integrated_Ah,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/XJTU_window_canonical.pkl,cv_integrated_Ah,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/XJTU_window_canonical.pkl,cc_counter_integral_difference,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/XJTU_window_canonical.pkl,cv_counter_integral_difference,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/XJTU_window_canonical.pkl,cv_time_high_fraction,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/XJTU_window_canonical.pkl,cv_log_i_slope,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/XJTU_window_canonical.pkl,cv_log_i_rmse,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/XJTU_window_canonical.pkl,cv_log_i_curvature,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/source/XJTU_window_canonical.pkl,cc_temperature_mean,float64,observation_or_descriptor,degC
+data/windows/source/XJTU_window_canonical.pkl,cv_temperature_mean,float64,observation_or_descriptor,degC
+data/windows/source/XJTU_window_canonical.pkl,cc_temperature_change,float64,observation_or_descriptor,degC
+data/windows/source/XJTU_window_canonical.pkl,cv_temperature_change,float64,observation_or_descriptor,degC
+data/windows/source/XJTU_window_canonical.pkl,cc_max_gap_s,float64,observation_or_descriptor,s
+data/windows/source/XJTU_window_canonical.pkl,cv_max_gap_s,float64,observation_or_descriptor,s
+data/windows/source/XJTU_window_canonical.pkl,clean_record_position,int64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/HUST_window.pkl,battery_id,str,identifier,source-defined / derived;see preprocessing
+data/windows/target/HUST_window.pkl,cycle_index,float64,identifier,source-defined / derived;see preprocessing
+data/windows/target/HUST_window.pkl,native_cycle,float64,identifier,source-defined / derived;see preprocessing
+data/windows/target/HUST_window.pkl,raw_cycle_reference,int64,identifier,source-defined / derived;see preprocessing
+data/windows/target/HUST_window.pkl,observation_end_raw_index,int64,identifier,source-defined / derived;see preprocessing
+data/windows/target/HUST_window.pkl,window_match,float64,quality_flag,source-defined / derived;see preprocessing
+data/windows/target/HUST_window.pkl,native_delta_cycle,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/HUST_window.pkl,cc_points,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/HUST_window.pkl,cv_points,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/HUST_window.pkl,cc_v_span,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/HUST_window.pkl,cc_current_A,float64,observation_or_descriptor,A
+data/windows/target/HUST_window.pkl,cc_current_cv,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/HUST_window.pkl,cc_voltage_time_curvature,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/HUST_window.pkl,cc_time_fraction_0,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/HUST_window.pkl,cc_time_fraction_1,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/HUST_window.pkl,cc_time_fraction_2,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/HUST_window.pkl,cc_q_fraction_0,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/HUST_window.pkl,cc_q_fraction_1,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/HUST_window.pkl,cc_q_fraction_2,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/HUST_window.pkl,cc_integrated_Ah,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/HUST_window.pkl,cv_integrated_Ah,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/HUST_window.pkl,cc_counter_integral_difference,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/HUST_window.pkl,cv_counter_integral_difference,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/HUST_window.pkl,cv_time_high_fraction,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/HUST_window.pkl,cv_log_i_slope,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/HUST_window.pkl,cv_log_i_rmse,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/HUST_window.pkl,cv_log_i_curvature,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/HUST_window.pkl,cc_temperature_mean,float64,observation_or_descriptor,degC
+data/windows/target/HUST_window.pkl,cv_temperature_mean,float64,observation_or_descriptor,degC
+data/windows/target/HUST_window.pkl,cc_temperature_change,float64,observation_or_descriptor,degC
+data/windows/target/HUST_window.pkl,cv_temperature_change,float64,observation_or_descriptor,degC
+data/windows/target/HUST_window.pkl,cc_max_gap_s,float64,observation_or_descriptor,s
+data/windows/target/HUST_window.pkl,cv_max_gap_s,float64,observation_or_descriptor,s
+data/windows/target/MIT_quality.pkl,battery_id,object,identifier,source-defined / derived;see preprocessing
+data/windows/target/MIT_quality.pkl,cycle_index,int64,identifier,source-defined / derived;see preprocessing
+data/windows/target/MIT_quality.pkl,native_cycle,float64,identifier,source-defined / derived;see preprocessing
+data/windows/target/MIT_quality.pkl,native_delta_cycle,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/MIT_quality.pkl,native_counter_reset,int64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/MIT_quality.pkl,raw_cell_index,int64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/MIT_quality.pkl,raw_cycle_reference,int64,identifier,source-defined / derived;see preprocessing
+data/windows/target/MIT_quality.pkl,raw_batch,object,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/MIT_quality.pkl,window_match,float64,quality_flag,source-defined / derived;see preprocessing
+data/windows/target/MIT_quality.pkl,observation_end_raw_index,int64,identifier,source-defined / derived;see preprocessing
+data/windows/target/MIT_quality.pkl,protocol_C1,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/MIT_quality.pkl,protocol_switch_SOC,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/MIT_quality.pkl,protocol_C2,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/MIT_quality.pkl,alignment_candidates,int64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/MIT_quality.pkl,cc_points,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/MIT_quality.pkl,cv_points,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/MIT_quality.pkl,cc_start_v,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/MIT_quality.pkl,cc_end_v,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/MIT_quality.pkl,cc_v_span,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/MIT_quality.pkl,cc_dt_max_s,float64,observation_or_descriptor,s
+data/windows/target/MIT_quality.pkl,cv_dt_max_s,float64,observation_or_descriptor,s
+data/windows/target/MIT_quality.pkl,cc_i_median,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/MIT_quality.pkl,cc_i_cv,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/MIT_quality.pkl,cv_time_high_s,float64,observation_or_descriptor,s
+data/windows/target/MIT_quality.pkl,cv_time_low_s,float64,observation_or_descriptor,s
+data/windows/target/MIT_quality.pkl,cv_time_high_fraction,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/MIT_quality.pkl,cv_log_i_slope,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/MIT_quality.pkl,cv_log_i_rmse,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/MIT_quality.pkl,cc_temperature_mean,float64,observation_or_descriptor,degC
+data/windows/target/MIT_quality.pkl,cv_temperature_mean,float64,observation_or_descriptor,degC
+data/windows/target/MIT_quality.pkl,cc_temperature_change,float64,observation_or_descriptor,degC
+data/windows/target/MIT_quality.pkl,cv_temperature_change,float64,observation_or_descriptor,degC
+data/windows/target/MIT_quality.pkl,cc_bin0_time_fraction,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/MIT_quality.pkl,cc_bin1_time_fraction,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/MIT_quality.pkl,cc_bin2_time_fraction,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/MIT_quality.pkl,cc_bin0_q_fraction,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/MIT_quality.pkl,cc_bin1_q_fraction,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/MIT_quality.pkl,cc_bin2_q_fraction,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_halfC_QV.pkl,battery_id,str,identifier,source-defined / derived;see preprocessing
+data/windows/target/NCA_halfC_QV.pkl,cycle_index,int64,identifier,source-defined / derived;see preprocessing
+data/windows/target/NCA_halfC_QV.pkl,qv_valid,bool,quality_flag,source-defined / derived;see preprocessing
+data/windows/target/NCA_halfC_QV.pkl,qv_points,int64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_halfC_QV.pkl,qv_span,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_halfC_QV.pkl,qv_00,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_halfC_QV.pkl,qv_01,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_halfC_QV.pkl,qv_02,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_halfC_QV.pkl,qv_03,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_halfC_QV.pkl,qv_04,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_halfC_QV.pkl,qv_05,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_halfC_QV.pkl,qv_06,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_halfC_QV.pkl,qv_07,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_halfC_QV.pkl,qv_08,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_halfC_QV.pkl,qv_09,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_halfC_QV.pkl,qv_10,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_halfC_QV.pkl,qv_11,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_halfC_QV.pkl,qv_12,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_halfC_QV.pkl,qv_13,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_halfC_QV.pkl,qv_14,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_halfC_QV.pkl,qv_15,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_halfC_QV.pkl,qv_16,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_halfC_QV.pkl,qv_17,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_halfC_QV.pkl,qv_18,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_halfC_QV.pkl,qv_19,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_halfC_QV.pkl,qv_20,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_halfC_QV.pkl,qv_21,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_halfC_QV.pkl,qv_22,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_halfC_QV.pkl,qv_23,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_halfC_QV.pkl,qv_24,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_QV.pkl,battery_id,str,identifier,source-defined / derived;see preprocessing
+data/windows/target/NCA_QV.pkl,cycle_index,int64,identifier,source-defined / derived;see preprocessing
+data/windows/target/NCA_QV.pkl,qv_valid,bool,quality_flag,source-defined / derived;see preprocessing
+data/windows/target/NCA_QV.pkl,qv_points,int64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_QV.pkl,qv_span,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_QV.pkl,qv_00,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_QV.pkl,qv_01,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_QV.pkl,qv_02,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_QV.pkl,qv_03,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_QV.pkl,qv_04,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_QV.pkl,qv_05,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_QV.pkl,qv_06,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_QV.pkl,qv_07,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_QV.pkl,qv_08,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_QV.pkl,qv_09,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_QV.pkl,qv_10,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_QV.pkl,qv_11,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_QV.pkl,qv_12,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_QV.pkl,qv_13,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_QV.pkl,qv_14,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_QV.pkl,qv_15,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_QV.pkl,qv_16,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_QV.pkl,qv_17,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_QV.pkl,qv_18,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_QV.pkl,qv_19,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_QV.pkl,qv_20,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_QV.pkl,qv_21,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_QV.pkl,qv_22,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_QV.pkl,qv_23,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_QV.pkl,qv_24,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_window.pkl,battery_id,str,identifier,source-defined / derived;see preprocessing
+data/windows/target/NCA_window.pkl,cycle_index,int64,identifier,source-defined / derived;see preprocessing
+data/windows/target/NCA_window.pkl,native_cycle,float64,identifier,source-defined / derived;see preprocessing
+data/windows/target/NCA_window.pkl,raw_cycle_reference,int64,identifier,source-defined / derived;see preprocessing
+data/windows/target/NCA_window.pkl,observation_end_raw_index,int64,identifier,source-defined / derived;see preprocessing
+data/windows/target/NCA_window.pkl,window_match,float64,quality_flag,source-defined / derived;see preprocessing
+data/windows/target/NCA_window.pkl,native_delta_cycle,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_window.pkl,cc_points,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_window.pkl,cv_points,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_window.pkl,cc_v_span,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_window.pkl,cc_current_A,float64,observation_or_descriptor,A
+data/windows/target/NCA_window.pkl,cc_current_cv,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_window.pkl,cc_voltage_time_curvature,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_window.pkl,cc_time_fraction_0,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_window.pkl,cc_time_fraction_1,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_window.pkl,cc_time_fraction_2,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_window.pkl,cc_q_fraction_0,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_window.pkl,cc_q_fraction_1,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_window.pkl,cc_q_fraction_2,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_window.pkl,cc_integrated_Ah,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_window.pkl,cv_integrated_Ah,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_window.pkl,cc_counter_integral_difference,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_window.pkl,cv_counter_integral_difference,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_window.pkl,cv_time_high_fraction,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_window.pkl,cv_log_i_slope,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_window.pkl,cv_log_i_rmse,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_window.pkl,cv_log_i_curvature,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/NCA_window.pkl,cc_temperature_mean,float64,observation_or_descriptor,degC
+data/windows/target/NCA_window.pkl,cv_temperature_mean,float64,observation_or_descriptor,degC
+data/windows/target/NCA_window.pkl,cc_temperature_change,float64,observation_or_descriptor,degC
+data/windows/target/NCA_window.pkl,cv_temperature_change,float64,observation_or_descriptor,degC
+data/windows/target/NCA_window.pkl,cc_max_gap_s,float64,observation_or_descriptor,s
+data/windows/target/NCA_window.pkl,cv_max_gap_s,float64,observation_or_descriptor,s
+data/windows/target/XJTU_low_voltage.pkl,battery_id,str,identifier,source-defined / derived;see preprocessing
+data/windows/target/XJTU_low_voltage.pkl,cycle_index,int64,identifier,source-defined / derived;see preprocessing
+data/windows/target/XJTU_low_voltage.pkl,low38_40_Q,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/XJTU_low_voltage.pkl,low_window_valid,bool,quality_flag,source-defined / derived;see preprocessing
+data/windows/target/XJTU_low_voltage.pkl,low38_40_points,int64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/XJTU_low_voltage.pkl,low38_40_span,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/XJTU_low_voltage.pkl,low38_40_time_s,float64,observation_or_descriptor,s
+data/windows/target/XJTU_window.pkl,battery_id,str,identifier,source-defined / derived;see preprocessing
+data/windows/target/XJTU_window.pkl,cycle_index,float64,identifier,source-defined / derived;see preprocessing
+data/windows/target/XJTU_window.pkl,native_cycle,float64,identifier,source-defined / derived;see preprocessing
+data/windows/target/XJTU_window.pkl,raw_cycle_reference,int64,identifier,source-defined / derived;see preprocessing
+data/windows/target/XJTU_window.pkl,observation_end_raw_index,int64,identifier,source-defined / derived;see preprocessing
+data/windows/target/XJTU_window.pkl,window_match,float64,quality_flag,source-defined / derived;see preprocessing
+data/windows/target/XJTU_window.pkl,native_delta_cycle,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/XJTU_window.pkl,cc_points,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/XJTU_window.pkl,cv_points,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/XJTU_window.pkl,cc_v_span,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/XJTU_window.pkl,cc_current_A,float64,observation_or_descriptor,A
+data/windows/target/XJTU_window.pkl,cc_current_cv,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/XJTU_window.pkl,cc_voltage_time_curvature,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/XJTU_window.pkl,cc_time_fraction_0,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/XJTU_window.pkl,cc_time_fraction_1,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/XJTU_window.pkl,cc_time_fraction_2,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/XJTU_window.pkl,cc_q_fraction_0,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/XJTU_window.pkl,cc_q_fraction_1,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/XJTU_window.pkl,cc_q_fraction_2,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/XJTU_window.pkl,cc_integrated_Ah,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/XJTU_window.pkl,cv_integrated_Ah,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/XJTU_window.pkl,cc_counter_integral_difference,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/XJTU_window.pkl,cv_counter_integral_difference,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/XJTU_window.pkl,cv_time_high_fraction,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/XJTU_window.pkl,cv_log_i_slope,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/XJTU_window.pkl,cv_log_i_rmse,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/XJTU_window.pkl,cv_log_i_curvature,float64,observation_or_descriptor,source-defined / derived;see preprocessing
+data/windows/target/XJTU_window.pkl,cc_temperature_mean,float64,observation_or_descriptor,degC
+data/windows/target/XJTU_window.pkl,cv_temperature_mean,float64,observation_or_descriptor,degC
+data/windows/target/XJTU_window.pkl,cc_temperature_change,float64,observation_or_descriptor,degC
+data/windows/target/XJTU_window.pkl,cv_temperature_change,float64,observation_or_descriptor,degC
+data/windows/target/XJTU_window.pkl,cc_max_gap_s,float64,observation_or_descriptor,s
+data/windows/target/XJTU_window.pkl,cv_max_gap_s,float64,observation_or_descriptor,s

@@ -1,0 +1,13 @@
+variant,before,after,metric,estimand,difference,pointwise_conditional_95_lower,pointwise_conditional_95_upper,batteries,bootstrap_draws,primary_adjacent_comparison
+projected,M1_shared_mapping,Mmid_material_mapping,mae,equal75battery_mean_after_minus_before,-0.0010919158144905776,-0.0034547691603968554,0.002170825825300296,75,10000,True
+projected,M1_shared_mapping,Mmid_material_mapping,r2,equal75battery_mean_after_minus_before,-0.12836380710485243,-0.47039643242206586,0.08676760013161938,75,10000,True
+projected,Mmid_material_mapping,M2_domain_mapping,mae,equal75battery_mean_after_minus_before,-0.005024498388224923,-0.008345231252210338,-0.0026449256940192572,75,10000,True
+projected,Mmid_material_mapping,M2_domain_mapping,r2,equal75battery_mean_after_minus_before,0.2480655651692302,0.02176421293659082,0.5971418176520807,75,10000,True
+projected,M1_shared_mapping,M2_domain_mapping,mae,equal75battery_mean_after_minus_before,-0.0061164142027155,-0.007567362993402693,-0.004690071497582616,75,10000,False
+projected,M1_shared_mapping,M2_domain_mapping,r2,equal75battery_mean_after_minus_before,0.11970175806437777,0.03479593691844016,0.2041096233945231,75,10000,False
+clip_only,M1_shared_mapping,Mmid_material_mapping,mae,equal75battery_mean_after_minus_before,-0.0008723744931424521,-0.0027973412647680686,0.0018626884866251236,75,10000,True
+clip_only,M1_shared_mapping,Mmid_material_mapping,r2,equal75battery_mean_after_minus_before,-0.11107753708946452,-0.4141922329140383,0.07219749823307317,75,10000,True
+clip_only,Mmid_material_mapping,M2_domain_mapping,mae,equal75battery_mean_after_minus_before,-0.0037244961596584305,-0.0067498187233624085,-0.0016966794905775365,75,10000,True
+clip_only,Mmid_material_mapping,M2_domain_mapping,r2,equal75battery_mean_after_minus_before,0.219548081385929,0.027245066599302092,0.541433446695508,75,10000,True
+clip_only,M1_shared_mapping,M2_domain_mapping,mae,equal75battery_mean_after_minus_before,-0.004596870652800882,-0.005612531002907068,-0.003629968231691894,75,10000,False
+clip_only,M1_shared_mapping,M2_domain_mapping,r2,equal75battery_mean_after_minus_before,0.10847054429646451,0.06610585585433029,0.16028596084670457,75,10000,False

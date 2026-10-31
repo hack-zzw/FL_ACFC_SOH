@@ -1,0 +1,19 @@
+item,decision,action,training
+表1_五域,ready,use step2/table1_domain_metrics.csv,none
+整体主结果与误差阈值,ready,use step2 overall_metrics and absolute_error_thresholds,none
+表2_共享策略和FedProx敏感性,needs_matched_information_control,query alignment and equal3 metrics available;match final observable information before mechanism attribution,conditional;reuse valid source checkpoints then fit required downstream predictors
+表3_主实验5/10/20预算,20_ready_5_10_unvalidated,complete method requires exactly20support rows;run adapted full policy for5/10 or limit claim to20,support policy and head adaptation may be required;do not reuse backbone-only predictions
+表4_编码器对比,needs_downstream_refit,same queries and component checkpoints reusable;fit final conditional/reference predictors on each encoder representation,domain predictor refit;source retraining only if original configuration fails scope match
+表5_B0完整方法,ready,use step2 complete-method output,none
+表5_B1取消电池均衡,needs_complete_method_ablation,define intervention across training stages;reuse eligible ablated source weights and refit downstream components,domain predictor refit;possibly affected source stages
+表5_B2取消来源均衡,needs_complete_method_ablation,define intervention across training stages;refit dependent predictors,domain predictor refit;possibly affected source stages
+表5_B3统一支持适配预算,completed_full_pipeline_fixed_equal3,use paper_method_ablation_20261026/paper_ablation_table.csv;scope and limits in README,completed support/forward replay;no source refitting
+表5_B4取消推理单调投影,completed_full_pipeline_fixed_equal3,use paper_method_ablation_20261026/paper_ablation_table.csv;scope and limits in README,completed support/forward replay;no source refitting
+表5_B5取消两类均衡,needs_complete_method_ablation,refit affected downstream predictors with declared intervention,domain predictor refit;possibly affected source stages
+表6_NASA,reuse_verified_and_reaggregated,use NASA_main_metrics_equal3;describe selected last-layer fine-tuning truthfully,none
+表7_Oxford,reuse_verified_and_reaggregated,use Oxford_main_metrics_equal3;raw predictions;3evalcells,none
+图6_本文方法误差诊断,ready,use step2 SOH-stage and full-lifespan diagnostics,none
+集中式差距及逐电池胜出比例,counterpart_input_match_pending,diagnostic comparator predictions exist;final claims need declared matching comparator protocol,conditional
+补充图S7_通道加权,needs_downstream_refit_for_full_method_claim,saved CfC checkpoint reusable;fit associated complete predictor before attributing whole-method advantage,domain predictor refit
+NASA延迟加入正文,reuse_verified_and_reaggregated,NASA_joining_metrics_equal3.csv;name control arms precisely;do not call fixed_last5 pre-join,none
+NASA滚动实验若保留,reuse_verified_and_reaggregated,NASA_rolling_metrics_equal3.csv;distinguish query schedule and cumulative labels,none

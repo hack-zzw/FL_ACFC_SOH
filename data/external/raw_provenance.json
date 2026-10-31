@@ -1,0 +1,19 @@
+{
+  "raw_files": [
+    {
+      "path": "recorded-source/5.+Battery+Data+Set.zip",
+      "sha256": "82302a7db4fc1b34e0b6676326610438d43b816bdf11a69d1d012a464ef2f92e"
+    },
+    {
+      "path": "recorded-source/Oxford_Battery_Degradation_Dataset_1.mat",
+      "sha256": "a8f0b928f4ea77d7ba98b97194b78cc77336f2338fee8b57573d043f0cf26781"
+    }
+  ],
+  "feature_converter_sha256": "61a41020fa2caa10ce0351e2ded57f96a4012760a5b29621edbbfce068ea8211",
+  "notes": [
+    "features from observed charging curves",
+    "NASA capacity/2Ah; Oxford capacity/0.74Ah",
+    "same-cycle SOH estimation, not cycle-start future forecasting",
+    "no capacity proxy fusion"
+  ]
+}

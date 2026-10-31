@@ -1,0 +1,156 @@
+{
+  "protocol_id": "boundary_controls_20shot_20261028",
+  "purpose": "Test mapping granularity at fixed nominal parameter budget, learned representation contribution, semantic grouping, and information-matched federated factors.",
+  "outputs_root": "recorded-source/boundary_control_experiments_20261028",
+  "seeds": [
+    20260903,
+    20260904,
+    20260905
+  ],
+  "source": {
+    "batteries": 303,
+    "clients": 12,
+    "full_trajectory_records": 242461,
+    "readout_query_records": 236401,
+    "support_labels_per_battery": 20,
+    "folds": 5,
+    "fold_source": "inherited SHA256 battery folds"
+  },
+  "target": {
+    "batteries": 75,
+    "support_labels_per_battery": 20,
+    "support_records": 1500,
+    "query_records": 58214,
+    "query_start": 20,
+    "status": "previously used development evaluation; not a new blinded test"
+  },
+  "phase_order": [
+    "01_capacity",
+    "02_representation",
+    "03_semantic_groups",
+    "04_federated"
+  ],
+  "readout_training": {
+    "features": "223 observable numeric descriptors plus 36 learned or random frozen embeddings; mean imputation, missing flags and clipping; all rows use at most current/past observations and the first20 support labels",
+    "normalization": "domain/battery-equal source training-query weights, refitted excluding each held source fold",
+    "encoder_cv_scope": "readout-level; inherited learned encoder/scaler may have seen validation source batteries",
+    "architecture": "Linear(input,160), SiLU, routing mask, scalar output weights, five true-domain intercepts",
+    "dense_implementation": "all160 units evaluated in all arms; equal dense arithmetic and trainable parameter count for capacity arms",
+    "capacity_widths": {
+      "shared": [
+        160
+      ],
+      "material": [
+        54,
+        53,
+        53
+      ],
+      "domain": [
+        32,
+        32,
+        32,
+        32,
+        32
+      ]
+    },
+    "capacity_parameters": 83205,
+    "initial_output": "zero output weights and domain intercepts; identical initial residual predictions",
+    "optimizer": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "batch_size": 4096,
+    "loss": "domain/battery-equal weighted Huber",
+    "huber_delta": 0.05,
+    "gradient_clip": 2,
+    "epoch_candidates": [
+      5,
+      10,
+      20
+    ],
+    "selection": "mean across5 source folds of domain-equal battery-macro MAE under projected output; tie takes fewer epochs; selected separately per seed/arm",
+    "target_calibration": "support median anchor plus sum(y_support-pred_support)/40",
+    "target_query_labels_for_selection": false
+  },
+  "semantic_group_control": {
+    "implementation_refinement": "Reuse the same neural head family as phase1 instead of adding a separate ridge solver; both true and pseudo groups have83205 parameters and five true-domain intercepts.",
+    "repetitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "groups_within_chemistry": [
+      2,
+      1,
+      2
+    ],
+    "assignment": "SHA256 fixed battery ranks separately for source/target; preserve true domain group counts within chemistry; no labels used",
+    "true_clients_and_metadata_retained": true,
+    "interpretation": "grouping plus corresponding fixed routing policy; not an exhaustive comparison of all routing algorithms"
+  },
+  "federated_training": {
+    "arms": {
+      "F00": {
+        "head": "global",
+        "encoder_aggregation": "client_weighted"
+      },
+      "F01": {
+        "head": "domain",
+        "encoder_aggregation": "client_weighted"
+      },
+      "F10": {
+        "head": "global",
+        "encoder_aggregation": "hierarchical"
+      },
+      "F11": {
+        "head": "domain",
+        "encoder_aggregation": "hierarchical"
+      }
+    },
+    "input": "same223 numeric observables, normalized/imputed with missing indicators; trainable fresh17-input ACfC embedding36; explicit five-domain one-hot metadata supplied to every head",
+    "fixed_feature_dimension": 446,
+    "head_input_dimension": 487,
+    "encoder": "same project ACfC implementation, hidden32, two cells, embedding36, per-record state reset, tau original_uniform, dt1",
+    "head": "Linear(487,32),SiLU,Linear(32,1)",
+    "rounds": 45,
+    "local_epochs": 2,
+    "per_battery_query_samples_per_local_epoch": 128,
+    "sampling": "each source battery receives128 draws per local epoch with replacement from its full post20 trajectory; same per-round/client sample indices for every arm; all source trajectory positions eligible",
+    "batch_size": 1024,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "loss": "Huber delta .05 on support-median-centered SOH",
+    "gradient_clip": 5,
+    "client_weight": "source battery count",
+    "encoder_update_aggregation_clip_norm": 1,
+    "global_head_aggregation": "client weighted in both F00 and F10; isolates encoder-aggregation factor",
+    "domain_head_aggregation": "client weighted within true domain in both F01 and F11",
+    "hierarchy": "client battery-weighted within domain, equal sources within chemistry, equal chemistries",
+    "target_adaptation": "three epochs, AdamW lr.0005 on the chosen head using20 support labels; encoder frozen; same shrinkage intercept correction as readout arms",
+    "hyperparameters": "fixed before target scoring, inherited common default choices; no target tuning and no claim of extensive per-method tuning",
+    "security": "single-process aggregation simulation without a new secure aggregation protocol",
+    "scope": "new common-information controlled model family, not a reproduction of every source-specific branch in the complete paper method",
+    "training_scope_selection": "full source trajectories for all arms, identical fixed45-round budget; no post-target checkpoint selection"
+  },
+  "evaluation": {
+    "primary_postprocessing": "support-last anchored cumulative minimum then clip[0,1.1]",
+    "sensitivity_postprocessing": "clip[0,1.1] only, same frozen weights",
+    "ensemble": "three components each execute full calibration/postprocessing, then arithmetic mean",
+    "primary_metric": "battery-equal MAE and paired effects; domain-equal MAE also reported",
+    "additional_metrics": [
+      "five_domain_battery_macro_R2",
+      "minimum_domain_R2",
+      "pooled_MAE",
+      "pooled_RMSE",
+      "pooled_R2",
+      "battery_macro_R2",
+      "coverage_1pp"
+    ],
+    "uncertainty": "5000 stratified paired battery bootstrap draws conditional on fixed ensemble; per-component metrics separately retained",
+    "no_domain_or_seed_selection": true,
+    "no_independent_sequence_record_claim": true,
+    "no_universal_optimal_boundary_claim": true
+  },
+  "main_method": "paper_method_20shot_equal3_20261025; frozen and not replaced by these experiments"
+}

@@ -1,0 +1,3 @@
+variant,true_domain_battery_macro_mae,pseudo_mean_battery_macro_mae,pseudo_min_battery_macro_mae,pseudo_max_battery_macro_mae,true_better_than_pseudo_repetitions,repetitions
+projected,0.0081338733154754,0.009288921690646521,0.0085093899277972,0.0104488003274653,5,5
+clip_only,0.0058861353912184,0.007448466357588701,0.006837856944098,0.0081704969337137,5,5

@@ -1,0 +1,258 @@
+{
+  "selected": {
+    "source_federated": {
+      "5": {
+        "variant": "dual",
+        "prior_strength": 0.1,
+        "scope": "last",
+        "rounds": 10,
+        "strength": 1.0,
+        "alpha": 1.0
+      },
+      "10": {
+        "variant": "dual",
+        "prior_strength": 1.0,
+        "scope": "last",
+        "rounds": 10,
+        "strength": 1.0,
+        "alpha": 0.0
+      },
+      "20": {
+        "variant": "dual",
+        "prior_strength": 1.0,
+        "scope": "last",
+        "rounds": 10,
+        "strength": 1.0,
+        "alpha": 1.0
+      },
+      "40": {
+        "variant": "dual",
+        "prior_strength": 1.0,
+        "scope": "last",
+        "rounds": 10,
+        "strength": 1.0,
+        "alpha": 1.0
+      },
+      "60": {
+        "variant": "dual",
+        "prior_strength": 0.1,
+        "scope": "last",
+        "rounds": 10,
+        "strength": 1.0,
+        "alpha": 1.0
+      }
+    },
+    "federated_head": {
+      "5": {
+        "variant": "dual",
+        "prior_strength": 0.1,
+        "scope": "head",
+        "rounds": 5,
+        "strength": 1.0,
+        "alpha": 1.0
+      },
+      "10": {
+        "variant": "dual",
+        "prior_strength": 1.0,
+        "scope": "head",
+        "rounds": 5,
+        "strength": 1.0,
+        "alpha": 0.0
+      },
+      "20": {
+        "variant": "dual",
+        "prior_strength": 1.0,
+        "scope": "head",
+        "rounds": 5,
+        "strength": 1.0,
+        "alpha": 1.0
+      },
+      "40": {
+        "variant": "dual",
+        "prior_strength": 1.0,
+        "scope": "head",
+        "rounds": 5,
+        "strength": 1.0,
+        "alpha": 1.0
+      },
+      "60": {
+        "variant": "dual",
+        "prior_strength": 0.1,
+        "scope": "head",
+        "rounds": 5,
+        "strength": 1.0,
+        "alpha": 1.0
+      }
+    },
+    "federated_last": {
+      "5": {
+        "variant": "dual",
+        "prior_strength": 0.1,
+        "scope": "last",
+        "rounds": 10,
+        "strength": 1.0,
+        "alpha": 1.0
+      },
+      "10": {
+        "variant": "dual",
+        "prior_strength": 1.0,
+        "scope": "last",
+        "rounds": 10,
+        "strength": 1.0,
+        "alpha": 0.0
+      },
+      "20": {
+        "variant": "dual",
+        "prior_strength": 1.0,
+        "scope": "last",
+        "rounds": 10,
+        "strength": 1.0,
+        "alpha": 1.0
+      },
+      "40": {
+        "variant": "dual",
+        "prior_strength": 1.0,
+        "scope": "last",
+        "rounds": 10,
+        "strength": 1.0,
+        "alpha": 1.0
+      },
+      "60": {
+        "variant": "dual",
+        "prior_strength": 0.1,
+        "scope": "last",
+        "rounds": 10,
+        "strength": 1.0,
+        "alpha": 1.0
+      }
+    },
+    "source_local": {
+      "5": {
+        "variant": "dual",
+        "prior_strength": 0.1,
+        "scope": "last",
+        "rounds": 10,
+        "strength": 1.0,
+        "alpha": 1.0
+      },
+      "10": {
+        "variant": "dual",
+        "prior_strength": 0.1,
+        "scope": "head",
+        "rounds": 5,
+        "strength": 1.0,
+        "alpha": 1.0
+      },
+      "20": {
+        "variant": "dual",
+        "prior_strength": 1.0,
+        "scope": "last",
+        "rounds": 10,
+        "strength": 10.0,
+        "alpha": 0.5
+      },
+      "40": {
+        "variant": "dual",
+        "prior_strength": 1.0,
+        "scope": "last",
+        "rounds": 10,
+        "strength": 1.0,
+        "alpha": 1.0
+      },
+      "60": {
+        "variant": "embedding",
+        "prior_strength": 0.1,
+        "scope": "last",
+        "rounds": 10,
+        "strength": 1.0,
+        "alpha": 1.0
+      }
+    },
+    "source_frozen_local": {
+      "5": {
+        "variant": "dual",
+        "prior_strength": 0.1,
+        "scope": "head",
+        "rounds": 0,
+        "strength": 1.0,
+        "alpha": 1.0
+      },
+      "10": {
+        "variant": "embedding",
+        "prior_strength": 1.0,
+        "scope": "head",
+        "rounds": 0,
+        "strength": 1.0,
+        "alpha": 0.0
+      },
+      "20": {
+        "variant": "dual",
+        "prior_strength": 1.0,
+        "scope": "head",
+        "rounds": 0,
+        "strength": 10.0,
+        "alpha": 1.0
+      },
+      "40": {
+        "variant": "dual",
+        "prior_strength": 1.0,
+        "scope": "head",
+        "rounds": 0,
+        "strength": 1.0,
+        "alpha": 1.0
+      },
+      "60": {
+        "variant": "dual",
+        "prior_strength": 1.0,
+        "scope": "head",
+        "rounds": 0,
+        "strength": 1.0,
+        "alpha": 0.5
+      }
+    },
+    "random_federated": {
+      "5": {
+        "variant": "dual",
+        "prior_strength": 1.0,
+        "scope": "last",
+        "rounds": 10,
+        "strength": 1.0,
+        "alpha": 1.0
+      },
+      "10": {
+        "variant": "dual",
+        "prior_strength": 0.1,
+        "scope": "last",
+        "rounds": 10,
+        "strength": 1.0,
+        "alpha": 0.0
+      },
+      "20": {
+        "variant": "dual",
+        "prior_strength": 1.0,
+        "scope": "last",
+        "rounds": 10,
+        "strength": 1.0,
+        "alpha": 1.0
+      },
+      "40": {
+        "variant": "dual",
+        "prior_strength": 1.0,
+        "scope": "last",
+        "rounds": 10,
+        "strength": 1.0,
+        "alpha": 1.0
+      },
+      "60": {
+        "variant": "dual",
+        "prior_strength": 1.0,
+        "scope": "head",
+        "rounds": 5,
+        "strength": 1.0,
+        "alpha": 1.0
+      }
+    }
+  },
+  "evaluation_labels_used": false,
+  "registration_sha256": "a101c9096b28cbfaf80e6d00906b4e5cf3253ef609fa48153d02391d827d4fb2"
+}

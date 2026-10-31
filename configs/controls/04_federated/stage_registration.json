@@ -1,0 +1,40 @@
+{
+  "registered_at": "2026-10-28T23:13:10.935384+08:00",
+  "script_sha256": "2c92aacde0f5d38cc6b43913abe256147e0aa57f9abb97fb9bedf025fba827b3",
+  "protocol_sha256": "934eacd64637718dca6a7fa2a7c4d01a3547492a2b7276aeed68c8c48448f83c",
+  "arms": {
+    "F00": {
+      "head": "global",
+      "encoder_aggregation": "flat"
+    },
+    "F01": {
+      "head": "domain",
+      "encoder_aggregation": "flat"
+    },
+    "F10": {
+      "head": "global",
+      "encoder_aggregation": "hierarchical"
+    },
+    "F11": {
+      "head": "domain",
+      "encoder_aggregation": "hierarchical"
+    }
+  },
+  "parameters": {
+    "encoder": 6116,
+    "head": 15649
+  },
+  "global_head_logical_total": 21765,
+  "domain_heads_logical_total": 84361,
+  "input_information_identical": true,
+  "global_head_aggregation_constant_between_F00_F10": true,
+  "no_saved_paper_residuals_attached": true,
+  "fixed_rounds": 45,
+  "local_epochs": 2,
+  "per_battery_samples_per_epoch": 128,
+  "batch": 1024,
+  "head_target_epochs": 3,
+  "source_cv_model_selection": false,
+  "hyperparameters_fixed_before_scoring": true,
+  "security": "single-process simulation; no added secure protocol"
+}

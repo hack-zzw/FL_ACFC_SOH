@@ -1,0 +1,6 @@
+domain,battery_id,mae,r2,rule
+LFP|HUST,HUST_HUST_data_1-3,0.014184199248442645,0.9114536495337469,Closest to the domain median battery MAE; lexicographic tie break; all75 shown in supplementary trajectories
+LFP|MIT,MIT_2017-06-30_2017-06-30_battery-39,0.002485378852315989,0.9894611694130127,Closest to the domain median battery MAE; lexicographic tie break; all75 shown in supplementary trajectories
+NCA|TJU,TJU_Dataset_1_NCA_battery_CY25-05_1-#6,0.0042696375421590205,0.9890632309788945,Closest to the domain median battery MAE; lexicographic tie break; all75 shown in supplementary trajectories
+NCM|TJU,TJU_Dataset_2_NCM_battery_CY25-05_1-#9,0.00990845133562612,0.8355603967331937,Closest to the domain median battery MAE; lexicographic tie break; all75 shown in supplementary trajectories
+NCM|XJTU,XJTU_XJTU_data_R3_battery-6,0.00687440938935772,0.9606576018841847,Closest to the domain median battery MAE; lexicographic tie break; all75 shown in supplementary trajectories

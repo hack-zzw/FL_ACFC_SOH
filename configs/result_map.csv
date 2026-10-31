@@ -1,0 +1,7 @@
+manuscript_item,source_data,statistics_command,model_replay_command
+Table1,results/source_data/Table1.csv,python main.py,python main.py
+Fig2,results/source_data/Fig2.csv.gz,python main.py,python main.py
+Fig3ab,results/source_data/Fig3.csv.gz,python main.py,python main.py
+Fig3c-f,results/source_data/Fig3.csv.gz,python main.py,python main.py
+Results2.4,results/source_data/Results_2_4.csv.gz,python main.py,python main.py
+Fig4,results/source_data/Fig4.csv.gz,python main.py,python main.py

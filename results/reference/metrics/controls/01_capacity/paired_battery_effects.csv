@@ -1,0 +1,9 @@
+variant,reference,candidate,metric,mean_paired_difference,conditional_95_low,conditional_95_high,bootstrap_draws,conditioning
+projected,shared,material,mae,-0.00019736655979975015,-0.0012177513916833873,0.0007540585701741882,5000,fixed fitted 3-component ensemble; stratified paired battery resampling
+projected,shared,material,r2,-0.01263477905448545,-0.09582724812194844,0.07539740029368726,5000,fixed fitted 3-component ensemble; stratified paired battery resampling
+projected,material,domain,mae,-0.0005176232193662137,-0.0016969723651766766,0.0003374254820453752,5000,fixed fitted 3-component ensemble; stratified paired battery resampling
+projected,material,domain,r2,0.033906404194181346,-0.031880500330156124,0.1365725636291698,5000,fixed fitted 3-component ensemble; stratified paired battery resampling
+clip_only,shared,material,mae,-0.00047177568357358073,-0.0011556978781403892,0.00029264541169136645,5000,fixed fitted 3-component ensemble; stratified paired battery resampling
+clip_only,shared,material,r2,-0.021251604462781102,-0.07592509143426159,0.011376206262492078,5000,fixed fitted 3-component ensemble; stratified paired battery resampling
+clip_only,material,domain,mae,-0.00037447503051701674,-0.0014313831012002,0.0003360546430331682,5000,fixed fitted 3-component ensemble; stratified paired battery resampling
+clip_only,material,domain,r2,0.034386813424976244,-0.013410239048780968,0.11885634428726785,5000,fixed fitted 3-component ensemble; stratified paired battery resampling

@@ -1,0 +1,14 @@
+{
+  "repo": "https://github.com/mlech26l/ncps",
+  "commit": "695ec22d7d1831f2ced67346ef7d2f08c525bd47",
+  "files": {
+    "cfc_cell.py": {
+      "url": "https://raw.githubusercontent.com/mlech26l/ncps/695ec22d7d1831f2ced67346ef7d2f08c525bd47/ncps/torch/cfc_cell.py",
+      "sha256": "79dcc1cbb3b6898dc2310e9086a2e031e31cbaeb129d69adcbf45eaa16d6b74d"
+    },
+    "LICENSE": {
+      "url": "https://raw.githubusercontent.com/mlech26l/ncps/695ec22d7d1831f2ced67346ef7d2f08c525bd47/LICENSE",
+      "sha256": "aedff72c6a199d144f3425c92e2727292785609432d243347b5acaca0450ff31"
+    }
+  }
+}

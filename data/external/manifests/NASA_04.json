@@ -1,0 +1,45 @@
+{
+  "datasets": [
+    {
+      "name": "NASA_24_44C_mixed_1_2_4A",
+      "root": "../protocol_features/NASA_04",
+      "glob": "*.csv",
+      "material": "Unknown",
+      "source_column": "protocol_group",
+      "chemistry_status": "Li-ion; electrode chemistry not specified by NASA README",
+      "rated_capacity_ah": 2.0,
+      "protocol_groups": [
+        "24C_CC_2A",
+        "24C_CC_4A",
+        "24_44C_mixed_1_2_4A",
+        "43C_CC_4A",
+        "4C_mixed_1_4A"
+      ],
+      "source_url": "https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/",
+      "soh_column": "soh",
+      "nominal_capacity": 1.0,
+      "cycle_column": "cycle_index",
+      "cycle_index_semantics": "physical_discharge_ordinal",
+      "soh_normalization": "fixed_rated_capacity_2Ah",
+      "battery_id_column": "battery_id",
+      "feature_columns": {
+        "voltage mean": "voltage mean",
+        "voltage std": "voltage std",
+        "voltage kurtosis": "voltage kurtosis",
+        "voltage skewness": "voltage skewness",
+        "CC Q": "CC Q",
+        "CC charge time": "CC charge time",
+        "voltage slope": "voltage slope",
+        "voltage entropy": "voltage entropy",
+        "current mean": "current mean",
+        "current std": "current std",
+        "current kurtosis": "current kurtosis",
+        "current skewness": "current skewness",
+        "CV Q": "CV Q",
+        "CV charge time": "CV charge time",
+        "current slope": "current slope",
+        "current entropy": "current entropy"
+      }
+    }
+  ]
+}

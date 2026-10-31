@@ -1,0 +1,150 @@
+{
+  "方法": [
+    "centralized",
+    "fedavg",
+    "material_balanced",
+    "material_source"
+  ],
+  "shots": [
+    5,
+    10,
+    20
+  ],
+  "随机种子": [
+    20260903,
+    20260904,
+    20260905
+  ],
+  "联邦轮数": 45,
+  "本地训练轮数": 2,
+  "目标训练轮数": 3,
+  "批大小": 256,
+  "学习率": 0.001,
+  "目标学习率": 0.0005,
+  "物理损失权重": 0.0,
+  "单调损失权重": 0.0,
+  "范围损失权重": 0.0,
+  "FedProx系数": 0.1,
+  "隐私噪声系数": 0.0,
+  "隐私裁剪范数": 1.0,
+  "启用安全聚合": true,
+  "SOH下限": 0.0,
+  "SOH上限": 1.1,
+  "物理退化率尺度": 0.05,
+  "设备": "cuda",
+  "最大文件数": null,
+  "每文件最大行数": null,
+  "数据划分种子": 20260903,
+  "保存电池明细": true,
+  "模型类型": "acfc",
+  "启用物理约束": false,
+  "额外参数": {
+    "材料标准化": true,
+    "数据目录": "data/features",
+    "常驻显存训练": true,
+    "客户端内电池等权采样": true,
+    "域等权共享编码器": true,
+    "单调预测投影": false,
+    "CfC时间步长": 1.0,
+    "CfC时间常数初始化": "original_uniform",
+    "来源预测头适配策略": {
+      "LFP|HUST": {
+        "5": {
+          "learning_rate": 3e-05,
+          "epochs": 5,
+          "monotonic_projection": true
+        },
+        "10": {
+          "learning_rate": 3e-05,
+          "epochs": 5,
+          "monotonic_projection": true
+        },
+        "20": {
+          "learning_rate": 3e-05,
+          "epochs": 5,
+          "monotonic_projection": true
+        }
+      },
+      "LFP|MIT": {
+        "5": {
+          "learning_rate": 0.0003,
+          "epochs": 8,
+          "monotonic_projection": true
+        },
+        "10": {
+          "learning_rate": 0.0003,
+          "epochs": 8,
+          "monotonic_projection": true
+        },
+        "20": {
+          "learning_rate": 0.0003,
+          "epochs": 8,
+          "monotonic_projection": true
+        }
+      },
+      "NCA|TJU": {
+        "5": {
+          "learning_rate": 0.0001,
+          "epochs": 5,
+          "monotonic_projection": true
+        },
+        "10": {
+          "learning_rate": 3e-05,
+          "epochs": 10,
+          "monotonic_projection": true
+        },
+        "20": {
+          "learning_rate": 0.0003,
+          "epochs": 1,
+          "monotonic_projection": true
+        }
+      },
+      "NCM|TJU": {
+        "5": {
+          "learning_rate": 0.0001,
+          "epochs": 8,
+          "monotonic_projection": true
+        },
+        "10": {
+          "learning_rate": 0.0001,
+          "epochs": 8,
+          "monotonic_projection": true
+        },
+        "20": {
+          "learning_rate": 0.0001,
+          "epochs": 8,
+          "monotonic_projection": true
+        }
+      },
+      "NCM|XJTU": {
+        "5": {
+          "learning_rate": 0.0001,
+          "epochs": 3,
+          "monotonic_projection": false
+        },
+        "10": {
+          "learning_rate": 1e-05,
+          "epochs": 5,
+          "monotonic_projection": true
+        },
+        "20": {
+          "learning_rate": 0.0001,
+          "epochs": 1,
+          "monotonic_projection": true
+        }
+      }
+    },
+    "预测头适配策略": {},
+    "域策略对所有策略生效": true
+  },
+  "物理权重表": {},
+  "单调权重表": {},
+  "数据目录": "data/features",
+  "对比策略": [
+    "fedprox"
+  ],
+  "统一评估规范": "docs/main_consistency_audit_20261008/unified_evaluation_spec.json",
+  "随机数规则": "seed reset before every strategy and every shot evaluation",
+  "投影规则": "domain source/shot policy overrides global flag",
+  "预测字段": "pred_soh is clipped/projected; raw_pred_soh is before postprocessing"
+}

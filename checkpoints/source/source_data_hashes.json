@@ -1,0 +1,1550 @@
+[
+  {
+    "path": "HUST data\\1-1.csv",
+    "sha256": "feab7bf9a920c84d31bdf0db04da7d9808b7487d562670486931da563dbea1cd"
+  },
+  {
+    "path": "HUST data\\1-2.csv",
+    "sha256": "dfe4655d142ba737b4588ea2d8a387aa0941f993519c75fbf9697c8128f895b2"
+  },
+  {
+    "path": "HUST data\\1-3.csv",
+    "sha256": "dfe2f79234fa98399f4122784199741dcc25ec5becfa2576deff096090975a13"
+  },
+  {
+    "path": "HUST data\\1-4.csv",
+    "sha256": "41d56b52db2bcf9e5c8bbbb2843f900b1469147f325bc050896c8abd1b23a381"
+  },
+  {
+    "path": "HUST data\\1-5.csv",
+    "sha256": "afc3a0a02db3a6f95dc3844a93a959870783d8406b25752339815bc1bc1b74ff"
+  },
+  {
+    "path": "HUST data\\1-6.csv",
+    "sha256": "3a9a41a0c992c3bdadf54e10c99dd40a155eb9b9a36c16a7022ec32c0d93d611"
+  },
+  {
+    "path": "HUST data\\1-7.csv",
+    "sha256": "74453d137e0e89d7c1ea085fdd91187b7fde1e9167b8ee0b41eec0ddd0503bdc"
+  },
+  {
+    "path": "HUST data\\1-8.csv",
+    "sha256": "beb504881eb6b443f5cfcbde725c750e3f8ec588ad08ae7b4375c3aff07d032b"
+  },
+  {
+    "path": "HUST data\\10-1.csv",
+    "sha256": "60be20aa51dc2a82472df695baffe320e9e781bd741c5043d0141e82d337e250"
+  },
+  {
+    "path": "HUST data\\10-2.csv",
+    "sha256": "076b1873c5b36b2b818e7b5c9343690bbd1165ee27e86c5d39b83046fc4fb16c"
+  },
+  {
+    "path": "HUST data\\10-3.csv",
+    "sha256": "94e1cc519e92cbd88a2c5bb24967a036ffa8c5e2ff3a22f2bda2693ccf3c5a1c"
+  },
+  {
+    "path": "HUST data\\10-4.csv",
+    "sha256": "443ef1cf699480e4ac7087b457ed9b08e8aff19a3275faa20e13926eef922590"
+  },
+  {
+    "path": "HUST data\\10-5.csv",
+    "sha256": "f7f00ff5c6f69fdab7246cdc4abc6241d843529338de1d46f1ff35b9ecf6727d"
+  },
+  {
+    "path": "HUST data\\10-6.csv",
+    "sha256": "0687da75dd998913a4bc8ea501491dcc5afa5118f1916650b5e44dbd82d4697f"
+  },
+  {
+    "path": "HUST data\\10-7.csv",
+    "sha256": "8dc70a1d798574d9e76b7c62b2863b9b48bf1724c28fa1aec2a15912fd3d67a1"
+  },
+  {
+    "path": "HUST data\\10-8.csv",
+    "sha256": "7f697154a5b1c7a708709f09cdd659c0499a5c3a3641de435126d025790c5fb1"
+  },
+  {
+    "path": "HUST data\\2-2.csv",
+    "sha256": "8d27f78998830cbb6164a33ed686d0e505c2a4bc3a8531d2f4e28ef72a97dd96"
+  },
+  {
+    "path": "HUST data\\2-3.csv",
+    "sha256": "218810adf028ffa507777fdec46907723fda1d2bfc0ce0aaab236ee149ce04f6"
+  },
+  {
+    "path": "HUST data\\2-4.csv",
+    "sha256": "d420f71c07149fa22828bb39b7aca0a28d4baf894002dac8d87644d4f4b62e61"
+  },
+  {
+    "path": "HUST data\\2-5.csv",
+    "sha256": "8d8adda8f42e40b2844bd5419d79b379574cb1c144da0c2e47b738c967eccbe4"
+  },
+  {
+    "path": "HUST data\\2-6.csv",
+    "sha256": "9d08e11f4f90582c4dde95c8e840d8c6c6b68cca177aeda957821ec545721366"
+  },
+  {
+    "path": "HUST data\\2-7.csv",
+    "sha256": "d372f2386b06d614f009bb45eb56c2615b509278ce41fa16654dabb9f87d42f6"
+  },
+  {
+    "path": "HUST data\\2-8.csv",
+    "sha256": "05da4968219c0a96296bfa25b0b496700146cb5726a9201eee020640f8d2fe78"
+  },
+  {
+    "path": "HUST data\\3-1.csv",
+    "sha256": "53d545ce3190ef2563db57c9a5c221d29ea3fcae5bd5cfbebc320d10b9e646eb"
+  },
+  {
+    "path": "HUST data\\3-2.csv",
+    "sha256": "1038ce0fe1d82bedf230bf07b3cc029758b6ebc33e7c3a8118f92cb9ffaad9b5"
+  },
+  {
+    "path": "HUST data\\3-3.csv",
+    "sha256": "0943154ddbcc3924b5b3a8503e8ec4586776e51c425a69c20272bd15724ff2de"
+  },
+  {
+    "path": "HUST data\\3-4.csv",
+    "sha256": "4ec9c7e821f1b26f427b2dd44bfc5371ae3f525afe06c4ef75c71d0acd1d47b7"
+  },
+  {
+    "path": "HUST data\\3-5.csv",
+    "sha256": "5779888f18f9e0756fa6a64b957be384b70b940ce2d72940fae25745261d31e1"
+  },
+  {
+    "path": "HUST data\\3-6.csv",
+    "sha256": "bdb4428d6b9b5e87e3de73ec35c143ede73f4f19f5580ec9e7eea967380884b2"
+  },
+  {
+    "path": "HUST data\\3-7.csv",
+    "sha256": "8aa9219a184509c393916eaa7560a339b9617e7e5ce4497fa43eafed895ba64e"
+  },
+  {
+    "path": "HUST data\\3-8.csv",
+    "sha256": "493d8f9ce0802b15f088c5d743585784bfdd35bd5d3079cf46c3017d65a40a9d"
+  },
+  {
+    "path": "HUST data\\4-1.csv",
+    "sha256": "459182b5dd6ad530401ca27c5d2d599d3553b4e322c540e7a71fbe1ae9320726"
+  },
+  {
+    "path": "HUST data\\4-2.csv",
+    "sha256": "32338c32dd71a24ba88b07d8353518c07238257a9d30bb3fa674b638dea94af3"
+  },
+  {
+    "path": "HUST data\\4-3.csv",
+    "sha256": "9a4910c0437ffe55802436d3c524cbde68bfdca6394f8c8028d21fa8aeb2f0d9"
+  },
+  {
+    "path": "HUST data\\4-4.csv",
+    "sha256": "2d88cb95421da11a15d27c368c9b2a1bdbbffb03c9e9420f701706e8e197cfd7"
+  },
+  {
+    "path": "HUST data\\4-5.csv",
+    "sha256": "989b2876a60d25b949fec5c23f02905d427fc28e765da00120aeecd5f715a65d"
+  },
+  {
+    "path": "HUST data\\4-6.csv",
+    "sha256": "af26d0ba72808a70a79cb1f0dddcadbd2bbafc932e87fcc7d96921ddd8850871"
+  },
+  {
+    "path": "HUST data\\4-7.csv",
+    "sha256": "ef920ec7b1fa3392539e4d8cbb6160179faef792fd9aa65c22158381ff3a49fb"
+  },
+  {
+    "path": "HUST data\\4-8.csv",
+    "sha256": "78875143b5dc63fc38e22321159067d4fe426f84bf03ab727e502a0286cc2a80"
+  },
+  {
+    "path": "HUST data\\5-1.csv",
+    "sha256": "5b3d5245743ad69553ad46d9c5701949182155aa0f8d809c9dea63a4351e37e5"
+  },
+  {
+    "path": "HUST data\\5-2.csv",
+    "sha256": "b01da96db9181dcda1762e5144f88aa084ddc5c9c4d014ee61e63e19f03f3c7e"
+  },
+  {
+    "path": "HUST data\\5-3.csv",
+    "sha256": "41df4617e766633aa1c226471a2949331d512bfabce2626f600c1aa1d633dc69"
+  },
+  {
+    "path": "HUST data\\5-4.csv",
+    "sha256": "8d4252a6e72e8ec7c5104f1c96dc7afcb647ba75cab895c2ba46b09111542484"
+  },
+  {
+    "path": "HUST data\\5-5.csv",
+    "sha256": "e25a26fdc17aa7bc876b6aa08941d39fb9fbe81d388c3170da284de954792a81"
+  },
+  {
+    "path": "HUST data\\5-6.csv",
+    "sha256": "60b319ab894384afdb35f5b288f6e296cf02b01e3d6bce6e71b335f663f31b4b"
+  },
+  {
+    "path": "HUST data\\5-7.csv",
+    "sha256": "03b04af6f2b80294ddd5014540599a4421ac6e68e03feb3a900d2def687f1b0f"
+  },
+  {
+    "path": "HUST data\\6-1.csv",
+    "sha256": "1a7affac53252e0e23be072e8807a9e72acf8a9a014205825462b3f0ca81796b"
+  },
+  {
+    "path": "HUST data\\6-2.csv",
+    "sha256": "2773e7cb55db7669f4c04231e7c69376ccaa42f7fcf638a023d646da69a4ae08"
+  },
+  {
+    "path": "HUST data\\6-3.csv",
+    "sha256": "76bf8e3ab19b70a3eafb59ef11aa76540d327750074bac59d4fb6d926487b9d6"
+  },
+  {
+    "path": "HUST data\\6-4.csv",
+    "sha256": "8bd6aa43ee4ffc00fe3fd1395350ba3ceaad0aee1c730b815087a229c8221ea7"
+  },
+  {
+    "path": "HUST data\\6-5.csv",
+    "sha256": "e817ac90ec0de23bd993a6fee4d75a7274ac2f02c22b55f30de68d3bbdf9c87e"
+  },
+  {
+    "path": "HUST data\\6-6.csv",
+    "sha256": "20982fb465872a698c43c954627d456ab92ecc302008bbb16cd5b0d603b9d30d"
+  },
+  {
+    "path": "HUST data\\6-8.csv",
+    "sha256": "d2f8bf2f823afec541f9d19470ba38ecce47d33a94fa33d5269e523bdb34ae72"
+  },
+  {
+    "path": "HUST data\\7-1.csv",
+    "sha256": "f4bd07e51c3a8084ddfca5d310ce8b4b626988da4ae606ededdd127fbfcae96f"
+  },
+  {
+    "path": "HUST data\\7-2.csv",
+    "sha256": "db5c105d813b2258b639eb7b16581e5d5d4a58511b057eddce98f31bfd448e98"
+  },
+  {
+    "path": "HUST data\\7-3.csv",
+    "sha256": "3219266ae44e1bba60532a3c339f8b5cde9cb4c17006c02d3643ba8e0ff4765b"
+  },
+  {
+    "path": "HUST data\\7-4.csv",
+    "sha256": "e3910ba0e108bf0f0f64d36557815b51db331696328d60f33b1316b8b63e7cd7"
+  },
+  {
+    "path": "HUST data\\7-5.csv",
+    "sha256": "3c1c3a1407b1190c87a5d6a2740e8cf0b4ae9b54858104433e9cc9fcf1e2bb94"
+  },
+  {
+    "path": "HUST data\\7-6.csv",
+    "sha256": "bb62c0667afee3709a2dc1a3dfb4327d6a376b2c338a73be0a3dbd761ad27f27"
+  },
+  {
+    "path": "HUST data\\7-7.csv",
+    "sha256": "3e2e7d30bf4e8121a4ad745104099d045682fa71ddf886c54a810578ddd5cef4"
+  },
+  {
+    "path": "HUST data\\7-8.csv",
+    "sha256": "38889439b03dbb138c636442064e9b53401f2bd2858f6fbb77c05cd513b81cbc"
+  },
+  {
+    "path": "HUST data\\8-1.csv",
+    "sha256": "b2f5e526c7f27beded2ea41820ad6b131d80aefe332095d3fc48deb7fd1de39d"
+  },
+  {
+    "path": "HUST data\\8-2.csv",
+    "sha256": "57d88c0a51174b85ad05db0159d5a1bcc69ec70d04a6015d4439441266381e72"
+  },
+  {
+    "path": "HUST data\\8-3.csv",
+    "sha256": "6f25b0a9d9e7521fdc71949f244887da32300c83361cd239a196d1e7ae8a3f89"
+  },
+  {
+    "path": "HUST data\\8-4.csv",
+    "sha256": "5cff5a2ea82a919b2662a585933b6b0df66fc59d7c92bed0e927c0ce631c37d9"
+  },
+  {
+    "path": "HUST data\\8-5.csv",
+    "sha256": "9673ff7fafd36ff490bcae6fbf1e437f78ab09090b817173515ddd2dd4c0e1a1"
+  },
+  {
+    "path": "HUST data\\8-6.csv",
+    "sha256": "146cd6d3d66dd3bbb6bcd3841ee13bdbe28a1cb90df4977c2d766ca53a6ec02e"
+  },
+  {
+    "path": "HUST data\\8-7.csv",
+    "sha256": "b39fa024febce2aed654d77a94f3ab1249e4b456fd24e0bdd409b945f538e764"
+  },
+  {
+    "path": "HUST data\\8-8.csv",
+    "sha256": "ba3176e703013f1bbc09b278ff3e359fe57c886cfa231931c3f60dc964413335"
+  },
+  {
+    "path": "HUST data\\9-1.csv",
+    "sha256": "acc31985b5639807ca97dc438b4ce907925b800467fc55298ccd940d19a93ff1"
+  },
+  {
+    "path": "HUST data\\9-2.csv",
+    "sha256": "17e5e6f2e0ae2cb2465f4001519ca583a2211ba8a51e2cc18ce1eff5a50fdd75"
+  },
+  {
+    "path": "HUST data\\9-3.csv",
+    "sha256": "415603ecbf0a22dab6e6de2b9e8fb951730fede3d664ecda7d1bcdc873d16b8f"
+  },
+  {
+    "path": "HUST data\\9-4.csv",
+    "sha256": "bb13f160bfb370a7ca2cacfc594f5b7294ef1743979354513d30be5d683f34d4"
+  },
+  {
+    "path": "HUST data\\9-5.csv",
+    "sha256": "b8628bd143d06fc84b85ce17a84497ae982d29e02add06a18fdb8d4cd2f0f524"
+  },
+  {
+    "path": "HUST data\\9-6.csv",
+    "sha256": "6d6afd556018e6fa3d2ebdc4bf1e2d19303f9ce38ffe00b5b22b540956e73fc5"
+  },
+  {
+    "path": "HUST data\\9-7.csv",
+    "sha256": "678b28122c08b9a7e9b2b21592991255820276e6d840fe4d8a65971723a8016f"
+  },
+  {
+    "path": "HUST data\\9-8.csv",
+    "sha256": "a913c93dcfa308131ac92f863a882306244b67712e855c955cd389a19e1d7e34"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-1.csv",
+    "sha256": "c78cc807b233117bcd6b4a34e28da14a966ce7c4af8bb2e9e015cae5f00ad8bf"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-10.csv",
+    "sha256": "90ed1d4b765234d2d58366d0f733fe594f30ac20eeb8e87de985838fad63fb49"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-11.csv",
+    "sha256": "a0f2579f6060e7b14d0006ac267f88785708f797dddef54d9a3c7dd0f922d25a"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-12.csv",
+    "sha256": "3cc131df77dfdbc8553ed3427aae56291b3819f719d17e3306bdf7605376cff5"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-13.csv",
+    "sha256": "147f2da2bb006ffd4ea16902189217963a4dc8a8d2bdc948c1605de933a3ff9a"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-14.csv",
+    "sha256": "8caab43e8bb5fc42a8f1a91266126d946df91be51b85c772e8e3ccfc0996b8ec"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-15.csv",
+    "sha256": "0563c450412d1c249d82b2edba33941af847feffa5f551add6994a20147dd810"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-16.csv",
+    "sha256": "e736ec4faf85d47e4dcbb82aa65450f7c85ec74d6091ef0b177afe879f1f4378"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-17.csv",
+    "sha256": "1372965900a06cffdb952b8145b89ae04b56f054a1587583676e2869c2adfa02"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-18.csv",
+    "sha256": "1d58712309f783f8edaea5ec075d4ef85140c36df41d73258dd78fed44f03b4c"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-19.csv",
+    "sha256": "a0d7c24baf1757b18fe92f5e758061bf93247beaf33329e79f98166022a76e25"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-2.csv",
+    "sha256": "aebc1c59fc4ae95a965c525cef99f9f711dfa7509c7a27d7eba84ca9ed1c1d78"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-20.csv",
+    "sha256": "7bbbaf09d60c8d656a27a478776f03839d46c1daf1b6167bc26e9852331a096a"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-21.csv",
+    "sha256": "9ce996bbf68fc07ed97790c5461d1a1bea524cdabc28c2188874e435a32e02fc"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-22.csv",
+    "sha256": "56a8bf69d127f0c5071df8c3c6b6a165cfe8b83eb23635cb5f1ab38531745b2a"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-23.csv",
+    "sha256": "a1c44fcea426efee2b123397b72c329a15a486264cebf988216414aab5bf49fb"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-24.csv",
+    "sha256": "341d34cd13a2e16a4c5a6b5d0490bfc2f96463312f378243089c8744bf037c83"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-25.csv",
+    "sha256": "f16ec7bfc0ea505cba5613ef4bc2b4fdbfa58c0cdbf1985ceb3e1b0c18502813"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-26.csv",
+    "sha256": "bf62887c9e0af84868e2845540d988facc2eb0071332c1cc81d90379faae00d6"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-27.csv",
+    "sha256": "7f3826031d93d1ac55dfc00c28d1eb2a8d973026cba846906ae4b5afe330961d"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-28.csv",
+    "sha256": "2bcc05857fb6fdb49c81bbc163b944a4c20715460ca32e6f2ed47cb3bd89bea8"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-29.csv",
+    "sha256": "d1ff2b3d32bfbff7d82553a81bcdea04acf7d2aed88e0fea9e3483c30ce8d345"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-3.csv",
+    "sha256": "1c8e6f4fd1405d659fd795761cac4160004b53ccc797c64286302d60e8f4b8e2"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-30.csv",
+    "sha256": "41306d43ef1c6b72895bf53c01b9a689deade7e49451a472d9b1ce2e3bd63aa2"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-31.csv",
+    "sha256": "4aaf0f4401f15f5a47c7622ac042c8b20e9d2fef12c4e217975707ae7f3d7744"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-32.csv",
+    "sha256": "cf87418f2af5d33f1f4917b4e1286dd03fbe259335681fd7ab073180709188c3"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-33.csv",
+    "sha256": "db0c233a22b7fa627d65475a04e02e74a8bc85b3f6dc170fb4404adb773f1a5f"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-34.csv",
+    "sha256": "bc12ea5f024c36eecc0723d9f185d1d8ce8aaa2d272041cd05472af697879109"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-35.csv",
+    "sha256": "686b212b3d24ae1dddb8dda5d380c5612f13263efcc233758016eccb760b7b42"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-36.csv",
+    "sha256": "ac902d65bd51ba09055ffd03c9bf4d18d940aa8c4a00ea00c556108c26b4530f"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-37.csv",
+    "sha256": "6ea5fd1945c1578fdc1766019c75bff8cf86a7c83e126387a3f6ff78045a9b76"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-38.csv",
+    "sha256": "2c6b70cd8310bb949ebbe40df0434a26050cab0550c62f2ffba286d56e413157"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-39.csv",
+    "sha256": "a9325e8a54f8b32e45fac5024f9d02367c8b879299d102ee1f2407304f1ddaf0"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-4.csv",
+    "sha256": "c54cbbd289f0474d79359d2613155f95c8acbad5146eb27d622da54e69988302"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-40.csv",
+    "sha256": "a0d78f1d37949dd2ada269416d67ea69177fedd7a980cff594154c421e97b91c"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-41.csv",
+    "sha256": "f2c79022ff4efa586d5efe1da36f42498cfaab2cac957c9a25f8cdb3b9f45166"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-42.csv",
+    "sha256": "f0013a8ec243b98984ba8677541f8222c68ede09af99a2ce3e4fffcca13737ab"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-43.csv",
+    "sha256": "4cc9549374084f0ef47b46030d6d6e63878fa96ce250fc68b7b8579853246ed7"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-44.csv",
+    "sha256": "31e3e58e8a9c828d4ee84f177484aecf105630101966a8a0b4d66a965415fd9a"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-45.csv",
+    "sha256": "0821e841246871cb5763753e0a3e1c05197c781b678e4658ac9fdf1981b78e2a"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-46.csv",
+    "sha256": "1e7f49c76c67ef57d8991aa40c2c788f821790718a5cfe108f1c6e715b88bd27"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-5.csv",
+    "sha256": "5cc7a02bd71d4400d6ba2d025e2fd9da070e867346fdff12d7d7d26baa7b0077"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-6.csv",
+    "sha256": "c338fb5e9bb19bb069ed913b7f4413a1100e5104eec6ff5241dafe5ccf6e6bb2"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-7.csv",
+    "sha256": "1cd7279d6f7439b1462a796ccecaa977f26595fe902bc0d8c222fb5c0fc54305"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-8.csv",
+    "sha256": "7d242e86f4ffe0d20c73cf5c78b5414d42f4152cd409fae52398f11c1ecd6aa2"
+  },
+  {
+    "path": "MIT data\\2017-05-12\\2017-05-12_battery-9.csv",
+    "sha256": "a3332b526d7c10be06690f65f5c4a297a7c575a63dd2914b43d841733612d948"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-1.csv",
+    "sha256": "b1e21732b606041acbbc3d0a2b6a203ecfb79a2990c0b52aa82c8661f139a2df"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-11.csv",
+    "sha256": "cce87c84f9d549503efdf0c53e16136d387f1d98d1f43b19c8d7e68197778a75"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-12.csv",
+    "sha256": "7b0ff715f29f6ebcc91f325aecd2b3d832fb64e8891b8a2bbc9b8bab134c7fa6"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-13.csv",
+    "sha256": "b719dd2ee9ea115091a3a189fa2b22fa532010925b62d6f402dbc657442e6fa5"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-14.csv",
+    "sha256": "02f163e40d027465e61a7d76a6a6bfdf88c9ecdfa3f273f0939db18a86d5fda3"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-15.csv",
+    "sha256": "69c73e326aea9f47b34431b88ec5dfa1b5f182134e068a5ef4ff2c29f041ea79"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-18.csv",
+    "sha256": "4281774be7644cd27dd4457caf071f7e753179945d8774c791aace7b9c971f2e"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-19.csv",
+    "sha256": "a7e693b6cd865bfa338a141e3021f5a249bcbee80df9cbf8638d89cb834b5756"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-2.csv",
+    "sha256": "66c0ea43c7e56deafddb47626691cb083212b11318d9e2a0ee52ed9f2cddc85c"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-20.csv",
+    "sha256": "633efbdf1dff98ebf3f4ca590de38d6fd925679e55b04b1480314a7fe1883f18"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-21.csv",
+    "sha256": "ed9f584b925017118117d1770fedecb25c12d7172cb00c8c307793eec910f213"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-22.csv",
+    "sha256": "dfef2f0142c4edbe324aebc59f927773524e1b1f9bdbf8ccc363db65169d3afb"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-23.csv",
+    "sha256": "385a5ff0840a3c121e61a55184368eea0bbd919e3dc127d7a88bbb5e2a01fddc"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-24.csv",
+    "sha256": "d6aaf71e761471bc590cc34fb4c772d9ba993764afe1330b7d4647c46ea06377"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-25.csv",
+    "sha256": "4aadbc1f0f2c90d9e0d29e9f4f1bfc23fa6a92bb1ff24c8a3f423643decc2d3b"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-26.csv",
+    "sha256": "039754ca7724b87f3b3b08a1d7f38a88f24625b65a216e1f2b6324370b298cc2"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-27.csv",
+    "sha256": "667963eadac24a310d42b02ba3fe314e9371df76c834f7f9c2160602f6a3db5e"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-28.csv",
+    "sha256": "49bb5cf4580e7f2640f2e08b28a9591d792b206f1933e0a1fda7e9b608dcdba4"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-29.csv",
+    "sha256": "7d046a60dc4a7e3a187893e37064477b5cd7bd169934726604475275e3af6711"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-3.csv",
+    "sha256": "8367bf51ee1aa32ce5e085cd9d385cd4be1a4615c7785e668e9b70b2292e2e9b"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-30.csv",
+    "sha256": "7e6cd2d6df8e44f41069d22792ed80801743f51317d6a773186d0c210a4c4d79"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-31.csv",
+    "sha256": "ed172b51003708e9d90b8401a652a2f9594f20600668692885f6ef281c19c92c"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-32.csv",
+    "sha256": "a975e529567e89adfc6f281af559b425dbbf1970ddec74ac013fd895028d03d1"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-33.csv",
+    "sha256": "f0938c1b33870983f25de20140a133967523291bedd634e94886e50e911286c9"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-34.csv",
+    "sha256": "7b72a09ebdea73919c353a12025e751224c499f1f21f76c19b3978bfd040d5cb"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-35.csv",
+    "sha256": "d1df70a293c8f548dd0cc68706b5c66915d72a23c6d32d86f8184b64cbe8cc97"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-36.csv",
+    "sha256": "195a0d1fc9ce531da3442ae5e3729ccab5a93aea9c3fe1aa52f60a8de3643191"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-37.csv",
+    "sha256": "8e780f7bd900c2a844f8a2958582c91633baeca41885958e19007353b312d433"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-38.csv",
+    "sha256": "f90e553b441a9379aa84ca8822fe58090453b48476f5a1af49e15e4e41f80f5b"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-39.csv",
+    "sha256": "25cdaaaf0413adfa6ceba31a830b99a927b69b88ed85c7ecd71489e47c094d33"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-4.csv",
+    "sha256": "bee01c4e950a7355ea26a861ece8f9894fef8cbc54158d2ad1c68585955ad072"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-40.csv",
+    "sha256": "68dafba3b2d9836d044ee5cbb83b5821e8acee03166833295cd6d09efc631c6b"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-41.csv",
+    "sha256": "d337b11cd347e60f80e5e9c089de0de4d5397e979f5b4bdfb72166f8ee571822"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-42.csv",
+    "sha256": "ba9fe0815a30b091bf53e9dae96bd3ed166928a4329686f71c24bd673d69076e"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-43.csv",
+    "sha256": "b91335bd03814fcd0140bcaffaf6821cdcbc0c17bcda8387d8000eba1f9793a8"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-44.csv",
+    "sha256": "d8e94fa2618645a088665acb4fe3e0b0aa17e002fd4459ebf8444eb47cee588b"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-45.csv",
+    "sha256": "d5d8442858744f706d1f3c01a611918b1e656ed29ec83b793061f799bf9770dd"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-46.csv",
+    "sha256": "0499ee7145b29cdf26f7336d5a557fb14293ede782ead5c0690e0ecbfba06573"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-47.csv",
+    "sha256": "7ec80751a9114ae2bc53cf7ac65c067cab4646a28a5c9a43611ac549357d0c9b"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-48.csv",
+    "sha256": "9513b6e8753371cf74bb72e0716860458bc366f6496412185a5a585e7305f44f"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-5.csv",
+    "sha256": "1eb4b6a2638fed234d1a9fde14900f66c7a7640e53420ec3af6e51d196791432"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-6.csv",
+    "sha256": "9fe5731f0f7b3cf89c506f1e5b47f964e2b0fca125dc37e841f03894e93a99fa"
+  },
+  {
+    "path": "MIT data\\2017-06-30\\2017-06-30_battery-7.csv",
+    "sha256": "f115e23a16ae481da715fbee7c7547d4408173657323785bcadf81308c54943d"
+  },
+  {
+    "path": "MIT data\\2018-04-12\\2018-04-12_battery-1.csv",
+    "sha256": "f1ce0602b9f1791415913523510517e98904d5a19ee95327cacf0d198e769e46"
+  },
+  {
+    "path": "MIT data\\2018-04-12\\2018-04-12_battery-10.csv",
+    "sha256": "ab4373c119a237cae6baf7585ac90bee91e43268f3619c7d9e75c4bf9b1402e9"
+  },
+  {
+    "path": "MIT data\\2018-04-12\\2018-04-12_battery-11.csv",
+    "sha256": "a0baf44a92eeea240d14f49e2386589908d9e41ece6fade206fffb40eb3ba293"
+  },
+  {
+    "path": "MIT data\\2018-04-12\\2018-04-12_battery-12.csv",
+    "sha256": "80e618e14b8472d60439624b775493ebd21f9f4f0f23a3cd5c115e5957447c81"
+  },
+  {
+    "path": "MIT data\\2018-04-12\\2018-04-12_battery-14.csv",
+    "sha256": "4fe5068f7265b5209542ff39df45f7a1963cc3c2e9bf02f1c476056ec008d5d0"
+  },
+  {
+    "path": "MIT data\\2018-04-12\\2018-04-12_battery-15.csv",
+    "sha256": "91ee2efe82421b5ae2e063cdcfd58bc30c6f6b38417ed05e3519472cfecb23e1"
+  },
+  {
+    "path": "MIT data\\2018-04-12\\2018-04-12_battery-16.csv",
+    "sha256": "c8afdeed8df8ec121051b94b8637b04cdc002bb137e14c5b307a8f676591e630"
+  },
+  {
+    "path": "MIT data\\2018-04-12\\2018-04-12_battery-18.csv",
+    "sha256": "3c05f27e243d2605b1ff73dd00dbb12553a2831f975eee61a996ef5b5b7ee9a0"
+  },
+  {
+    "path": "MIT data\\2018-04-12\\2018-04-12_battery-19.csv",
+    "sha256": "6f417412be26f9537e33439602060cfd7ec57b83d87cc7d7819e6d5dfa3794d1"
+  },
+  {
+    "path": "MIT data\\2018-04-12\\2018-04-12_battery-2.csv",
+    "sha256": "0920fb25ba8e0c6d29ae0a346f8178b4a54d64fb420c0aa9cb77770ae0507261"
+  },
+  {
+    "path": "MIT data\\2018-04-12\\2018-04-12_battery-21.csv",
+    "sha256": "acbb027018a87880ad09ae671588bfd2d86198e5c7039a75dfaf705d5717274c"
+  },
+  {
+    "path": "MIT data\\2018-04-12\\2018-04-12_battery-22.csv",
+    "sha256": "3c6013a85e98fe2c69ba0fe701161c5d4a731c7be79d3601b6339213fabd75cb"
+  },
+  {
+    "path": "MIT data\\2018-04-12\\2018-04-12_battery-24.csv",
+    "sha256": "b382f16bd97f6dae2cd8bf9c50e74d4538b622c8edd4da06c869706b257e7768"
+  },
+  {
+    "path": "MIT data\\2018-04-12\\2018-04-12_battery-25.csv",
+    "sha256": "e132eda934d61ae241eb485de27548653b770980d02f883b151e55f65f0c6394"
+  },
+  {
+    "path": "MIT data\\2018-04-12\\2018-04-12_battery-26.csv",
+    "sha256": "a1265988a6836283ab48ce0b9387ee9d43f5ab28afb9cc1ca8088fc1d42ab225"
+  },
+  {
+    "path": "MIT data\\2018-04-12\\2018-04-12_battery-27.csv",
+    "sha256": "101d5d9b6bc47917b7c69b4edcce96cf0a5fdb5af84c05dac88ea77d28b94f6f"
+  },
+  {
+    "path": "MIT data\\2018-04-12\\2018-04-12_battery-29.csv",
+    "sha256": "194c12271c928889d9d443e81ffeac39f33b3ca8cde0c77e7a65ab912ad73283"
+  },
+  {
+    "path": "MIT data\\2018-04-12\\2018-04-12_battery-30.csv",
+    "sha256": "bffddca30cf78e73f4f4df2463d4259218b1ebabdc988aa13168f411999662d1"
+  },
+  {
+    "path": "MIT data\\2018-04-12\\2018-04-12_battery-31.csv",
+    "sha256": "51fef5dc85e68dfe85224d6a09603cd1409dbcd9e4f0c0445d4310b972310da5"
+  },
+  {
+    "path": "MIT data\\2018-04-12\\2018-04-12_battery-33.csv",
+    "sha256": "2f541336de3952c6c355db6b93cc90091e4aff725addceacdd72d1b04526aeb9"
+  },
+  {
+    "path": "MIT data\\2018-04-12\\2018-04-12_battery-34.csv",
+    "sha256": "ecb789b265cdb24aaf7fa8d3587c150396c3ee0f6f919b04b88e3e58c4529b07"
+  },
+  {
+    "path": "MIT data\\2018-04-12\\2018-04-12_battery-36.csv",
+    "sha256": "ade0739910b7ea61bdeefbb6df3ba98b6d1530656b559b382d9de30ce66f874d"
+  },
+  {
+    "path": "MIT data\\2018-04-12\\2018-04-12_battery-37.csv",
+    "sha256": "3084e07dd401dbb0dab495ae23db8592db9f3df2692d8f1bc81b69afd894c44c"
+  },
+  {
+    "path": "MIT data\\2018-04-12\\2018-04-12_battery-38.csv",
+    "sha256": "68c79d43a9f74890db019126143c90d36d5453308b745c8f76dc120004b6e49d"
+  },
+  {
+    "path": "MIT data\\2018-04-12\\2018-04-12_battery-39.csv",
+    "sha256": "3145a1907dddd79bbc91c779d847b48c9241abb6a89a838f62c04804cafb75f9"
+  },
+  {
+    "path": "MIT data\\2018-04-12\\2018-04-12_battery-4.csv",
+    "sha256": "47f89479d4c60fbeffca7dcdec92c85a574c635e6a36a7d4c6d269b199f9a1b2"
+  },
+  {
+    "path": "MIT data\\2018-04-12\\2018-04-12_battery-40.csv",
+    "sha256": "da7c14b4bf3073c386ab965980af10390d7fcab5890548d54169a9b10fba6001"
+  },
+  {
+    "path": "MIT data\\2018-04-12\\2018-04-12_battery-41.csv",
+    "sha256": "e263b8246ff7f4439997f221b9c27315f95885e0da6c4877f1ed77c22ea6ae9e"
+  },
+  {
+    "path": "MIT data\\2018-04-12\\2018-04-12_battery-42.csv",
+    "sha256": "cbf4846350049c30664826e6d45f8ad6178d7c313890bcb6a7439911ec9cb7a2"
+  },
+  {
+    "path": "MIT data\\2018-04-12\\2018-04-12_battery-43.csv",
+    "sha256": "d5f02ae7e948e04e648ed9a244c4aa20864c3a4212eccc18ff914b105ee38735"
+  },
+  {
+    "path": "MIT data\\2018-04-12\\2018-04-12_battery-44.csv",
+    "sha256": "2e22612512290239dd36fd871513fe950aec351553e4939045620b99a5afce25"
+  },
+  {
+    "path": "MIT data\\2018-04-12\\2018-04-12_battery-45.csv",
+    "sha256": "b4b84103dfe3a0a2289213fce62d69ba17f552e868d69b66878f61a3f4acc4e2"
+  },
+  {
+    "path": "MIT data\\2018-04-12\\2018-04-12_battery-46.csv",
+    "sha256": "aae48945b5e68481a768507471e2422f75476ba8d43de400a27e7819c098723a"
+  },
+  {
+    "path": "MIT data\\2018-04-12\\2018-04-12_battery-6.csv",
+    "sha256": "ae289ee5833548a5a9fa329e2200d287d44716b2bf510b7b55a71b791e0f7d88"
+  },
+  {
+    "path": "MIT data\\2018-04-12\\2018-04-12_battery-8.csv",
+    "sha256": "a10eef337158161c59b4512d2556614fc732dca0739423be796e9eacad6354be"
+  },
+  {
+    "path": "MIT data\\2018-04-12\\2018-04-12_battery-9.csv",
+    "sha256": "50c33b167c933b90b06784b962db87b31c80b8c333f4e39e497125f82aaac491"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY25-025_1-#1.csv",
+    "sha256": "4ba4c43a8cdff65800fab2eddc1fb68c49e215147dba5530e24033ac2b272ee2"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY25-025_1-#2.csv",
+    "sha256": "97336f57a1541165875882ab7cf7dcc451bfde2d24b12c470fe8748c6b728082"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY25-025_1-#3.csv",
+    "sha256": "9f1ff316b27462c327763513622911f97b2a690b9e7cc2332171c93a55f9add7"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY25-025_1-#4.csv",
+    "sha256": "9f06b9860ed33a69bbfcc24806a6ae55b1bd871e355fbdd4a28ae8272e6bf7fb"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY25-025_1-#5.csv",
+    "sha256": "f7e973adf32b969e6e93135c9e55962532af936233c00350cb3780995b19c7c8"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY25-025_1-#6.csv",
+    "sha256": "bd9f7da43ac885d4265aefe2e216d7299f351143832756e76903325985c30ade"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY25-025_1-#7.csv",
+    "sha256": "b93dd2564c7fe31b0cade978d8d3d4e2de2b2f01f910ad1f2dbd9af706ba7182"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY25-05_1-#1.csv",
+    "sha256": "65a7273e7e59af41225424ab1525b9f8f9f190b9cf5b284b2d4ebc84f8d03e76"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY25-05_1-#10.csv",
+    "sha256": "95f2ffc68ff6266ca1860f5c039bcca7088d278aa2520c212d0c4e61d4910286"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY25-05_1-#11.csv",
+    "sha256": "f73e56566464e28b84c06997ad467fd42ef7a90bfea6b5feb69ff0c6c097dc9e"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY25-05_1-#12.csv",
+    "sha256": "3469e4888b9f97daa0f7344c7ef06182e22fcb43a567a7e70467165f552c486d"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY25-05_1-#13.csv",
+    "sha256": "f9a2b87a1a120054c91a0aca5234dc0034b557b461a9634680d0ea0013feb160"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY25-05_1-#14.csv",
+    "sha256": "5cf1e20130ff79f33ab5adc957da9b450acee119807b981a6ef16be62f8fac0a"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY25-05_1-#15.csv",
+    "sha256": "2502ffabbff8ee9bb5f5393ea862036824099066e30a6e106eff4e2af882f668"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY25-05_1-#16.csv",
+    "sha256": "db50186b42d3b603ab0c32f292922d40bf468758db4fc0e100b0e8642811f5f5"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY25-05_1-#17.csv",
+    "sha256": "9a601305b31c396fed5251a942823eca53ace004c83efef03f631a03a5c552a3"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY25-05_1-#18.csv",
+    "sha256": "0dd235b91ee890cdd3c9c5b3fe7b9fd3af953ff10480726ecbed4f656582936d"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY25-05_1-#19.csv",
+    "sha256": "4470783cee44e2eca599aebe316bf53b44fc3cd3b525a967d228d31c6d9191af"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY25-05_1-#2.csv",
+    "sha256": "48a285d475be9df2228380d7130808b32206447976a39fbd6adb5f22d27ab757"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY25-05_1-#3.csv",
+    "sha256": "512741e0f740104ea85a9730ea313d5f39e2badc50b2d7a7f4e519356d2e8f4c"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY25-05_1-#4.csv",
+    "sha256": "c4aed76bd77fd49bb047d65aedefe6b439cbc930c56d45049de909739a7238ca"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY25-05_1-#5.csv",
+    "sha256": "c153097f0609a2e137fbcb363c7819e3e05ba04e0144dd0d53ff430f6b55f57b"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY25-05_1-#6.csv",
+    "sha256": "33271e8e88bee7179329992e8889677bd35418cd1b05fdec1431e1d62351311b"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY25-05_1-#7.csv",
+    "sha256": "08f6cb70be248b21ca614d93e60fb77e146ee24fd5d898c24b1d5c607adc55fe"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY25-05_1-#8.csv",
+    "sha256": "158a0153d8190000cadb47f8fbb8e3184937f45328eba0502a548f1a128e65b6"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY25-05_1-#9.csv",
+    "sha256": "8ba809e19b7f7215763197255ffd5c502a1e7e3d69ca0d4477460b8ceb2149e3"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY25-1_1-#1.csv",
+    "sha256": "a57d44413c707237fe561d8af2afd857c432f70eb823dd68b9c12c6fb76d2fe0"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY25-1_1-#2.csv",
+    "sha256": "8dce6db7d6056da1037ecf20193eb5471774381b2a9810dc43d8cb93a62b7a3e"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY25-1_1-#3.csv",
+    "sha256": "88578456addb1fbe07442f3d814fdcfd126d41cca14d895e106f9ab10e944b96"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY25-1_1-#4.csv",
+    "sha256": "6167fdf6580cde16265d5b3e7536f07b2955824245967c7f84dcc52507e4dd05"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY25-1_1-#5.csv",
+    "sha256": "56c62d9145a211a01adcd9396bcf66260e6b165625fee70394b6272f70d1d0b3"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY25-1_1-#6.csv",
+    "sha256": "d08ed988f1cd7e6fabfce8f30e86b1c1f5d64f8dda0a191ddfa4e47f723f84fd"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY25-1_1-#7.csv",
+    "sha256": "6c4a8fd8cf64c9ea77888e1038309a5e5b93e27a5c2b647b851828004c9a7822"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY25-1_1-#8.csv",
+    "sha256": "2c05362ae229c05010ef5b2366d7302b969d5cd59a92979cf4bd541644f9ee24"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY25-1_1-#9.csv",
+    "sha256": "0dbb8010aaece2d1a2b3afa9e56d5719c4a8eb102478e57b7a6a6e6cf3377803"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY35-05_1-#1.csv",
+    "sha256": "fe14c5131eaae93b31651d32c480013de33a62afeb1c415f068f8e523ff9f23d"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY35-05_1-#2.csv",
+    "sha256": "4406286ace3b032e7c0d2c9de9189bc3975498cece44d2c7fdea1965dd8fd8af"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY35-05_1-#3.csv",
+    "sha256": "c691a35a491176560104902f3f615f62ddbc1630a791600ae2b48bf4e75346f5"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY45-05_1-#1.csv",
+    "sha256": "d04cca78e1ef51bb5cc9088cfba7806b36553b51c1964aa44ceab80ca75e5dc9"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY45-05_1-#10.csv",
+    "sha256": "4b536faf39f87ca67ba5839055f91bc803d5dc837bce9a5aff97620129a34be9"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY45-05_1-#11.csv",
+    "sha256": "c7402f307195d82bae82343d789047570315ca64fda447d0d1b60a134c5474c8"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY45-05_1-#12.csv",
+    "sha256": "34317f66164de4babcca817eb92099e5a0b7fe322099e964ae3dd56a79c142c1"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY45-05_1-#13.csv",
+    "sha256": "8f2d5d7afe72af67efd7884c4cf01c2f0961fe757dc66b6703dc3760d00d26c3"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY45-05_1-#14.csv",
+    "sha256": "20d58dbe8afbc276ba28286545fd920a6df9a3b3ae1b10c5a16c1c410ea31398"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY45-05_1-#15.csv",
+    "sha256": "0d0ac0fa2a9caa3c596057c9f09dfff24c57c7e7b8fe3f3881a4f67fbb62fcc4"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY45-05_1-#16.csv",
+    "sha256": "10847d37da4878a8905513fc3141abcbc59b29aa6b4a8521f75c7e80085439d9"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY45-05_1-#17.csv",
+    "sha256": "ba8efbac0b0d0bb82eb3d22229b2951d3905dc45097122e404f1ab5b32225225"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY45-05_1-#18.csv",
+    "sha256": "7d489f20974345391ab6eec2dd7c1372fbb6f656aa1657489113d74050b79385"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY45-05_1-#19.csv",
+    "sha256": "7d1cca8f59e82e6521b49ee006b93b48b7146253bed3893c5edac394a570c5bb"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY45-05_1-#2.csv",
+    "sha256": "0b3cc702d552b74017691d2d1e4d9117a88eed649f928ffe3592db43481f111d"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY45-05_1-#20.csv",
+    "sha256": "e4a0259de005f8348f0a334d3f208ad1e66c11a2f0d0f780c041eec22cf21391"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY45-05_1-#21.csv",
+    "sha256": "164f44d3fc33c2e2069f9e486666aff5232921af09050209c41976dda9768b47"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY45-05_1-#22.csv",
+    "sha256": "090c08abcc3e836219c50f27fccabfaf3f2db48c62e5a7484d180acd964ae53d"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY45-05_1-#23.csv",
+    "sha256": "6bb661a39edb9d632b0d5d119ec3d5e0e1a9ece0c472083d7d82f4ad59cff0cb"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY45-05_1-#24.csv",
+    "sha256": "b5c5a4532e9f273fcedf4e16d2ffca33a8e62e67a40774ab95fdf582ce244cc7"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY45-05_1-#25.csv",
+    "sha256": "f581d9c82c88b409452fd1cb96fd08649fb69099ff30937421030cac94819d55"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY45-05_1-#26.csv",
+    "sha256": "757b7207b8ef4e79d825cce74904e27b6e34d66c86ea4faf3d17c562ba50904e"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY45-05_1-#27.csv",
+    "sha256": "ed1cbd4a89af861fc05eac0eb7947cda59a6a918bb2afa62676d5f984e646a01"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY45-05_1-#28.csv",
+    "sha256": "656b6fdfd27ed453e307259e338bb228966974bffff63a5c6cdd5c6009ac82b1"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY45-05_1-#3.csv",
+    "sha256": "f1deb2b8968458739cc88543490554e4798408c5089bb56ce1e0b817a826f6eb"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY45-05_1-#4.csv",
+    "sha256": "629ccbd2aa1edf8210a3cae5f9ce4efea01e1ffadfec4b95a973bffc1e1fa579"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY45-05_1-#5.csv",
+    "sha256": "533340f5ac9d81ab1f6e521212d9aca35cf05d9fe6a004d4e2884d8ddc187181"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY45-05_1-#6.csv",
+    "sha256": "e379397c9816eb5dc34828d2a56d1463a8454047ea6bd398da61d0b2855b0af0"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY45-05_1-#7.csv",
+    "sha256": "ccacfd515cf4082c8bda7f2f173095428b462029127a41dc250d3d7f3361f80d"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY45-05_1-#8.csv",
+    "sha256": "3039f766dd5f04e95c9c6407ee616e68b52c205ed76c6379d534213e361c96fe"
+  },
+  {
+    "path": "TJU data\\Dataset_1_NCA_battery\\CY45-05_1-#9.csv",
+    "sha256": "db07e09b9009e6256ef959f40b06c2767be72f5a8fa211239bb50bffabdfcee2"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY25-05_1-#1.csv",
+    "sha256": "d091726a5960963f0334b064a0dfd58d40e9b7ce7c8e24aa6cad28fd2b27c232"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY25-05_1-#10.csv",
+    "sha256": "899a8d4a3846f7e30a937c21e0345e3ba9a332f43563ca12e0b40542fac314cb"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY25-05_1-#11.csv",
+    "sha256": "568eb9c775425eccc31fe9eb030292a41ac3d3465615deeff1ace9bc84f155ff"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY25-05_1-#12.csv",
+    "sha256": "b714e04d5ebba58bb466acaf780f98c93edb95fbb53072b0e48ddde9f75bbfb7"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY25-05_1-#13.csv",
+    "sha256": "8a11b584ae798591ba7f5a8eb1904bd65a3d94c7df31c29329f5c964fcf6d191"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY25-05_1-#14.csv",
+    "sha256": "7dca889b333b0f102d16a1231600e82a18c3957688ce3f3d0732d2025ef002a8"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY25-05_1-#15.csv",
+    "sha256": "241ffb6ee6972378e89d9cfecc3f030223af492460945ea719ab8eb80312f947"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY25-05_1-#16.csv",
+    "sha256": "02f65d5b656a389a998ab72204ae9229d6974c2cb88aa24db36d21924b67bcae"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY25-05_1-#17.csv",
+    "sha256": "23afc8daf3eed6748690b33bdc35687664141b862f16ae3762512d8aaaf96966"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY25-05_1-#18.csv",
+    "sha256": "9ecff000aca4573c237e99c9213f35b6c3761b8ca50f7421f7784ddc552e3285"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY25-05_1-#19.csv",
+    "sha256": "3eedaf12fb46ea117cd18d4c35c8f638d5c626cff3214642f159b5b166ab9d22"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY25-05_1-#2.csv",
+    "sha256": "c518102bd52d8ff96cfa2b80f7afa0f9656bf949533d9916d800875a73fb0395"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY25-05_1-#20.csv",
+    "sha256": "75545915790daaa3b89115463c450c5662cf872227ef9c09d56ba68227317650"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY25-05_1-#21.csv",
+    "sha256": "be56b8bd9c1b8b6ac5e3d2bff7bcfbc22b6380153fc5c3b66bbe162eab64e7c2"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY25-05_1-#22.csv",
+    "sha256": "83c1465ca7d779d896694699d0b68f2d8fbc8c36be97ae2adcf105f7698485c5"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY25-05_1-#23.csv",
+    "sha256": "3ea434f1253179ec6baf16d7b1d4bc45ec280c8c50133bc2062165ddbf1247da"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY25-05_1-#3.csv",
+    "sha256": "b0915490c5982e30562c9ea9090f980e7a402e03e96cc07938eeacf8996226cb"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY25-05_1-#4.csv",
+    "sha256": "78e86ad445ef7207049cf84beaef51da37cae3f36b8618d3fcf05f32c2e03519"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY25-05_1-#5.csv",
+    "sha256": "7f58903f15663cd3d777ea1509b6f056411b0990d2e97e39291970c0aeab7a53"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY25-05_1-#6.csv",
+    "sha256": "b8742682816faf10182e3af57928eb66be204872454729e5654dd2ba7baaa17f"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY25-05_1-#7.csv",
+    "sha256": "10a43f63c2c713bcb0fcca2e304cb0be14d308a082c73ce98ed5da0fe80b068d"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY25-05_1-#8.csv",
+    "sha256": "c7f1102e7db05fffccf60b35e2a0596cfca3aea5bbe09531588311d614299e34"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY25-05_1-#9.csv",
+    "sha256": "2695f455879d9aae804b0765392a74ffc01ee9ef18ebec49ea7beb49a97dff95"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY35-05_1-#1.csv",
+    "sha256": "a55dbeec526089d41929187e25308a2c30a99c5ec85f6c8f8e25c753754322a3"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY35-05_1-#2.csv",
+    "sha256": "c653f8c53ce50762ac6fcee1bc8a38cef0079b9401e29446b69a72d39699e061"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY35-05_1-#3.csv",
+    "sha256": "2470f6c7e0c017611f6a549bb968cd86db69c31af228bc9baf5a5fa23e85cfbd"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY35-05_1-#4.csv",
+    "sha256": "9c2c0a1e59eacd78ff6aa92a57d48165e15e199560763dc37aaad5bb86e40c35"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY45-05_1-#1.csv",
+    "sha256": "6c5f300c24da2725e5ca4747a03f7d68d9842e5b9c8dda01991296be2c47a81c"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY45-05_1-#10.csv",
+    "sha256": "a66f312386a6d3c491aa749f6fcc777c727f0dc589cbce7915845a86819790d7"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY45-05_1-#11.csv",
+    "sha256": "7a08a34069ae19bf050067d8269028a0079709862d4473c2521eda0c28265609"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY45-05_1-#12.csv",
+    "sha256": "6e74e246fc8cd6f1d95f1bae39560901944bb00a62a38346dbf00fc967e39929"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY45-05_1-#13.csv",
+    "sha256": "3595e2ef6de10ba531428acbc002d3c5602cbca0135cd6bbefbec186a0a3e6e7"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY45-05_1-#14.csv",
+    "sha256": "979d69ce87e0680b596129d5a2608476907749d950a320871873c9fc09530543"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY45-05_1-#15.csv",
+    "sha256": "ae1456dbf5a707800770dccbac17dc58a7eb48fc6c433bee24d0bc9ec8762523"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY45-05_1-#16.csv",
+    "sha256": "72c589dbcd3927377a9c5f34254560af9170961a9ab5239cd811bb26a8d28c92"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY45-05_1-#17.csv",
+    "sha256": "655634db2b1ceedf2d5fbdf4ca500f4edb4da993e8aa5e4f338649c859e340ac"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY45-05_1-#18.csv",
+    "sha256": "35f23abe9fd075ca79a293fdd56b3e4cc02e61a088ab610e0381c5dcb40acb97"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY45-05_1-#19.csv",
+    "sha256": "2bba4943570dc84189f009a710cea0f2eb08dfc4ae6a07c3bf6cc30132e123a5"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY45-05_1-#2.csv",
+    "sha256": "3c1a2bdc7397a511a77262eab045daefa004f23fd9f539605deb9a17bc05d801"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY45-05_1-#20.csv",
+    "sha256": "acd82018844d9e3045980c5946278ef4e8111379a5f71e24a4684176ddc11522"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY45-05_1-#21.csv",
+    "sha256": "6b1a64cd1bbe827506ceff1ac7e33c74a52caaabef12a20fd31a871a015204a3"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY45-05_1-#22.csv",
+    "sha256": "bc6ceab814b7c9c484a7c3686fec04dc81375b434ccb8fe87eab310f50669780"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY45-05_1-#23.csv",
+    "sha256": "bded7f35cd9b4e496aa525c479fda98cfa6aa2b4971b6601cafcbc16f3b52e64"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY45-05_1-#24.csv",
+    "sha256": "50769ad197421ceb91b6ea94e2dc80c8360e59b7c88b7af2e69d63b07d436af9"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY45-05_1-#25.csv",
+    "sha256": "2e9b5c891448863e25ea4182f1050ea7685d0b800c7a06af0e5e876f3eb9854b"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY45-05_1-#26.csv",
+    "sha256": "c0b6f0dfeae500af7fb6f0860197dcfd5b179746c9c32184d2db3aaac2931d71"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY45-05_1-#27.csv",
+    "sha256": "7b9655a37db824f6daeef60077bfa93fb26fd864e53366fac5c7d4d5ab2cdd0b"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY45-05_1-#28.csv",
+    "sha256": "3134b3add423379710b8db552b34a0a612875e49a7d39555cbe511d9e00914a4"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY45-05_1-#3.csv",
+    "sha256": "488ab30d1e61259dec13e513d9d30919b78b46463c49687b58a402564e81d166"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY45-05_1-#4.csv",
+    "sha256": "0dd78822e7fe151d729789458d0ff892ed78708520d1728ffb48e98df11cadb1"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY45-05_1-#5.csv",
+    "sha256": "f6d3d54a2d73328481d0ef8a74a1d1ab6e9c69c4a31c09c11fd208b331a4d50a"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY45-05_1-#6.csv",
+    "sha256": "1ab5a6536f58b598460a9b43786b4595cd88d434911f21c63a0fb27ab0cc0cd8"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY45-05_1-#7.csv",
+    "sha256": "defe32123809305a7e1806c8385e1d2929ae775d6c6ef4d1ac5d73babe64a1f6"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY45-05_1-#8.csv",
+    "sha256": "d501fa474776bd7b71caa25f8174aaff40a8a7529e4877f035900dd689803252"
+  },
+  {
+    "path": "TJU data\\Dataset_2_NCM_battery\\CY45-05_1-#9.csv",
+    "sha256": "3cdd502f8d451a2b21533f4fd82a4b7b4a31dd8d22b412416662f601df3cc82a"
+  },
+  {
+    "path": "TJU data\\Dataset_3_NCM_NCA_battery\\CY25-05_1-#1.csv",
+    "sha256": "4b473afe71947d7bba791f7c48ffad575de25528ab86cb60e6022ac271a956da"
+  },
+  {
+    "path": "TJU data\\Dataset_3_NCM_NCA_battery\\CY25-05_1-#2.csv",
+    "sha256": "c0f5674f29822de7f63fe1cdca39a926cedd4e8d56352073b1bbbceb04f2bfa1"
+  },
+  {
+    "path": "TJU data\\Dataset_3_NCM_NCA_battery\\CY25-05_1-#3.csv",
+    "sha256": "02a60a168a59f1f13e95d41ec5aa769a35856f96b2f37e7e2713082addc891a3"
+  },
+  {
+    "path": "TJU data\\Dataset_3_NCM_NCA_battery\\CY25-05_2-#1.csv",
+    "sha256": "ffda923ac1207f1020393ceb1d325bb88fb79de681c01110bfb616a133c1ea22"
+  },
+  {
+    "path": "TJU data\\Dataset_3_NCM_NCA_battery\\CY25-05_2-#2.csv",
+    "sha256": "d6705db893d289f0e43501489522a61299eba3b286582a51eeb35c49bd8998fe"
+  },
+  {
+    "path": "TJU data\\Dataset_3_NCM_NCA_battery\\CY25-05_2-#3.csv",
+    "sha256": "b159acb392ccea5328427d38e85ed47dac3ad7f18f3a070d77ea796f42830fa7"
+  },
+  {
+    "path": "TJU data\\Dataset_3_NCM_NCA_battery\\CY25-05_4-#1.csv",
+    "sha256": "5b1926e7908743c8c809a3eb9854e7db38c2a778a137e3bf86b672ea845ecbe6"
+  },
+  {
+    "path": "TJU data\\Dataset_3_NCM_NCA_battery\\CY25-05_4-#2.csv",
+    "sha256": "e484e07703450dee5e76e6ef6fd56fdb42641f69b38cfa96b152bd411c8995fb"
+  },
+  {
+    "path": "TJU data\\Dataset_3_NCM_NCA_battery\\CY25-05_4-#3.csv",
+    "sha256": "3469813c88de8b4c3e65b768e297cbd41a01eb717ccaefd55f6f394718cf071c"
+  },
+  {
+    "path": "XJTU data\\2C_battery-1.csv",
+    "sha256": "03c9650af431fa33f4460b40c5b405a8f66883320c5074797841712b35762906"
+  },
+  {
+    "path": "XJTU data\\2C_battery-2.csv",
+    "sha256": "237763560c8d1cb1ed107fb8da709fe00039cacbd0cad86f8a3574c7d956d1ce"
+  },
+  {
+    "path": "XJTU data\\2C_battery-3.csv",
+    "sha256": "445645dd74590d9f5803e728603e9cbfef8748b6d42fbf844b63ba2fbabe171a"
+  },
+  {
+    "path": "XJTU data\\2C_battery-4.csv",
+    "sha256": "d716a9c37172285fba15357a34f061229ae64966169af2f390e937ee914bf81d"
+  },
+  {
+    "path": "XJTU data\\2C_battery-5.csv",
+    "sha256": "b68db594771f3f685570494da0831a9f7ab84a7d786fc93bdea61157197c62d3"
+  },
+  {
+    "path": "XJTU data\\2C_battery-6.csv",
+    "sha256": "76d98970ce925e2a97da8a716e6c3dfffb705ec41b899c2252f4c9db0a23cd27"
+  },
+  {
+    "path": "XJTU data\\2C_battery-7.csv",
+    "sha256": "dcd8385013c03ea8c37f227a569a30fc2cc9c5189311572b11ca196ca1591753"
+  },
+  {
+    "path": "XJTU data\\2C_battery-8.csv",
+    "sha256": "76f37a24be04a6e23c179a1882bff2f46be29cc767010a85cfb0087bf0ab9c30"
+  },
+  {
+    "path": "XJTU data\\3C_battery-1.csv",
+    "sha256": "aed8165d1996777d6bd4d5e241ff89f97631db0be305f58a65866c2bfc310a4e"
+  },
+  {
+    "path": "XJTU data\\3C_battery-10.csv",
+    "sha256": "2a46cd1e38b9c80ea542d72bbf54580bb9bee7541881278965f6f9861d030eed"
+  },
+  {
+    "path": "XJTU data\\3C_battery-11.csv",
+    "sha256": "d2d814cfc63647c18e55ce7614504708375b6c83e3493b84fec08db3759a1e27"
+  },
+  {
+    "path": "XJTU data\\3C_battery-12.csv",
+    "sha256": "81f5aaca7c1adf1b271c4f3ef8e54862840712de204fc3c7a4bc361832a06c32"
+  },
+  {
+    "path": "XJTU data\\3C_battery-13.csv",
+    "sha256": "737cbcdee43866daa7a0cf552f409299bbfa5b3bf250daf58095bf22b8c275f6"
+  },
+  {
+    "path": "XJTU data\\3C_battery-14.csv",
+    "sha256": "4fe7d9989383d66b7092beb42cef7dced013574f5967b94002db0108ed0d8cf8"
+  },
+  {
+    "path": "XJTU data\\3C_battery-15.csv",
+    "sha256": "5b92457851cc2dee3afccea4928538128c67ae62d712bf1bd1597cc096b15db9"
+  },
+  {
+    "path": "XJTU data\\3C_battery-2.csv",
+    "sha256": "96aec5f9035616c3a317920a99bafc9839d6f2e3d6b3050908cd5d5abf54f852"
+  },
+  {
+    "path": "XJTU data\\3C_battery-3.csv",
+    "sha256": "d639f3a418802090194594b0574bad8de00a049d88962bfec973774fd681f5b8"
+  },
+  {
+    "path": "XJTU data\\3C_battery-4.csv",
+    "sha256": "edfac29debe83b2d99e8e2f7a7c84669ebf3198ecf7ee34f2176e400b5398019"
+  },
+  {
+    "path": "XJTU data\\3C_battery-5.csv",
+    "sha256": "74e32a4aacab3a5d9bc3b63fa09f1cf31a07cbd38fc65a9dec276c4037e5e3f5"
+  },
+  {
+    "path": "XJTU data\\3C_battery-6.csv",
+    "sha256": "eff95f58d0253fa58a5accddeee009794e06d7d296a0ea9e2afe53735a4f5e17"
+  },
+  {
+    "path": "XJTU data\\3C_battery-7.csv",
+    "sha256": "b4a1fa74b9b40c392be1f65195a1ea71000ddebbca142bf65305bc8cabca0374"
+  },
+  {
+    "path": "XJTU data\\3C_battery-8.csv",
+    "sha256": "eb073f97fdb7171bb57c615e7eade1277e8d8165d6ec89f5400c95d9ce80368f"
+  },
+  {
+    "path": "XJTU data\\3C_battery-9.csv",
+    "sha256": "3224980c0c4a491af607ee60effa309ad0c2e66bd1c3ee6102c874f6d49f89ca"
+  },
+  {
+    "path": "XJTU data\\R2.5_battery-1.csv",
+    "sha256": "ebc6e781e5b8778ca696869dd3317ba27727428a5d4abb538e69e4530fe3d55a"
+  },
+  {
+    "path": "XJTU data\\R2.5_battery-2.csv",
+    "sha256": "e2a041d3f358e929ba61e5d01c7544b6c395dfc70ed8927a0002b62f889c1efa"
+  },
+  {
+    "path": "XJTU data\\R2.5_battery-3.csv",
+    "sha256": "63b738ed69bef77b464335749f9194c0223130bfa1e3c2cb161124dd65ea50e3"
+  },
+  {
+    "path": "XJTU data\\R2.5_battery-4.csv",
+    "sha256": "e2d735cbd7ef6e6ee9d5ad04de3f792445fb57573164cbf9bb0d1837ffb26d31"
+  },
+  {
+    "path": "XJTU data\\R2.5_battery-5.csv",
+    "sha256": "1d9b174249067870ffe252b602a33d52bb54a1675cf32050b5fdf4b089f33f63"
+  },
+  {
+    "path": "XJTU data\\R2.5_battery-6.csv",
+    "sha256": "ecd913a64d3cd5811b18222fc70d8cf46fb3083477d098669e24d5930406501f"
+  },
+  {
+    "path": "XJTU data\\R2.5_battery-7.csv",
+    "sha256": "a1e60f906bbff87817872e4e69bc6f33ea3d59c6f7df1b50b1a05d739e1d29ac"
+  },
+  {
+    "path": "XJTU data\\R2.5_battery-8.csv",
+    "sha256": "d8251561568e2f0af7e9d98a859885f0defdd8758be3af5bd005d3f607708355"
+  },
+  {
+    "path": "XJTU data\\R3_battery-1.csv",
+    "sha256": "e4d76272938f45214bd1fc242697895a62fff529d6080bfd02b8af595b64a1ac"
+  },
+  {
+    "path": "XJTU data\\R3_battery-2.csv",
+    "sha256": "57d263dcbab60e23db7c1aadb46ef478eb7f93d36b792e1d95c8f653415624ef"
+  },
+  {
+    "path": "XJTU data\\R3_battery-3.csv",
+    "sha256": "093a34a573ddbaf4992eca68bb53850f57de06c645aed4ec03fefe83c0c92c77"
+  },
+  {
+    "path": "XJTU data\\R3_battery-4.csv",
+    "sha256": "99f6783755db160086e31b38496f17b7da37495ed5cd42bdd89a6b00e001925a"
+  },
+  {
+    "path": "XJTU data\\R3_battery-5.csv",
+    "sha256": "4a9f16525462f0e3907b1630b2f9d344b685ddaae8e1209e1408599a0f05e2ab"
+  },
+  {
+    "path": "XJTU data\\R3_battery-6.csv",
+    "sha256": "27b04a68d17c0cf9a4aed069adc42eb81c44e410bb36af6faa084303926abd8e"
+  },
+  {
+    "path": "XJTU data\\R3_battery-7.csv",
+    "sha256": "c5f602cbf9c9965e3213b0178b02b8f9e6f72ebfc0189fcc5ec4643a0f49a504"
+  },
+  {
+    "path": "XJTU data\\R3_battery-8.csv",
+    "sha256": "39c6f20e190627ca5c87e98d405cee4dfb40623d8792dce5f1409ef6f93e4510"
+  },
+  {
+    "path": "XJTU data\\RW_battery-1.csv",
+    "sha256": "7acb1d767ca204ace29a52c9166af0e26420df729c6e66a34b3001e3698007de"
+  },
+  {
+    "path": "XJTU data\\RW_battery-2.csv",
+    "sha256": "9ef7ad8692514bc6210154778aa77042dfe021366cdda9a35bd2cc1f26fc4ecb"
+  },
+  {
+    "path": "XJTU data\\RW_battery-3.csv",
+    "sha256": "4c96961737f814864702715c005a0948bfb86b011f1ed952792ca9a3441c3dc6"
+  },
+  {
+    "path": "XJTU data\\RW_battery-4.csv",
+    "sha256": "6d39debc943a56b8c142c2f45a07388efa0056faa9846304537c2da9bb7acab1"
+  },
+  {
+    "path": "XJTU data\\RW_battery-5.csv",
+    "sha256": "2510c84e670c4f1b6756b279ea80c9ef0c70124e8d2abc87f90ddf00eaaa21bc"
+  },
+  {
+    "path": "XJTU data\\RW_battery-6.csv",
+    "sha256": "1ad4f85cb33a96caf7a7c99e372933475e249f11c83f8d08ccb281184d430338"
+  },
+  {
+    "path": "XJTU data\\RW_battery-7.csv",
+    "sha256": "f9156de5b18cc5c8798c1f6c0a5465e5806342a004d188e3db7e732dba616678"
+  },
+  {
+    "path": "XJTU data\\RW_battery-8.csv",
+    "sha256": "51f3e3c14f75a70965c8a879c64cd5428c84257f8ab457eaec13c7dca81f1e77"
+  },
+  {
+    "path": "XJTU data\\Sim_satellite_battery-1.csv",
+    "sha256": "b21590bbc1e0d3ef90e81e5090b6e1170161005a6f35894bd51384ad6632fa0f"
+  },
+  {
+    "path": "XJTU data\\Sim_satellite_battery-2.csv",
+    "sha256": "886f7962b46517d7e3b3eecf3e7237c207e7eeef981dc236f598440223505538"
+  },
+  {
+    "path": "XJTU data\\Sim_satellite_battery-3.csv",
+    "sha256": "2d20ab04b0120b6853eb3fdb8bb365b3c3399605cb8dd3603314f6201270c303"
+  },
+  {
+    "path": "XJTU data\\Sim_satellite_battery-4.csv",
+    "sha256": "79bb3c3df5e86b3c6eac73794336a7accf4248e736fbba7f941103f50d5bcc11"
+  },
+  {
+    "path": "XJTU data\\Sim_satellite_battery-5.csv",
+    "sha256": "88fe3dceb6395b119215b3ad61e6b83103608a35c2809637148645c3f681a63f"
+  },
+  {
+    "path": "XJTU data\\Sim_satellite_battery-6.csv",
+    "sha256": "35d28e5d3fc5ae5af5d7e49d77d08e96232ab08ee5a79e0644a24f857c83f371"
+  },
+  {
+    "path": "XJTU data\\Sim_satellite_battery-7.csv",
+    "sha256": "6f6bcf7254d142bebf0512844fb6242c17549878f614a889b69106f9ecf57d68"
+  },
+  {
+    "path": "XJTU data\\Sim_satellite_battery-8.csv",
+    "sha256": "a7479743f58e0a51710ac5d1038d4cfd021091eb9e3b675d5ab4e3cfae7d0e31"
+  }
+]

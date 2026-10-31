@@ -1,0 +1,77 @@
+{
+  "datasets": {
+    "Oxford": {
+      "5": {
+        "dataset_specific_acfc": {
+          "id": "Oxford_088",
+          "method": "feature_residual",
+          "transform": "support_guard",
+          "strength": 0.001
+        },
+        "dataset_specific_feature_ridge": {
+          "id": "Oxford_094",
+          "method": "standalone_feature_ridge",
+          "transform": "support_guard",
+          "strength": 0.001
+        },
+        "dataset_specific_embedding_ridge": {
+          "id": "Oxford_068",
+          "method": "standalone_embedding_ridge",
+          "transform": "clip5",
+          "strength": 0.01
+        }
+      },
+      "10": {
+        "dataset_specific_acfc": {
+          "id": "Oxford_073",
+          "method": "feature_residual",
+          "transform": "raw",
+          "strength": 0.01
+        },
+        "dataset_specific_feature_ridge": {
+          "id": "Oxford_062",
+          "method": "standalone_feature_ridge",
+          "transform": "clip5",
+          "strength": 0.001
+        },
+        "dataset_specific_embedding_ridge": {
+          "id": "Oxford_068",
+          "method": "standalone_embedding_ridge",
+          "transform": "clip5",
+          "strength": 0.01
+        }
+      },
+      "20": {
+        "dataset_specific_acfc": {
+          "id": "Oxford_073",
+          "method": "feature_residual",
+          "transform": "raw",
+          "strength": 0.01
+        },
+        "dataset_specific_feature_ridge": {
+          "id": "Oxford_094",
+          "method": "standalone_feature_ridge",
+          "transform": "support_guard",
+          "strength": 0.001
+        },
+        "dataset_specific_embedding_ridge": {
+          "id": "Oxford_100",
+          "method": "standalone_embedding_ridge",
+          "transform": "support_guard",
+          "strength": 0.01
+        }
+      }
+    }
+  },
+  "selection_metric": "raw protocol/battery macro MAE, equal seed/client weights",
+  "selection_data": "development protocols/batteries only",
+  "evaluation_query_labels_used": false,
+  "registration_sha256": "d33b8cc8fb5c96087ec280e595653f81a3127f6a7565ab0007d8e5917ab85407",
+  "source_checkpoint_hashes": {
+    "source_seed_20260903.pt": "523a1cf48ae8d596084fe3c7013a46b2bd73e6fdf788264ba7e96439b907579d",
+    "source_seed_20260904.pt": "cde7b1a4ef2d8bbd94bcb5d0bfebc238f79607e206cba0ffe58e272bee45e2a1",
+    "source_seed_20260905.pt": "49305674e50164c827700b0ba96e17613023a29e04372aa63f8b4f8f7e5f5ef0"
+  },
+  "archive_scope": "Oxford",
+  "original_registration_sha256": "71a6edb4099b5cd715dc2584603b82bd0fd87af105ccadd2e960bd7c44d6534d"
+}

@@ -1,0 +1,13 @@
+information,domains,earliest_visibility,paper_method_access,native_17dim_controls_access,interpretation
+16 CC/CV统计量 + cycle_index,all,当前充电记录结束,yes,yes,同周期估计输入；不是未来周期预测
+材料/来源元数据,all,设备/数据源身份预先已知,yes,yes,各对照使用材料标准化和来源级适配表；FedAvg不是无域信息
+前20条SOH标签及对应观测,all,第20条记录之后,yes,yes,标签预算一致；学习率/轮数策略与后续算子须分别披露
+当前窗口形状/积分/温度/质量,"HUST,NCA/TJU,XJTU",当前充电窗口结束,yes,no,额外的可观测输入；缓存全部列不等于实际使用列
+MIT协议C1/切换SOC/C2与窗口质量,MIT,协议预先已知或当前窗口结束,yes,no,按QUALITY白名单输入；不是增加SOH标签
+NCA QV粗形状与已知实验温度,NCA/TJU,协议预先已知或当前窗口结束,yes,no,仅适用0.5C/1C组；缺失回退不能删评估记录
+3.8–4.0V部分充电量,XJTU,当前电压窗口结束,yes,no,部分充电观测，不是放电容量标签
+最近16条已观测记录的斜率/偏离,XJTU,当前及过去16条观测,yes,no,历史特征可用；不读取未来观测或总轨迹长度
+支持集相对特征、趋势和上下文,按域,前20条支持观测/标签 + 当前观测,yes,partly,同一20条标签的确定性变换，不计作额外标签
+MIT分支输出/差值、NCA模型raw、XJTU专家输出,按域,由本文方法内部模型产生,yes,no,是内部预测，不是共同原始信息；不能直接喂给对照冒充输入匹配
+目标全轨迹统计量,clustering implementation,需要未来未观测记录,replaced by support20 router,not allowed,本次225条路线相同且174642条预测重放通过，可复用权重
+查询SOH/放电容量、未来观测、总寿命,all,评价或轨迹结束后,forbidden as predictor inputs,forbidden,真实值只在最终评分阶段读取；电池ID仅分组/匹配，不作数值特征

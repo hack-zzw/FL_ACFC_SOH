@@ -1,0 +1,26 @@
+{
+  "projected": {
+    "capacity_shared_to_domain_mae_reduction_pct": 8.080018546099733,
+    "capacity_paired95_low": -0.0020948155120222,
+    "capacity_paired95_high": 0.0004937164051228,
+    "random_to_learned_embedding_mae_reduction_pct": 11.824618348308032,
+    "representation_paired95_low": -0.0019148639647911,
+    "representation_paired95_high": -0.0004321654240677,
+    "domain_head_at_flat_mae_reduction_pct": 26.891839442360183,
+    "domain_head_at_hierarchy_mae_reduction_pct": 24.4602171089108,
+    "encoder_hierarchy_at_global_head_mae_reduction_pct": 2.0312075573417485,
+    "encoder_hierarchy_at_domain_head_mae_change_pct": 1.227294665495813
+  },
+  "clip_only": {
+    "capacity_shared_to_domain_mae_reduction_pct": 12.569848206169675,
+    "capacity_paired95_low": -0.0016937441520489,
+    "capacity_paired95_high": -5.457573505124185e-05,
+    "random_to_learned_embedding_mae_reduction_pct": 15.437040909469236,
+    "representation_paired95_low": -0.0020597295576613,
+    "representation_paired95_high": -0.0003750341495596,
+    "domain_head_at_flat_mae_reduction_pct": 35.082635697499256,
+    "domain_head_at_hierarchy_mae_reduction_pct": 32.918874956540456,
+    "encoder_hierarchy_at_global_head_mae_reduction_pct": 1.5815157441360967,
+    "encoder_hierarchy_at_domain_head_mae_change_pct": 1.6988708628307339
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "registered_at": "2026-10-28T23:01:04.513649+08:00",
+  "configs": [
+    {
+      "stage": "01_capacity",
+      "name": "shared",
+      "scope": "shared",
+      "kind": "learned"
+    },
+    {
+      "stage": "01_capacity",
+      "name": "material",
+      "scope": "material",
+      "kind": "learned"
+    },
+    {
+      "stage": "01_capacity",
+      "name": "domain",
+      "scope": "domain",
+      "kind": "learned"
+    }
+  ],
+  "source_folds": 5,
+  "script_sha256": "f0edc058dc316dac389773f2f1f3fab141773a421c234d0a984cd452fdd3e6d2",
+  "common_sha256": "09216d6a59ad1487b032a4419d066455f89aa6fa10de10a4edfaae2f20a288e9",
+  "source_cv": "head-level; inherited frozen encoder and source scaler; not complete out-of-fold model training",
+  "selection_metric": "domain-equal battery-macro MAE with fixed projected output",
+  "checkpoint_grid": [
+    5,
+    10,
+    20
+  ],
+  "optimizer": "AdamW lr1e-3 weight_decay1e-4",
+  "batch": 4096,
+  "loss": "Huber delta .05",
+  "calibration": "delta=sum(support_y-pred_support)/40",
+  "feature_whitelist_inherited": true,
+  "protocol_sha256": "934eacd64637718dca6a7fa2a7c4d01a3547492a2b7276aeed68c8c48448f83c"
+}

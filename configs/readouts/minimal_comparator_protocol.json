@@ -1,0 +1,110 @@
+{
+  "protocol_id": "information_matched_simple_readouts_20shot_20261026",
+  "status": "specified_not_executed",
+  "purpose": "Determine whether simple source-trained mappings given the same observable information can explain the final predictor performance.",
+  "method_is_frozen": true,
+  "method_protocol": "recorded-source/final_method_protocol.json",
+  "target": {
+    "batteries": 75,
+    "support": "first20 retained observations and labels",
+    "query": "all retained records from index20 onward",
+    "query_records": 58214,
+    "query_selection_frozen": true
+  },
+  "seeds": [
+    20260903,
+    20260904,
+    20260905
+  ],
+  "final_ensemble": "same fixed arithmetic mean of three outputs per readout",
+  "source_encoder_training_runs": 0,
+  "encoder": "Reuse each frozen source-only global ACfC encoder;no source/target fine-tuning.",
+  "final_readout_configurations": [
+    {
+      "id": "M1_shared_mapping",
+      "head": "shared ridge coefficients;5 known-domain intercept offsets"
+    },
+    {
+      "id": "M2_domain_mapping",
+      "head": "5 domain-specific ridge coefficient blocks;all other steps identical to M1"
+    }
+  ],
+  "final_model_sets": 6,
+  "counts": "2 readout settings x3 frozen encoder components=6 final fitted model sets;M2 contains5 domain blocks. Source-only CV adds lightweight candidate fits.",
+  "information": "recorded-source/matched_comparator_input_whitelist.json",
+  "source_data": {
+    "batteries": 303,
+    "records": 242461,
+    "post_support_query_records": 236401,
+    "trajectory_access": "full source trajectories;all20 support and subsequent source labels allowed",
+    "interpretation": "conservative source-label exposure upper-bound reference;not equal source record/optimization budget to every paper branch",
+    "reason": "paper base encoder/reference use85%prefix while some residual/conditional heads use full source trajectories",
+    "exact_per_branch_exposure_unified": false
+  },
+  "head_normalization": "fit on training source batteries only per fold;one shared feature schema for M1/M2;mean impute+missing flag+clip normalized numeric features to[-10,10]",
+  "learning_objective": "source-domain-equal then source-battery-equal mean squared residual error + lambda*sum(nonintercept coefficients^2)",
+  "raw_prediction": "support median SOH plus source ridge response;known-domain intercept available in both settings",
+  "target_intercept_adaptation": {
+    "formula": "delta=sum_{20 support}(y - raw_support_prediction)/(20+20)",
+    "slope_adaptation": false,
+    "query_label_access": false,
+    "shared_between_readouts": true
+  },
+  "source_only_lambda_selection": {
+    "grid": [
+      0.001,
+      0.01,
+      0.1,
+      1.0,
+      10.0
+    ],
+    "folds": "5 battery folds;SHA256 UTF8 battery_id integer modulo5;persist fold assignments before fitting",
+    "criterion": "domain-equal battery-macro MAE on held source battery post-support records",
+    "tie_break": "choose larger lambda among tied scores within1e-12",
+    "independent_per_readout": true,
+    "target_metrics_forbidden": true,
+    "scope": "head-level source validation;encoder already trained on source85 prefix,so not full-pipeline out-of-fold validation"
+  },
+  "source_client_implementation": "accumulate weighted XTX/XTy per original source client;sum sufficient statistics;do not export raw source rows as a claimed FL requirement",
+  "prediction_variants": {
+    "primary": "support-anchor cumulative minimum then clip[0,1.1],same for M1/M2",
+    "sensitivity": "clip-only;export both for every setting without target-based selection",
+    "rationale": "identical postprocessing between simple readouts;paper has its own frozen branch-level operators,so not a complete-method one-factor ablation"
+  },
+  "evaluation": [
+    "pooled MAE/RMSE/R2",
+    "75battery macro MAE/RMSE/R2",
+    "5domain battery macro metrics",
+    "paired battery MAE differences",
+    "individual component metrics as supplement,not ensemble uncertainty"
+  ],
+  "acceptance_checks": [
+    "58214 identical query keys and truths",
+    "75 batteries retained despite missing QV",
+    "20 support labels per battery only",
+    "query label rejection",
+    "future perturbation/prefix invariance",
+    "source asset hashes unchanged",
+    "fixed ensemble weights",
+    "no target-based lambda/routing/variant selection"
+  ],
+  "interpretation_limits": [
+    "M1vsM2 isolates domain-specific slopes within this fixed simple mapping family.",
+    "It does not quantify the domain-boundary contribution inside the complete paper predictor.",
+    "It does not establish independent ACfC/attention/balance contributions.",
+    "A source-trained ridge reference is a deliberately simple check,not proof all strong same-information competitors are worse.",
+    "The75 batteries retain their development evaluation status;these comparisons do not create a new blind holdout."
+  ],
+  "execution_order": [
+    "freeze source battery fold IDs and numeric design schema",
+    "fit M1/M2 using source-onlylambda selection",
+    "apply support20 adaptation and emit all query predictions",
+    "equal3 aggregation and paired battery report",
+    "update paper claims according to actual results"
+  ],
+  "optional_after_this_only_if_claims_retained": [
+    "Refit a common downstream prediction family on saved GRU/LSTM/KAN encoders to make an encoder-specific attribution.",
+    "Refit all dependent downstream components for balance/attention source-training interventions.",
+    "Define complete5/10shot feature/quality/head rules before retaining full-method label-budget curves."
+  ]
+}

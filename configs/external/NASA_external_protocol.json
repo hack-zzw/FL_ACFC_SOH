@@ -1,0 +1,49 @@
+{
+  "source_initialization": "global source state;exact match to frozen paper components",
+  "shots": [
+    20,
+    40,
+    60
+  ],
+  "shared_query": "ten long-trajectory batteries;record60..79;200queries",
+  "candidates": {
+    "20": {
+      "variant": "dual",
+      "prior_strength": 1.0,
+      "scope": "last",
+      "rounds": 10,
+      "strength": 1.0,
+      "alpha": 1.0
+    },
+    "40": {
+      "variant": "dual",
+      "prior_strength": 1.0,
+      "scope": "last",
+      "rounds": 10,
+      "strength": 1.0,
+      "alpha": 1.0
+    },
+    "60": {
+      "variant": "dual",
+      "prior_strength": 0.1,
+      "scope": "last",
+      "rounds": 10,
+      "strength": 1.0,
+      "alpha": 1.0
+    }
+  },
+  "support_residual_policies": {
+    "20": "trend_10",
+    "40": "trend_1",
+    "60": "trend_1"
+  },
+  "encoder_update": "scope=last updates second CfC cell,attention and projection;not a fully frozen encoder",
+  "statement_correction_required": true,
+  "raw_query_labels_used_for_fitting": false,
+  "output_aggregation": "equal3 final outputs;one fixed ensemble",
+  "replay_passed": true,
+  "source_prediction_sha256": "ade6a1f173c84077552809d0e471677427aac4475191cde746df336dd154dfc0",
+  "prediction_path": "recorded-source/personalization_predictions.csv",
+  "policy_sha256": "60ea5a379ebdbc73b219cbeb8076db6f431f993c6104ff8c6987db349b0e3e99",
+  "personalization_policy_sha256": "0d11df1d23f92233f8731c87bd21f97c2f91c7907d217c3d9eda1e09f13edca4"
+}

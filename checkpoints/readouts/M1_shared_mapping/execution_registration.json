@@ -1,0 +1,13 @@
+{
+  "arm": "M1_shared_mapping",
+  "fit_script_sha256": "9e85845ff098276536c03543eb183d0e4a92ee43b8826221650b01aaabd5e17e",
+  "registration_sha256": "467a754d562925957834c46bc34e8afb4333f6e0bbd10ff2101e811edbe258b0",
+  "lambda_grid": [
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "no_target_scores_accessed": true
+}

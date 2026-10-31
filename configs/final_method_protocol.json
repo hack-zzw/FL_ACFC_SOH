@@ -1,0 +1,383 @@
+{
+  "method_id": "paper_method_20shot_equal3_20261025",
+  "display_name": "材料—来源分层联邦ACfC健康状态估计方法",
+  "model_selection": "user-selected frozen complete component bundles",
+  "components": [
+    {
+      "seed": 20260903,
+      "path": "checkpoints/main/seed_20260903.pt",
+      "sha256": "5cea9a4911a386a8e5c2173ed6b600c18d72a31fdfa3f1d2d1561ab00a8286ab",
+      "bytes": 321109
+    },
+    {
+      "seed": 20260904,
+      "path": "checkpoints/main/seed_20260904.pt",
+      "sha256": "a6c4b402b1005cb28d5938b12487556831392c11195538b3c656d6935eb96859",
+      "bytes": 321045
+    },
+    {
+      "seed": 20260905,
+      "path": "checkpoints/main/seed_20260905.pt",
+      "sha256": "15f720f487bfac7febf753dda7bc905400e505a0d59af207fc2111a54a3adb58",
+      "bytes": 321045
+    }
+  ],
+  "aggregation": {
+    "rule": "arithmetic mean of final predictions for all five domains",
+    "weights": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "apply_per_component_postprocessing_before_averaging": true,
+    "additional_projection_after_averaging": false,
+    "ensemble_repetitions": 1,
+    "component_seed_SD_is_not_ensemble_SD": true
+  },
+  "data": {
+    "source_batteries": 303,
+    "target_batteries": 75,
+    "total_batteries": 378,
+    "source_clients": 12,
+    "target_clients": 5,
+    "split_seed": 20260903,
+    "queries": 58214,
+    "support_labels_per_battery": 20,
+    "support": "first20 retained records",
+    "query": "retained record index>=20",
+    "timestamp_unit": "retained observation record;not necessarily native cycle interval",
+    "core_features": [
+      "voltage mean",
+      "voltage std",
+      "voltage kurtosis",
+      "voltage skewness",
+      "CC Q",
+      "CC charge time",
+      "voltage slope",
+      "voltage entropy",
+      "current mean",
+      "current std",
+      "current kurtosis",
+      "current skewness",
+      "CV Q",
+      "CV charge time",
+      "current slope",
+      "current entropy",
+      "cycle_index"
+    ],
+    "domain_observable_inputs": {
+      "NCA|TJU": [
+        "window_match",
+        "native_delta_cycle",
+        "cc_points",
+        "cv_points",
+        "cc_v_span",
+        "cc_current_A",
+        "cc_current_cv",
+        "cc_voltage_time_curvature",
+        "cc_time_fraction_0",
+        "cc_time_fraction_1",
+        "cc_time_fraction_2",
+        "cc_q_fraction_0",
+        "cc_q_fraction_1",
+        "cc_q_fraction_2",
+        "cc_integrated_Ah",
+        "cv_integrated_Ah",
+        "cc_counter_integral_difference",
+        "cv_counter_integral_difference",
+        "cv_time_high_fraction",
+        "cv_log_i_slope",
+        "cv_log_i_rmse",
+        "cv_log_i_curvature",
+        "cc_temperature_mean",
+        "cv_temperature_mean",
+        "cc_temperature_change",
+        "cv_temperature_change",
+        "cc_max_gap_s",
+        "cv_max_gap_s"
+      ],
+      "NCM|XJTU": [
+        "window_match",
+        "native_delta_cycle",
+        "cc_points",
+        "cv_points",
+        "cc_v_span",
+        "cc_current_A",
+        "cc_current_cv",
+        "cc_voltage_time_curvature",
+        "cc_time_fraction_0",
+        "cc_time_fraction_1",
+        "cc_time_fraction_2",
+        "cc_q_fraction_0",
+        "cc_q_fraction_1",
+        "cc_q_fraction_2",
+        "cc_integrated_Ah",
+        "cv_integrated_Ah",
+        "cc_counter_integral_difference",
+        "cv_counter_integral_difference",
+        "cv_time_high_fraction",
+        "cv_log_i_slope",
+        "cv_log_i_rmse",
+        "cv_log_i_curvature",
+        "cc_temperature_mean",
+        "cv_temperature_mean",
+        "cc_temperature_change",
+        "cv_temperature_change",
+        "cc_max_gap_s",
+        "cv_max_gap_s"
+      ],
+      "LFP|HUST": [
+        "window_match",
+        "native_delta_cycle",
+        "cc_points",
+        "cv_points",
+        "cc_v_span",
+        "cc_current_A",
+        "cc_current_cv",
+        "cc_voltage_time_curvature",
+        "cc_time_fraction_0",
+        "cc_time_fraction_1",
+        "cc_time_fraction_2",
+        "cc_q_fraction_0",
+        "cc_q_fraction_1",
+        "cc_q_fraction_2",
+        "cc_integrated_Ah",
+        "cv_integrated_Ah",
+        "cc_counter_integral_difference",
+        "cv_counter_integral_difference",
+        "cv_time_high_fraction",
+        "cv_log_i_slope",
+        "cv_log_i_rmse",
+        "cv_log_i_curvature",
+        "cc_temperature_mean",
+        "cv_temperature_mean",
+        "cc_temperature_change",
+        "cv_temperature_change",
+        "cc_max_gap_s",
+        "cv_max_gap_s"
+      ],
+      "LFP|MIT": [
+        "window_match",
+        "native_delta_cycle",
+        "protocol_C1",
+        "protocol_switch_SOC",
+        "protocol_C2",
+        "cc_points",
+        "cv_points",
+        "cc_start_v",
+        "cc_end_v",
+        "cc_v_span",
+        "cc_dt_max_s",
+        "cv_dt_max_s",
+        "cc_i_median",
+        "cc_i_cv",
+        "cv_time_high_s",
+        "cv_time_low_s",
+        "cv_time_high_fraction",
+        "cv_log_i_slope",
+        "cv_log_i_rmse",
+        "cc_temperature_mean",
+        "cv_temperature_mean",
+        "cc_temperature_change",
+        "cv_temperature_change",
+        "cc_bin0_time_fraction",
+        "cc_bin1_time_fraction",
+        "cc_bin2_time_fraction",
+        "cc_bin0_q_fraction",
+        "cc_bin1_q_fraction",
+        "cc_bin2_q_fraction"
+      ]
+    },
+    "MIT_quality_inputs": [
+      "window_match",
+      "protocol_C1",
+      "protocol_switch_SOC",
+      "protocol_C2",
+      "cc_points",
+      "cv_points",
+      "cc_v_span",
+      "cc_dt_max_s",
+      "cv_dt_max_s",
+      "cc_i_median",
+      "cc_i_cv",
+      "cv_time_high_fraction",
+      "cv_log_i_slope",
+      "cv_log_i_rmse"
+    ]
+  },
+  "domain_components": {
+    "LFP|HUST": "ACfC branch + 224-dimensional conditional curve head, width32;fixed0.5 branch fusion",
+    "LFP|MIT": "ACfC branch + support-relative reference mapping;fixed0.5 fusion;bounded quality residual",
+    "NCA|TJU": "224-dimensional conditional head,width16;rate-specific/private1C residuals;coarse-QV1C/0.5C correction;condition fallback and branch projection",
+    "NCM|TJU": "domain ACfC predictor with20-label support adaptation",
+    "NCM|XJTU": "ACfC/224D branch and coverage-driven238D ordinary/226D protected experts;causal16-observation history;temperature transport and continuous routing"
+  },
+  "metrics": {
+    "primary": "domain battery-macro MAE,MAPE,RMSE,R2",
+    "secondary": [
+      "pooled record-level",
+      "all75battery-macro",
+      "five-domain-equal macro"
+    ],
+    "r2_constant_rule": "undefined when within-battery SST<=1e-12;report valid counts",
+    "uncertainty": "one fixed ensemble point estimate;component variability separate",
+    "raw_prediction": "auxiliary branch output;MIT quality residual is not included in raw_soh;do not treat raw as universal preprojection output"
+  },
+  "support_budget": {
+    "validated": [
+      20
+    ],
+    "unvalidated": [
+      0,
+      5,
+      10
+    ],
+    "internal_RNG_replay": "retain stored5/10/20 call order for exact20shot component replay"
+  },
+  "training": {
+    "backbone": {
+      "rounds": 45,
+      "local_epochs": 2,
+      "batch_size": 256,
+      "learning_rate": 0.001,
+      "loss": "supervised Huber",
+      "source_time_fraction": 0.85,
+      "material_scaler_fitted_on": "source85% prefix",
+      "encoder_is_recordwise": true
+    },
+    "domain_training": "per-domain training records saved in component_metadata;some heads use full-source trajectories;85% does not describe the whole predictor",
+    "support_adaptation": {
+      "LFP|HUST": {
+        "5": {
+          "learning_rate": 3e-05,
+          "epochs": 5,
+          "monotonic_projection": true
+        },
+        "10": {
+          "learning_rate": 3e-05,
+          "epochs": 5,
+          "monotonic_projection": true
+        },
+        "20": {
+          "learning_rate": 3e-05,
+          "epochs": 5,
+          "monotonic_projection": true
+        }
+      },
+      "LFP|MIT": {
+        "5": {
+          "learning_rate": 0.0003,
+          "epochs": 8,
+          "monotonic_projection": true
+        },
+        "10": {
+          "learning_rate": 0.0003,
+          "epochs": 8,
+          "monotonic_projection": true
+        },
+        "20": {
+          "learning_rate": 0.0003,
+          "epochs": 8,
+          "monotonic_projection": true
+        }
+      },
+      "NCA|TJU": {
+        "5": {
+          "learning_rate": 0.0001,
+          "epochs": 5,
+          "monotonic_projection": true
+        },
+        "10": {
+          "learning_rate": 3e-05,
+          "epochs": 10,
+          "monotonic_projection": true
+        },
+        "20": {
+          "learning_rate": 0.0003,
+          "epochs": 1,
+          "monotonic_projection": true
+        }
+      },
+      "NCM|TJU": {
+        "5": {
+          "learning_rate": 0.0001,
+          "epochs": 8,
+          "monotonic_projection": true
+        },
+        "10": {
+          "learning_rate": 0.0001,
+          "epochs": 8,
+          "monotonic_projection": true
+        },
+        "20": {
+          "learning_rate": 0.0001,
+          "epochs": 8,
+          "monotonic_projection": true
+        }
+      },
+      "NCM|XJTU": {
+        "5": {
+          "learning_rate": 0.0001,
+          "epochs": 3,
+          "monotonic_projection": false
+        },
+        "10": {
+          "learning_rate": 1e-05,
+          "epochs": 5,
+          "monotonic_projection": true
+        },
+        "20": {
+          "learning_rate": 0.0001,
+          "epochs": 1,
+          "monotonic_projection": true
+        }
+      }
+    },
+    "source_only_training_no_query_label_input": true
+  },
+  "base_parameter_counts": {
+    "single_base_model": 7333,
+    "encoder": 6116,
+    "base_predictor": 1217
+  },
+  "limitations": {
+    "data_use": "source and target reused for development",
+    "independent_test": false,
+    "history_independent_effect_established": false,
+    "immutable_qualification_record": "recorded-source/decision.json",
+    "qualification_record_modified": false
+  },
+  "required_evidence": {
+    "manifest": "recorded-source/checksums.json",
+    "battery_manifest": "recorded-source/battery_manifest.csv",
+    "client_manifest": "recorded-source/client_manifest.csv",
+    "query_manifest": "recorded-source/query_manifest.csv",
+    "feature_schema": "recorded-source/feature_schema.json",
+    "temperature_metadata": "recorded-source/nca_protocol_metadata.json"
+  },
+  "external_client_protocols": {
+    "NASA": {
+      "source": "identical global component states",
+      "budget": [
+        20,
+        40,
+        60
+      ],
+      "query": "10batteries;record60..79",
+      "shared_encoding": "dual embedding/raw;last encoder layer selected for adaptation;support-only trend_10 at20 and trend_1 at40/60",
+      "details": "../step3_experiment_audit/NASA_external_protocol.json"
+    },
+    "Oxford": {
+      "source": "identical global component states",
+      "budget": [
+        0,
+        5,
+        10,
+        20
+      ],
+      "query": "3held-out batteries;record>=20",
+      "shared_encoding": "frozen encoder;support-fitted residual;raw output",
+      "details": "../step3_experiment_audit/Oxford_external_protocol.json"
+    }
+  }
+}

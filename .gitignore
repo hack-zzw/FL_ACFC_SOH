@@ -1,0 +1,5 @@
+results/generated/
+__pycache__/
+*.py[cod]
+.idea/
+.vscode/

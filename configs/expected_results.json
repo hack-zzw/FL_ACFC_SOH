@@ -1,0 +1,83 @@
+{
+  "main_queries": 58214,
+  "target_batteries": 75,
+  "support_labels": 1500,
+  "ensemble_components": 3,
+  "pooled": {
+    "mae": 0.009347051198636335,
+    "rmse": 0.017265080409686273,
+    "r2": 0.963488486334106
+  },
+  "domain_metrics": [
+    {
+      "domain": "LFP|HUST",
+      "name": "HUST",
+      "batteries": 15,
+      "queries": 27625,
+      "estimator": "one fixed equal3 output ensemble;equal battery metrics",
+      "mae": 0.013646046112739986,
+      "mape": 1.5301547885395763,
+      "rmse": 0.022953185801248395,
+      "r2": 0.9088809975062039,
+      "bias": 0.004300851074213045,
+      "r2_valid": 15,
+      "pct_records_abs_error_le_1pp": 65.59638009049775
+    },
+    {
+      "domain": "LFP|MIT",
+      "name": "MIT",
+      "batteries": 25,
+      "queries": 15683,
+      "estimator": "one fixed equal3 output ensemble;equal battery metrics",
+      "mae": 0.004516572182153989,
+      "mape": 0.4909973020439356,
+      "rmse": 0.006562941159577784,
+      "r2": 0.9161405946352725,
+      "bias": 0.0006075419297117333,
+      "r2_valid": 25,
+      "pct_records_abs_error_le_1pp": 94.15290441879742
+    },
+    {
+      "domain": "NCA|TJU",
+      "name": "NCA/TJU",
+      "batteries": 13,
+      "queries": 4771,
+      "estimator": "one fixed equal3 output ensemble;equal battery metrics",
+      "mae": 0.005207496357014305,
+      "mape": 0.6486879279384087,
+      "rmse": 0.006519718076735848,
+      "r2": 0.9414248675163223,
+      "bias": -0.0003465807442122075,
+      "r2_valid": 13,
+      "pct_records_abs_error_le_1pp": 94.50848878641794
+    },
+    {
+      "domain": "NCM|TJU",
+      "name": "NCM/TJU",
+      "batteries": 11,
+      "queries": 6229,
+      "estimator": "one fixed equal3 output ensemble;equal battery metrics",
+      "mae": 0.009004093860544297,
+      "mape": 1.1179860428011221,
+      "rmse": 0.010258559949438193,
+      "r2": 0.9134069301227036,
+      "bias": 0.008513806890471345,
+      "r2_valid": 11,
+      "pct_records_abs_error_le_1pp": 52.59271151067587
+    },
+    {
+      "domain": "NCM|XJTU",
+      "name": "XJTU",
+      "batteries": 11,
+      "queries": 3906,
+      "estimator": "one fixed equal3 output ensemble;equal battery metrics",
+      "mae": 0.0086326233135184,
+      "mape": 0.9389140804217774,
+      "rmse": 0.011030887549554615,
+      "r2": 0.9131335081259674,
+      "bias": -0.0034228417864398605,
+      "r2_valid": 11,
+      "pct_records_abs_error_le_1pp": 72.452636968766
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+dataset,shots,estimator,batteries,queries,mae,mape,rmse,r2,encoder_scope,local_rounds,support_residual_policy
+NASA,20,fixed equal3 final-output ensemble;record pooled,10,200,0.045446795977108406,6.983415469752696,0.05507271052419116,0.8396028737852295,last,10,trend_10
+NASA,40,fixed equal3 final-output ensemble;record pooled,10,200,0.022747161429858866,3.1750582693378244,0.02947301278420808,0.9540619300907405,last,10,trend_1
+NASA,60,fixed equal3 final-output ensemble;record pooled,10,200,0.015371080618753741,2.1691211954951326,0.020200929220246768,0.9784192579714153,last,10,trend_1

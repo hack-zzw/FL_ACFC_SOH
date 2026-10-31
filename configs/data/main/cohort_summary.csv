@@ -1,0 +1,11 @@
+partition,domain,batteries,clients,records
+source,LFP|HUST,62,2,116441
+source,LFP|MIT,100,2,69394
+source,NCA|TJU,53,4,16866
+source,NCM|TJU,44,2,20740
+source,NCM|XJTU,44,2,19020
+target_test,LFP|HUST,15,1,27925
+target_test,LFP|MIT,25,1,16183
+target_test,NCA|TJU,13,1,5031
+target_test,NCM|TJU,11,1,6449
+target_test,NCM|XJTU,11,1,4126

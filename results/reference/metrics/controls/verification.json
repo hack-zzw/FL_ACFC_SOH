@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "completed_at": "2026-10-28T23:19:00.671881+08:00",
+  "stages": [
+    "01_capacity",
+    "02_representation",
+    "03_semantic_groups",
+    "04_federated"
+  ],
+  "ensemble_metric_recomputations": 32,
+  "maximum_metric_difference": 7.105427357601002e-15,
+  "final_model_references": 48,
+  "unique_trained_final_models": 42,
+  "original_complete_model_components_hash_verified": 3,
+  "protected_files_and_caches_unchanged": true,
+  "source_epoch_selection_reproduced": true,
+  "three_component_averaging_verified": true,
+  "script_hashes": {
+    "scripts\\check_federated_implementation.py": "c65855500f2eb4b0b1f085ba6e10e84bbb594ab35e36ce27b99693c55024210d",
+    "scripts\\common.py": "09216d6a59ad1487b032a4419d066455f89aa6fa10de10a4edfaae2f20a288e9",
+    "scripts\\finalize.py": "832d14645ac6939ee72998092f61563c62ed83dbd78e7b69a8ff03aeb92a7c6f",
+    "scripts\\preflight.py": "457bae36c4d2dc976e33713064fb7c610ae0cee4a6fd197ea1f16bce14879633",
+    "scripts\\run_federated.py": "2c92aacde0f5d38cc6b43913abe256147e0aa57f9abb97fb9bedf025fba827b3",
+    "scripts\\run_readouts.py": "f0edc058dc316dac389773f2f1f3fab141773a421c234d0a984cd452fdd3e6d2",
+    "scripts\\run_remaining.py": "8b590c0cdd3425e808f1d60af930c3a1a17b77fd6fa6aa68cc19286a23e78828"
+  },
+  "post_training_interpretation_script_sha256": "7455dcc0eb6fa7f6a0281e2abf8fc6a949004ff3c6dd47af60da2392a289cbc6"
+}

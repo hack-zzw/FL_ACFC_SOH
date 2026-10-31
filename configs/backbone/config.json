@@ -1,0 +1,153 @@
+{
+  "方法": [
+    "material_source_acfc"
+  ],
+  "shots": [
+    20
+  ],
+  "随机种子": [
+    20260903,
+    20260904,
+    20260905
+  ],
+  "联邦轮数": 45,
+  "本地训练轮数": 2,
+  "目标训练轮数": 3,
+  "批大小": 256,
+  "学习率": 0.001,
+  "目标学习率": 0.0005,
+  "物理损失权重": 0.0,
+  "单调损失权重": 0.0,
+  "范围损失权重": 0.0,
+  "FedProx系数": 0.0001,
+  "隐私噪声系数": 0.0,
+  "隐私裁剪范数": 1.0,
+  "启用安全聚合": true,
+  "SOH下限": 0.0,
+  "SOH上限": 1.1,
+  "物理退化率尺度": 0.05,
+  "设备": "cuda",
+  "最大文件数": null,
+  "每文件最大行数": null,
+  "数据划分种子": 20260903,
+  "保存电池明细": true,
+  "模型类型": "acfc",
+  "启用物理约束": false,
+  "额外参数": {
+    "材料标准化": true,
+    "数据目录": "data",
+    "常驻显存训练": true,
+    "客户端内电池等权采样": true,
+    "域等权共享编码器": true,
+    "来源级FedProx": false,
+    "来源级FedProx域": [],
+    "序列窗口长度": 16,
+    "CfC时间步长": 1.0,
+    "CfC时间常数初始化": "original_uniform",
+    "Episode支持周期": 5,
+    "Episode查询最小周期": 5,
+    "协议适配器隐藏维度": 12,
+    "预测头适配策略": {},
+    "来源预测头适配策略": {
+      "LFP|HUST": {
+        "5": {
+          "learning_rate": 3e-05,
+          "epochs": 5,
+          "monotonic_projection": true
+        },
+        "10": {
+          "learning_rate": 3e-05,
+          "epochs": 5,
+          "monotonic_projection": true
+        },
+        "20": {
+          "learning_rate": 3e-05,
+          "epochs": 5,
+          "monotonic_projection": true
+        }
+      },
+      "LFP|MIT": {
+        "5": {
+          "learning_rate": 0.0003,
+          "epochs": 8,
+          "monotonic_projection": true
+        },
+        "10": {
+          "learning_rate": 0.0003,
+          "epochs": 8,
+          "monotonic_projection": true
+        },
+        "20": {
+          "learning_rate": 0.0003,
+          "epochs": 8,
+          "monotonic_projection": true
+        }
+      },
+      "NCA|TJU": {
+        "5": {
+          "learning_rate": 0.0001,
+          "epochs": 5,
+          "monotonic_projection": true
+        },
+        "10": {
+          "learning_rate": 3e-05,
+          "epochs": 10,
+          "monotonic_projection": true
+        },
+        "20": {
+          "learning_rate": 0.0003,
+          "epochs": 1,
+          "monotonic_projection": true
+        }
+      },
+      "NCM|TJU": {
+        "5": {
+          "learning_rate": 0.0001,
+          "epochs": 8,
+          "monotonic_projection": true
+        },
+        "10": {
+          "learning_rate": 0.0001,
+          "epochs": 8,
+          "monotonic_projection": true
+        },
+        "20": {
+          "learning_rate": 0.0001,
+          "epochs": 8,
+          "monotonic_projection": true
+        }
+      },
+      "NCM|XJTU": {
+        "5": {
+          "learning_rate": 0.0001,
+          "epochs": 3,
+          "monotonic_projection": false
+        },
+        "10": {
+          "learning_rate": 1e-05,
+          "epochs": 5,
+          "monotonic_projection": true
+        },
+        "20": {
+          "learning_rate": 0.0001,
+          "epochs": 1,
+          "monotonic_projection": true
+        }
+      }
+    },
+    "单调预测投影": false,
+    "隐私预算估计": {
+      "epsilon": null,
+      "delta": 1e-05,
+      "说明": "未启用可报告的高斯差分隐私"
+    },
+    "启用协议适配器": false,
+    "情景协议等权聚合": false,
+    "启用协议元数据": false,
+    "few_shot适配模块": "predictor",
+    "固定查询起点": 20,
+    "支持集窗口": "prefix"
+  },
+  "物理权重表": {},
+  "单调权重表": {}
+}

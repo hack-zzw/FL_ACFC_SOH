@@ -1,0 +1,7 @@
+method,variant,independent_sklearn_metric_max_error,all_queries_retained
+M1_shared_mapping,projected,7.28583859910259e-17,True
+Mmid_material_mapping,projected,2.7755575615628914e-17,True
+M2_domain_mapping,projected,6.245004513516506e-17,True
+M1_shared_mapping,clip_only,8.326672684688674e-17,True
+Mmid_material_mapping,clip_only,1.1102230246251565e-16,True
+M2_domain_mapping,clip_only,1.1102230246251565e-16,True

@@ -1,0 +1,12 @@
+{
+  "selected": {
+    "5": "trend_1",
+    "10": "trend_1",
+    "20": "trend_10",
+    "40": "trend_1",
+    "60": "trend_1"
+  },
+  "minimum_improvement": 0.01,
+  "selection_labels": "support only",
+  "baseline_policy_sha256": "60ea5a379ebdbc73b219cbeb8076db6f431f993c6104ff8c6987db349b0e3e99"
+}

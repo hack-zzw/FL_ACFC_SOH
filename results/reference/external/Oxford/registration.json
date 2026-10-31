@@ -1,0 +1,953 @@
+{
+  "split": {
+    "split_seed": 20261007,
+    "split_uses_labels": false,
+    "NASA": {
+      "strata": {
+        "room": [
+          "NASA_01",
+          "NASA_02",
+          "NASA_03",
+          "NASA_09"
+        ],
+        "high_or_mixed": [
+          "NASA_04",
+          "NASA_05"
+        ],
+        "cold": [
+          "NASA_06",
+          "NASA_07",
+          "NASA_08"
+        ]
+      },
+      "evaluation_protocols": [
+        "NASA_03",
+        "NASA_04",
+        "NASA_08"
+      ],
+      "development_protocols": [
+        "NASA_01",
+        "NASA_02",
+        "NASA_05",
+        "NASA_06",
+        "NASA_07",
+        "NASA_09"
+      ]
+    },
+    "Oxford": {
+      "evaluation_batteries": [
+        "Oxford_40C_Urban_Artemis_1C_characterization_every_100_cycles_Cell1",
+        "Oxford_40C_Urban_Artemis_1C_characterization_every_100_cycles_Cell4",
+        "Oxford_40C_Urban_Artemis_1C_characterization_every_100_cycles_Cell6"
+      ],
+      "development_batteries": [
+        "Oxford_40C_Urban_Artemis_1C_characterization_every_100_cycles_Cell2",
+        "Oxford_40C_Urban_Artemis_1C_characterization_every_100_cycles_Cell3",
+        "Oxford_40C_Urban_Artemis_1C_characterization_every_100_cycles_Cell5",
+        "Oxford_40C_Urban_Artemis_1C_characterization_every_100_cycles_Cell7",
+        "Oxford_40C_Urban_Artemis_1C_characterization_every_100_cycles_Cell8"
+      ]
+    },
+    "query_start_record": 20,
+    "minimum_records": 22,
+    "support_labels_per_battery": [
+      5,
+      10,
+      20
+    ],
+    "interpretation": "Previously examined data: development holdout, not a new untouched test"
+  },
+  "candidates": {
+    "Oxford": [
+      {
+        "id": "Oxford_000",
+        "method": "bias",
+        "transform": "raw"
+      },
+      {
+        "id": "Oxford_001",
+        "method": "affine",
+        "transform": "raw",
+        "strength": 0.0001
+      },
+      {
+        "id": "Oxford_002",
+        "method": "affine",
+        "transform": "raw",
+        "strength": 0.01
+      },
+      {
+        "id": "Oxford_003",
+        "method": "affine",
+        "transform": "raw",
+        "strength": 1.0
+      },
+      {
+        "id": "Oxford_004",
+        "method": "embedding_residual",
+        "transform": "raw",
+        "strength": 0.1
+      },
+      {
+        "id": "Oxford_005",
+        "method": "embedding_residual",
+        "transform": "raw",
+        "strength": 1.0
+      },
+      {
+        "id": "Oxford_006",
+        "method": "embedding_residual",
+        "transform": "raw",
+        "strength": 10.0
+      },
+      {
+        "id": "Oxford_007",
+        "method": "feature_residual",
+        "transform": "raw",
+        "strength": 0.1
+      },
+      {
+        "id": "Oxford_008",
+        "method": "feature_residual",
+        "transform": "raw",
+        "strength": 1.0
+      },
+      {
+        "id": "Oxford_009",
+        "method": "feature_residual",
+        "transform": "raw",
+        "strength": 10.0
+      },
+      {
+        "id": "Oxford_010",
+        "method": "bias",
+        "transform": "clip5"
+      },
+      {
+        "id": "Oxford_011",
+        "method": "affine",
+        "transform": "clip5",
+        "strength": 0.0001
+      },
+      {
+        "id": "Oxford_012",
+        "method": "affine",
+        "transform": "clip5",
+        "strength": 0.01
+      },
+      {
+        "id": "Oxford_013",
+        "method": "affine",
+        "transform": "clip5",
+        "strength": 1.0
+      },
+      {
+        "id": "Oxford_014",
+        "method": "embedding_residual",
+        "transform": "clip5",
+        "strength": 0.1
+      },
+      {
+        "id": "Oxford_015",
+        "method": "embedding_residual",
+        "transform": "clip5",
+        "strength": 1.0
+      },
+      {
+        "id": "Oxford_016",
+        "method": "embedding_residual",
+        "transform": "clip5",
+        "strength": 10.0
+      },
+      {
+        "id": "Oxford_017",
+        "method": "feature_residual",
+        "transform": "clip5",
+        "strength": 0.1
+      },
+      {
+        "id": "Oxford_018",
+        "method": "feature_residual",
+        "transform": "clip5",
+        "strength": 1.0
+      },
+      {
+        "id": "Oxford_019",
+        "method": "feature_residual",
+        "transform": "clip5",
+        "strength": 10.0
+      },
+      {
+        "id": "Oxford_020",
+        "method": "bias",
+        "transform": "support_guard"
+      },
+      {
+        "id": "Oxford_021",
+        "method": "affine",
+        "transform": "support_guard",
+        "strength": 0.0001
+      },
+      {
+        "id": "Oxford_022",
+        "method": "affine",
+        "transform": "support_guard",
+        "strength": 0.01
+      },
+      {
+        "id": "Oxford_023",
+        "method": "affine",
+        "transform": "support_guard",
+        "strength": 1.0
+      },
+      {
+        "id": "Oxford_024",
+        "method": "embedding_residual",
+        "transform": "support_guard",
+        "strength": 0.1
+      },
+      {
+        "id": "Oxford_025",
+        "method": "embedding_residual",
+        "transform": "support_guard",
+        "strength": 1.0
+      },
+      {
+        "id": "Oxford_026",
+        "method": "embedding_residual",
+        "transform": "support_guard",
+        "strength": 10.0
+      },
+      {
+        "id": "Oxford_027",
+        "method": "feature_residual",
+        "transform": "support_guard",
+        "strength": 0.1
+      },
+      {
+        "id": "Oxford_028",
+        "method": "feature_residual",
+        "transform": "support_guard",
+        "strength": 1.0
+      },
+      {
+        "id": "Oxford_029",
+        "method": "feature_residual",
+        "transform": "support_guard",
+        "strength": 10.0
+      },
+      {
+        "id": "Oxford_030",
+        "method": "head",
+        "transform": "raw",
+        "lr": 3e-05,
+        "epochs": 5,
+        "l2sp": 0.01
+      },
+      {
+        "id": "Oxford_031",
+        "method": "head",
+        "transform": "raw",
+        "lr": 3e-05,
+        "epochs": 20,
+        "l2sp": 0.01
+      },
+      {
+        "id": "Oxford_032",
+        "method": "head",
+        "transform": "raw",
+        "lr": 3e-05,
+        "epochs": 60,
+        "l2sp": 0.01
+      },
+      {
+        "id": "Oxford_033",
+        "method": "head",
+        "transform": "raw",
+        "lr": 0.0001,
+        "epochs": 5,
+        "l2sp": 0.01
+      },
+      {
+        "id": "Oxford_034",
+        "method": "head",
+        "transform": "raw",
+        "lr": 0.0001,
+        "epochs": 20,
+        "l2sp": 0.01
+      },
+      {
+        "id": "Oxford_035",
+        "method": "head",
+        "transform": "raw",
+        "lr": 0.0001,
+        "epochs": 60,
+        "l2sp": 0.01
+      },
+      {
+        "id": "Oxford_036",
+        "method": "head",
+        "transform": "raw",
+        "lr": 0.0003,
+        "epochs": 5,
+        "l2sp": 0.01
+      },
+      {
+        "id": "Oxford_037",
+        "method": "head",
+        "transform": "raw",
+        "lr": 0.0003,
+        "epochs": 20,
+        "l2sp": 0.01
+      },
+      {
+        "id": "Oxford_038",
+        "method": "head",
+        "transform": "raw",
+        "lr": 0.0003,
+        "epochs": 60,
+        "l2sp": 0.01
+      },
+      {
+        "id": "Oxford_039",
+        "method": "head",
+        "transform": "support_guard",
+        "lr": 3e-05,
+        "epochs": 5,
+        "l2sp": 0.01
+      },
+      {
+        "id": "Oxford_040",
+        "method": "head",
+        "transform": "support_guard",
+        "lr": 3e-05,
+        "epochs": 20,
+        "l2sp": 0.01
+      },
+      {
+        "id": "Oxford_041",
+        "method": "head",
+        "transform": "support_guard",
+        "lr": 3e-05,
+        "epochs": 60,
+        "l2sp": 0.01
+      },
+      {
+        "id": "Oxford_042",
+        "method": "head",
+        "transform": "support_guard",
+        "lr": 0.0001,
+        "epochs": 5,
+        "l2sp": 0.01
+      },
+      {
+        "id": "Oxford_043",
+        "method": "head",
+        "transform": "support_guard",
+        "lr": 0.0001,
+        "epochs": 20,
+        "l2sp": 0.01
+      },
+      {
+        "id": "Oxford_044",
+        "method": "head",
+        "transform": "support_guard",
+        "lr": 0.0001,
+        "epochs": 60,
+        "l2sp": 0.01
+      },
+      {
+        "id": "Oxford_045",
+        "method": "head",
+        "transform": "support_guard",
+        "lr": 0.0003,
+        "epochs": 5,
+        "l2sp": 0.01
+      },
+      {
+        "id": "Oxford_046",
+        "method": "head",
+        "transform": "support_guard",
+        "lr": 0.0003,
+        "epochs": 20,
+        "l2sp": 0.01
+      },
+      {
+        "id": "Oxford_047",
+        "method": "head",
+        "transform": "support_guard",
+        "lr": 0.0003,
+        "epochs": 60,
+        "l2sp": 0.01
+      },
+      {
+        "id": "Oxford_048",
+        "method": "partial",
+        "transform": "support_guard",
+        "lr": 3e-05,
+        "epochs": 20,
+        "l2sp": 0.01
+      },
+      {
+        "id": "Oxford_049",
+        "method": "partial",
+        "transform": "support_guard",
+        "lr": 3e-05,
+        "epochs": 20,
+        "l2sp": 0.1
+      },
+      {
+        "id": "Oxford_050",
+        "method": "partial",
+        "transform": "support_guard",
+        "lr": 3e-05,
+        "epochs": 60,
+        "l2sp": 0.01
+      },
+      {
+        "id": "Oxford_051",
+        "method": "partial",
+        "transform": "support_guard",
+        "lr": 3e-05,
+        "epochs": 60,
+        "l2sp": 0.1
+      },
+      {
+        "id": "Oxford_052",
+        "method": "partial",
+        "transform": "support_guard",
+        "lr": 0.0001,
+        "epochs": 20,
+        "l2sp": 0.01
+      },
+      {
+        "id": "Oxford_053",
+        "method": "partial",
+        "transform": "support_guard",
+        "lr": 0.0001,
+        "epochs": 20,
+        "l2sp": 0.1
+      },
+      {
+        "id": "Oxford_054",
+        "method": "partial",
+        "transform": "support_guard",
+        "lr": 0.0001,
+        "epochs": 60,
+        "l2sp": 0.01
+      },
+      {
+        "id": "Oxford_055",
+        "method": "partial",
+        "transform": "support_guard",
+        "lr": 0.0001,
+        "epochs": 60,
+        "l2sp": 0.1
+      },
+      {
+        "id": "Oxford_056",
+        "method": "feature_residual",
+        "transform": "clip5",
+        "strength": 0.001
+      },
+      {
+        "id": "Oxford_057",
+        "method": "feature_residual",
+        "transform": "clip5",
+        "strength": 0.01
+      },
+      {
+        "id": "Oxford_058",
+        "method": "feature_residual",
+        "transform": "clip5",
+        "strength": 100.0
+      },
+      {
+        "id": "Oxford_059",
+        "method": "embedding_residual",
+        "transform": "clip5",
+        "strength": 0.001
+      },
+      {
+        "id": "Oxford_060",
+        "method": "embedding_residual",
+        "transform": "clip5",
+        "strength": 0.01
+      },
+      {
+        "id": "Oxford_061",
+        "method": "embedding_residual",
+        "transform": "clip5",
+        "strength": 100.0
+      },
+      {
+        "id": "Oxford_062",
+        "method": "standalone_feature_ridge",
+        "transform": "clip5",
+        "strength": 0.001
+      },
+      {
+        "id": "Oxford_063",
+        "method": "standalone_feature_ridge",
+        "transform": "clip5",
+        "strength": 0.01
+      },
+      {
+        "id": "Oxford_064",
+        "method": "standalone_feature_ridge",
+        "transform": "clip5",
+        "strength": 0.1
+      },
+      {
+        "id": "Oxford_065",
+        "method": "standalone_feature_ridge",
+        "transform": "clip5",
+        "strength": 1.0
+      },
+      {
+        "id": "Oxford_066",
+        "method": "standalone_feature_ridge",
+        "transform": "clip5",
+        "strength": 10.0
+      },
+      {
+        "id": "Oxford_067",
+        "method": "standalone_feature_ridge",
+        "transform": "clip5",
+        "strength": 100.0
+      },
+      {
+        "id": "Oxford_068",
+        "method": "standalone_embedding_ridge",
+        "transform": "clip5",
+        "strength": 0.01
+      },
+      {
+        "id": "Oxford_069",
+        "method": "standalone_embedding_ridge",
+        "transform": "clip5",
+        "strength": 0.1
+      },
+      {
+        "id": "Oxford_070",
+        "method": "standalone_embedding_ridge",
+        "transform": "clip5",
+        "strength": 1.0
+      },
+      {
+        "id": "Oxford_071",
+        "method": "standalone_embedding_ridge",
+        "transform": "clip5",
+        "strength": 10.0
+      },
+      {
+        "id": "Oxford_072",
+        "method": "feature_residual",
+        "transform": "raw",
+        "strength": 0.001
+      },
+      {
+        "id": "Oxford_073",
+        "method": "feature_residual",
+        "transform": "raw",
+        "strength": 0.01
+      },
+      {
+        "id": "Oxford_074",
+        "method": "feature_residual",
+        "transform": "raw",
+        "strength": 100.0
+      },
+      {
+        "id": "Oxford_075",
+        "method": "embedding_residual",
+        "transform": "raw",
+        "strength": 0.001
+      },
+      {
+        "id": "Oxford_076",
+        "method": "embedding_residual",
+        "transform": "raw",
+        "strength": 0.01
+      },
+      {
+        "id": "Oxford_077",
+        "method": "embedding_residual",
+        "transform": "raw",
+        "strength": 100.0
+      },
+      {
+        "id": "Oxford_078",
+        "method": "standalone_feature_ridge",
+        "transform": "raw",
+        "strength": 0.001
+      },
+      {
+        "id": "Oxford_079",
+        "method": "standalone_feature_ridge",
+        "transform": "raw",
+        "strength": 0.01
+      },
+      {
+        "id": "Oxford_080",
+        "method": "standalone_feature_ridge",
+        "transform": "raw",
+        "strength": 0.1
+      },
+      {
+        "id": "Oxford_081",
+        "method": "standalone_feature_ridge",
+        "transform": "raw",
+        "strength": 1.0
+      },
+      {
+        "id": "Oxford_082",
+        "method": "standalone_feature_ridge",
+        "transform": "raw",
+        "strength": 10.0
+      },
+      {
+        "id": "Oxford_083",
+        "method": "standalone_feature_ridge",
+        "transform": "raw",
+        "strength": 100.0
+      },
+      {
+        "id": "Oxford_084",
+        "method": "standalone_embedding_ridge",
+        "transform": "raw",
+        "strength": 0.01
+      },
+      {
+        "id": "Oxford_085",
+        "method": "standalone_embedding_ridge",
+        "transform": "raw",
+        "strength": 0.1
+      },
+      {
+        "id": "Oxford_086",
+        "method": "standalone_embedding_ridge",
+        "transform": "raw",
+        "strength": 1.0
+      },
+      {
+        "id": "Oxford_087",
+        "method": "standalone_embedding_ridge",
+        "transform": "raw",
+        "strength": 10.0
+      },
+      {
+        "id": "Oxford_088",
+        "method": "feature_residual",
+        "transform": "support_guard",
+        "strength": 0.001
+      },
+      {
+        "id": "Oxford_089",
+        "method": "feature_residual",
+        "transform": "support_guard",
+        "strength": 0.01
+      },
+      {
+        "id": "Oxford_090",
+        "method": "feature_residual",
+        "transform": "support_guard",
+        "strength": 100.0
+      },
+      {
+        "id": "Oxford_091",
+        "method": "embedding_residual",
+        "transform": "support_guard",
+        "strength": 0.001
+      },
+      {
+        "id": "Oxford_092",
+        "method": "embedding_residual",
+        "transform": "support_guard",
+        "strength": 0.01
+      },
+      {
+        "id": "Oxford_093",
+        "method": "embedding_residual",
+        "transform": "support_guard",
+        "strength": 100.0
+      },
+      {
+        "id": "Oxford_094",
+        "method": "standalone_feature_ridge",
+        "transform": "support_guard",
+        "strength": 0.001
+      },
+      {
+        "id": "Oxford_095",
+        "method": "standalone_feature_ridge",
+        "transform": "support_guard",
+        "strength": 0.01
+      },
+      {
+        "id": "Oxford_096",
+        "method": "standalone_feature_ridge",
+        "transform": "support_guard",
+        "strength": 0.1
+      },
+      {
+        "id": "Oxford_097",
+        "method": "standalone_feature_ridge",
+        "transform": "support_guard",
+        "strength": 1.0
+      },
+      {
+        "id": "Oxford_098",
+        "method": "standalone_feature_ridge",
+        "transform": "support_guard",
+        "strength": 10.0
+      },
+      {
+        "id": "Oxford_099",
+        "method": "standalone_feature_ridge",
+        "transform": "support_guard",
+        "strength": 100.0
+      },
+      {
+        "id": "Oxford_100",
+        "method": "standalone_embedding_ridge",
+        "transform": "support_guard",
+        "strength": 0.01
+      },
+      {
+        "id": "Oxford_101",
+        "method": "standalone_embedding_ridge",
+        "transform": "support_guard",
+        "strength": 0.1
+      },
+      {
+        "id": "Oxford_102",
+        "method": "standalone_embedding_ridge",
+        "transform": "support_guard",
+        "strength": 1.0
+      },
+      {
+        "id": "Oxford_103",
+        "method": "standalone_embedding_ridge",
+        "transform": "support_guard",
+        "strength": 10.0
+      },
+      {
+        "id": "Oxford_104",
+        "method": "head",
+        "transform": "raw",
+        "lr": 3e-05,
+        "epochs": 5,
+        "l2sp": 0.0
+      },
+      {
+        "id": "Oxford_105",
+        "method": "head",
+        "transform": "raw",
+        "lr": 3e-05,
+        "epochs": 5,
+        "l2sp": 0.1
+      },
+      {
+        "id": "Oxford_106",
+        "method": "head",
+        "transform": "raw",
+        "lr": 3e-05,
+        "epochs": 20,
+        "l2sp": 0.0
+      },
+      {
+        "id": "Oxford_107",
+        "method": "head",
+        "transform": "raw",
+        "lr": 3e-05,
+        "epochs": 20,
+        "l2sp": 0.1
+      },
+      {
+        "id": "Oxford_108",
+        "method": "head",
+        "transform": "raw",
+        "lr": 3e-05,
+        "epochs": 60,
+        "l2sp": 0.0
+      },
+      {
+        "id": "Oxford_109",
+        "method": "head",
+        "transform": "raw",
+        "lr": 3e-05,
+        "epochs": 60,
+        "l2sp": 0.1
+      },
+      {
+        "id": "Oxford_110",
+        "method": "head",
+        "transform": "raw",
+        "lr": 0.0001,
+        "epochs": 5,
+        "l2sp": 0.0
+      },
+      {
+        "id": "Oxford_111",
+        "method": "head",
+        "transform": "raw",
+        "lr": 0.0001,
+        "epochs": 5,
+        "l2sp": 0.1
+      },
+      {
+        "id": "Oxford_112",
+        "method": "head",
+        "transform": "raw",
+        "lr": 0.0001,
+        "epochs": 20,
+        "l2sp": 0.0
+      },
+      {
+        "id": "Oxford_113",
+        "method": "head",
+        "transform": "raw",
+        "lr": 0.0001,
+        "epochs": 20,
+        "l2sp": 0.1
+      },
+      {
+        "id": "Oxford_114",
+        "method": "head",
+        "transform": "raw",
+        "lr": 0.0001,
+        "epochs": 60,
+        "l2sp": 0.0
+      },
+      {
+        "id": "Oxford_115",
+        "method": "head",
+        "transform": "raw",
+        "lr": 0.0001,
+        "epochs": 60,
+        "l2sp": 0.1
+      },
+      {
+        "id": "Oxford_116",
+        "method": "head",
+        "transform": "raw",
+        "lr": 0.0003,
+        "epochs": 5,
+        "l2sp": 0.0
+      },
+      {
+        "id": "Oxford_117",
+        "method": "head",
+        "transform": "raw",
+        "lr": 0.0003,
+        "epochs": 5,
+        "l2sp": 0.1
+      },
+      {
+        "id": "Oxford_118",
+        "method": "head",
+        "transform": "raw",
+        "lr": 0.0003,
+        "epochs": 20,
+        "l2sp": 0.0
+      },
+      {
+        "id": "Oxford_119",
+        "method": "head",
+        "transform": "raw",
+        "lr": 0.0003,
+        "epochs": 20,
+        "l2sp": 0.1
+      },
+      {
+        "id": "Oxford_120",
+        "method": "head",
+        "transform": "raw",
+        "lr": 0.0003,
+        "epochs": 60,
+        "l2sp": 0.0
+      },
+      {
+        "id": "Oxford_121",
+        "method": "head",
+        "transform": "raw",
+        "lr": 0.0003,
+        "epochs": 60,
+        "l2sp": 0.1
+      }
+    ]
+  },
+  "source_checkpoint_hashes": {
+    "source_seed_20260903.pt": "523a1cf48ae8d596084fe3c7013a46b2bd73e6fdf788264ba7e96439b907579d",
+    "source_seed_20260904.pt": "cde7b1a4ef2d8bbd94bcb5d0bfebc238f79607e206cba0ffe58e272bee45e2a1",
+    "source_seed_20260905.pt": "49305674e50164c827700b0ba96e17613023a29e04372aa63f8b4f8f7e5f5ef0"
+  },
+  "source_scaler_sha256": "0673dd708c13bbb53c217db748776a401906aa89850551255a737adef51d94a8",
+  "input_hashes": {
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\manifests\\NASA_01.json": "84754b7d6f89463693301f2d4a1167337c245954f7e21d7b80c89df9c7c5842b",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\protocol_features\\NASA_01\\B0036.csv": "810f31b8bcb953fade11988a61dd70815168d248581df0866a4bd4f1f2a9d7ff",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\manifests\\NASA_02.json": "f73f815c2400682f5118ce06fd880c104c0fb326d2d308b3722300e3b3183dc2",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\protocol_features\\NASA_02\\B0033.csv": "2f577582aa400a5fe70a18f6f61743f5623a02e5b970ec5e2ae2c66fe7ff7754",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\protocol_features\\NASA_02\\B0034.csv": "20c6186f63c497a89428c2e47b806371f8fe071226e79287095077aab6758f35",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\manifests\\NASA_03.json": "b16cf5438037549a143f2ce62ad905488e904512daa46e349c2f1b98fb7b4d28",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\protocol_features\\NASA_03\\B0025.csv": "8d20bbe6cad1dbba92fc914e832a57315bb061ec711b4c72ecb5660fd3c1df3a",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\protocol_features\\NASA_03\\B0026.csv": "2948bf0f1cd009d60a8603c8bb64e08811498c0d897a379049db92e30abe3cdc",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\protocol_features\\NASA_03\\B0027.csv": "72a210716179a0c7e0b4bba11398aba5e69e5c94a917e11b2e9bec0dc1895113",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\protocol_features\\NASA_03\\B0028.csv": "0adb16a29070ec80458e1e6c6a202711e3c7266c541069282449afc5bf8bfa5d",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\manifests\\NASA_04.json": "f8b2550e00688b7ecd3a5e5383db1c0be049a4a0127cd6ef25d0d307e4d6fbdd",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\protocol_features\\NASA_04\\B0038.csv": "1075615071498eeb794978fdafc8d2bbbada503123df102b832a1b91e73504e6",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\protocol_features\\NASA_04\\B0039.csv": "8ff4fb3bbcce7c6175a927369e01b33e81b73d52703e014f040e1f287c0eb2f6",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\protocol_features\\NASA_04\\B0040.csv": "d366dfa60975d75625affca24e86e90133f699c6929e29bbf6047537844f723c",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\manifests\\NASA_05.json": "0e26f957151083377d871e05611a404a8c1391be52d44633d23dda53fdb48f31",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\protocol_features\\NASA_05\\B0029.csv": "806024353ba66fc39a31e025d4123f34b08e9b9f85ceca10a450b2b17a071a2d",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\protocol_features\\NASA_05\\B0030.csv": "8af467cc92d2633c2abb7db2aa37ef4fefb354d184971a679e796d6342d3fe1d",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\protocol_features\\NASA_05\\B0031.csv": "9d3e33114e641ce7949349a1e3211c315dc3b5bedbbe2e1a07181973d6a0f9c6",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\protocol_features\\NASA_05\\B0032.csv": "c65b6e44d0cf43d1108098372e7ef37bd507c4648a3bc92a9a5c6599573cc466",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\manifests\\NASA_06.json": "05011f87cf80253948eb8b48836b237fb2e9e02041c49a70e31ace5a5d8772d1",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\protocol_features\\NASA_06\\B0045.csv": "480243708195f3a547ffe83ecda2402a3b00cbb9be3da055fafaeff6836bcad4",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\protocol_features\\NASA_06\\B0046.csv": "9adf23659c75fed45c4cdc1d8a423711c3680ddb24bea9d2a6063acf6d575443",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\protocol_features\\NASA_06\\B0047.csv": "938d88c7ec40463c266f9184675eb376d6746a4bb275e4d74f5561bb9dfa2db3",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\protocol_features\\NASA_06\\B0048.csv": "ed8ac2ad3e39e5080dc08bb20cf7c54e270a5e49a2838df774266f136375d88b",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\manifests\\NASA_07.json": "dd502e3507bfb819ebf8c96d5681a61aed967abbb22117c94380bde5a08762cc",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\protocol_features\\NASA_07\\B0049.csv": "3b63f51b145c54aedec5c50dca0bcd8c3c98950eec793be7e9bb77c5342d4e2a",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\protocol_features\\NASA_07\\B0050.csv": "d44eb8bf22000bcf035e3aea51e55586ae2c9891e225d61026f488960522cd16",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\protocol_features\\NASA_07\\B0051.csv": "f23175fdb2951698c1fc2e73b7a2add3876455039acd6d3af6965e95ec750279",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\protocol_features\\NASA_07\\B0052.csv": "15ffcf59592bb7f0962ab1db20771a99dd5af515c7bac9952de58565e993f7f2",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\protocol_features\\NASA_07\\B0053.csv": "e0e00be57303eb72e36d8469145348ea5426167e2057558e061f35d26903f65b",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\protocol_features\\NASA_07\\B0054.csv": "b5b0996538bd00c523e3a4e153d11d8366d40bea6e6156dba1524db9989fb531",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\protocol_features\\NASA_07\\B0055.csv": "4e9cb66ca0f9b8e72516b07ed7b79fb72a03c273355ffa797ee3622d3711f3e4",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\protocol_features\\NASA_07\\B0056.csv": "c77fb61cc0b15f546cd194a3ebe96ac4e04c102f806d60eef218c32c82e968e0",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\manifests\\NASA_08.json": "4bb223425d75e32f75c4894924c38cef7a86ec8c8afa6f3458779b8499784d45",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\protocol_features\\NASA_08\\B0041.csv": "3d0d96546ad2d9b918e55d3d31df68eeea6f1d37ebebd98f9472fe040687e2f5",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\protocol_features\\NASA_08\\B0042.csv": "d970d75164a2582ab7d2368719c22f4487335cd2040bf0d8c8ee3a97275183a0",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\protocol_features\\NASA_08\\B0043.csv": "7013e899282eae13c0372e59564b46437530c30e561c25e36a52f6350c29fbc2",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\protocol_features\\NASA_08\\B0044.csv": "7fd4c45879d14875f019311838aeabafdc75b7663efce6d03d1aed89dace0367",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\manifests\\NASA_09.json": "76175ac4cbc7c8bbb50facb328de63b3cad0d1b6818d77be79ae9dbbe33f6a8c",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\protocol_features\\NASA_09\\B0005.csv": "7f5ee3d86c6a963b7d056f36c922a90475a95f7b54aaa4f2dc01d3e94e683012",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\protocol_features\\NASA_09\\B0006.csv": "b0b0115cc91419bfeafb0403f775b0229cfa4c75f557955caa5e0b8285ca0c13",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\protocol_features\\NASA_09\\B0007.csv": "40ca3c6b9af7b5ce21eaf217007dce845b25be74b4c48b58db64138637682ddc",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\protocol_features\\NASA_09\\B0018.csv": "3940e7ef0842c05cc321a4304c499d76bbe8499c744c12d5c5036632a9531ec5",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\manifests\\Oxford_10.json": "42e367fc0e8ad7a5dace2795bc572e4f522bd93c1514da0241fcc236d266f0a6",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\protocol_features\\Oxford_10\\Cell1.csv": "d2caabf2e7365b3c32d1f5ec3b11b864595234701f4a03bbba5a0d0f5f2bb921",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\protocol_features\\Oxford_10\\Cell2.csv": "f74af7d500aaf31e7a2dd880226c10745944477b676db424d7fa45ff15c3b5a0",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\protocol_features\\Oxford_10\\Cell3.csv": "b6b507055e2ae1892fc900d14c95e0953c4876ee5020ffc062901dff6b222035",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\protocol_features\\Oxford_10\\Cell4.csv": "0ed9a336ca887c6f0cf78c8e5a435a05bbf8a335912103de80da3965caae96fd",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\protocol_features\\Oxford_10\\Cell5.csv": "d7620bdb83e99623e41b249ba79368affa12e87f8b988a03be70505ed001fb18",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\protocol_features\\Oxford_10\\Cell6.csv": "3ad4a9483926e47dbc98b81d50b43672001fd6724009e563fc64975177040819",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\protocol_features\\Oxford_10\\Cell7.csv": "bcb1eefd3622589c740147f227a5aa868e8bbb12c2ab3e8e59948f7fb9716dd1",
+    "E:\\claude_work\\temp\\frozen_external_clients_20261007\\protocol_features\\Oxford_10\\Cell8.csv": "3cd137ab28f6e5bdd91b1e4f797db81276406b51688043b87553aa340c61644f"
+  },
+  "unified_policy_sha256": "fc90d6638675e45703c9a0ba3498279a6b235a26ff1020165ed16e542d989dd4",
+  "code_hashes": {
+    "dataset_specific_adaptation.py": "c56257713c59ea987209b90a8d2ef6c030fafcda976adf24f87bc271a7bb35dd",
+    "optimize_external_adaptation.py": "a9e7d5f71a1e264ece5d8879325b9e41aa91d0343b321de2ebdc947fd596b72e",
+    "new_client_generalization.py": "e49ad97e4de7f6d1d85990b552dcdf50b7234b85c58f1b85bdc72cd316c898dc"
+  },
+  "selection": "dataset development raw macro MAE; evaluation labels forbidden",
+  "datasets": [
+    "Oxford"
+  ],
+  "archive_source": "recorded-source/dataset_specific_adaptation_20261007",
+  "archive_scope": "Oxford"
+}

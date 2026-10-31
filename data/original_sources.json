@@ -1,0 +1,44 @@
+[
+  {
+    "dataset": "HUST",
+    "source": "https://data.mendeley.com/datasets/nsc7hnsg4s/2",
+    "identifier": "10.17632/nsc7hnsg4s.2",
+    "observed_licence": "CC BY 4.0",
+    "checked": "2026-10-31"
+  },
+  {
+    "dataset": "MIT",
+    "source": "https://data.matr.io/1/projects/5c48dd2bc625d700019f3204",
+    "identifier": null,
+    "observed_licence": null,
+    "checked": "2026-10-31"
+  },
+  {
+    "dataset": "TJU",
+    "source": "https://zenodo.org/records/6405084",
+    "identifier": "10.5281/zenodo.6405084",
+    "observed_licence": null,
+    "checked": "2026-10-31"
+  },
+  {
+    "dataset": "XJTU",
+    "source": "https://zenodo.org/records/10963339",
+    "identifier": "10.5281/zenodo.10963339",
+    "observed_licence": null,
+    "checked": "2026-10-31"
+  },
+  {
+    "dataset": "NASA",
+    "source": "https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/",
+    "identifier": null,
+    "observed_licence": null,
+    "checked": "2026-10-31"
+  },
+  {
+    "dataset": "Oxford",
+    "source": "https://doi.org/10.5287/bodleian:KO2kdmYGg",
+    "identifier": "10.5287/bodleian:KO2kdmYGg",
+    "observed_licence": null,
+    "checked": "2026-10-31"
+  }
+]

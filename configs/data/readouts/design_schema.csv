@@ -1,0 +1,260 @@
+index,name
+0,core:voltage mean
+1,core:voltage std
+2,core:voltage kurtosis
+3,core:voltage skewness
+4,core:CC Q
+5,core:CC charge time
+6,core:voltage slope
+7,core:voltage entropy
+8,core:current mean
+9,core:current std
+10,core:current kurtosis
+11,core:current skewness
+12,core:CV Q
+13,core:CV charge time
+14,core:current slope
+15,core:current entropy
+16,core:cycle_index
+17,relative:voltage mean
+18,relative:voltage std
+19,relative:voltage kurtosis
+20,relative:voltage skewness
+21,relative:CC Q
+22,relative:CC charge time
+23,relative:voltage slope
+24,relative:voltage entropy
+25,relative:current mean
+26,relative:current std
+27,relative:current kurtosis
+28,relative:current skewness
+29,relative:CV Q
+30,relative:CV charge time
+31,relative:current slope
+32,relative:current entropy
+33,support:median_soh
+34,support:range_soh
+35,support:last_minus_first_soh
+36,support:linear_soh_slope
+37,support:median_last10_minus_first10_soh
+38,support:median_CC_Q
+39,support:median_CV_Q
+40,support:median_CC_time
+41,support:median_CV_time
+42,support:last_soh
+43,support:early10_soh_slope
+44,support:late10_soh_slope
+45,support:late_minus_early_soh_slope
+46,support:quadratic_soh_coefficient
+47,interaction:voltage mean:median_soh_minus_.95
+48,interaction:voltage std:median_soh_minus_.95
+49,interaction:voltage kurtosis:median_soh_minus_.95
+50,interaction:voltage skewness:median_soh_minus_.95
+51,interaction:CC Q:median_soh_minus_.95
+52,interaction:CC charge time:median_soh_minus_.95
+53,interaction:voltage slope:median_soh_minus_.95
+54,interaction:voltage entropy:median_soh_minus_.95
+55,interaction:current mean:median_soh_minus_.95
+56,interaction:current std:median_soh_minus_.95
+57,interaction:current kurtosis:median_soh_minus_.95
+58,interaction:current skewness:median_soh_minus_.95
+59,interaction:CV Q:median_soh_minus_.95
+60,interaction:CV charge time:median_soh_minus_.95
+61,interaction:current slope:median_soh_minus_.95
+62,interaction:current entropy:median_soh_minus_.95
+63,interaction:voltage mean:range_soh
+64,interaction:voltage std:range_soh
+65,interaction:voltage kurtosis:range_soh
+66,interaction:voltage skewness:range_soh
+67,interaction:CC Q:range_soh
+68,interaction:CC charge time:range_soh
+69,interaction:voltage slope:range_soh
+70,interaction:voltage entropy:range_soh
+71,interaction:current mean:range_soh
+72,interaction:current std:range_soh
+73,interaction:current kurtosis:range_soh
+74,interaction:current skewness:range_soh
+75,interaction:CV Q:range_soh
+76,interaction:CV charge time:range_soh
+77,interaction:current slope:range_soh
+78,interaction:current entropy:range_soh
+79,interaction:voltage mean:last_minus_first_soh
+80,interaction:voltage std:last_minus_first_soh
+81,interaction:voltage kurtosis:last_minus_first_soh
+82,interaction:voltage skewness:last_minus_first_soh
+83,interaction:CC Q:last_minus_first_soh
+84,interaction:CC charge time:last_minus_first_soh
+85,interaction:voltage slope:last_minus_first_soh
+86,interaction:voltage entropy:last_minus_first_soh
+87,interaction:current mean:last_minus_first_soh
+88,interaction:current std:last_minus_first_soh
+89,interaction:current kurtosis:last_minus_first_soh
+90,interaction:current skewness:last_minus_first_soh
+91,interaction:CV Q:last_minus_first_soh
+92,interaction:CV charge time:last_minus_first_soh
+93,interaction:current slope:last_minus_first_soh
+94,interaction:current entropy:last_minus_first_soh
+95,window:cc_counter_integral_difference
+96,window:cc_current_A
+97,window:cc_current_cv
+98,window:cc_dt_max_s
+99,window:cc_i_cv
+100,window:cc_i_median
+101,window:cc_integrated_Ah
+102,window:cc_max_gap_s
+103,window:cc_points
+104,window:cc_q_fraction_0
+105,window:cc_q_fraction_1
+106,window:cc_q_fraction_2
+107,window:cc_temperature_change
+108,window:cc_temperature_mean
+109,window:cc_time_fraction_0
+110,window:cc_time_fraction_1
+111,window:cc_time_fraction_2
+112,window:cc_v_span
+113,window:cc_voltage_time_curvature
+114,window:cv_counter_integral_difference
+115,window:cv_dt_max_s
+116,window:cv_integrated_Ah
+117,window:cv_log_i_curvature
+118,window:cv_log_i_rmse
+119,window:cv_log_i_slope
+120,window:cv_max_gap_s
+121,window:cv_points
+122,window:cv_temperature_change
+123,window:cv_temperature_mean
+124,window:cv_time_high_fraction
+125,window:native_delta_cycle
+126,window:protocol_C1
+127,window:protocol_C2
+128,window:protocol_switch_SOC
+129,window:window_match
+130,window:experiment_temperature_C
+131,window:low38_40_Q
+132,window:low_window_valid
+133,support_window:cc_counter_integral_difference:median
+134,support_window:cc_counter_integral_difference:finite_count
+135,support_window:cc_current_A:median
+136,support_window:cc_current_A:finite_count
+137,support_window:cc_current_cv:median
+138,support_window:cc_current_cv:finite_count
+139,support_window:cc_dt_max_s:median
+140,support_window:cc_dt_max_s:finite_count
+141,support_window:cc_i_cv:median
+142,support_window:cc_i_cv:finite_count
+143,support_window:cc_i_median:median
+144,support_window:cc_i_median:finite_count
+145,support_window:cc_integrated_Ah:median
+146,support_window:cc_integrated_Ah:finite_count
+147,support_window:cc_max_gap_s:median
+148,support_window:cc_max_gap_s:finite_count
+149,support_window:cc_points:median
+150,support_window:cc_points:finite_count
+151,support_window:cc_q_fraction_0:median
+152,support_window:cc_q_fraction_0:finite_count
+153,support_window:cc_q_fraction_1:median
+154,support_window:cc_q_fraction_1:finite_count
+155,support_window:cc_q_fraction_2:median
+156,support_window:cc_q_fraction_2:finite_count
+157,support_window:cc_temperature_change:median
+158,support_window:cc_temperature_change:finite_count
+159,support_window:cc_temperature_mean:median
+160,support_window:cc_temperature_mean:finite_count
+161,support_window:cc_time_fraction_0:median
+162,support_window:cc_time_fraction_0:finite_count
+163,support_window:cc_time_fraction_1:median
+164,support_window:cc_time_fraction_1:finite_count
+165,support_window:cc_time_fraction_2:median
+166,support_window:cc_time_fraction_2:finite_count
+167,support_window:cc_v_span:median
+168,support_window:cc_v_span:finite_count
+169,support_window:cc_voltage_time_curvature:median
+170,support_window:cc_voltage_time_curvature:finite_count
+171,support_window:cv_counter_integral_difference:median
+172,support_window:cv_counter_integral_difference:finite_count
+173,support_window:cv_dt_max_s:median
+174,support_window:cv_dt_max_s:finite_count
+175,support_window:cv_integrated_Ah:median
+176,support_window:cv_integrated_Ah:finite_count
+177,support_window:cv_log_i_curvature:median
+178,support_window:cv_log_i_curvature:finite_count
+179,support_window:cv_log_i_rmse:median
+180,support_window:cv_log_i_rmse:finite_count
+181,support_window:cv_log_i_slope:median
+182,support_window:cv_log_i_slope:finite_count
+183,support_window:cv_max_gap_s:median
+184,support_window:cv_max_gap_s:finite_count
+185,support_window:cv_points:median
+186,support_window:cv_points:finite_count
+187,support_window:cv_temperature_change:median
+188,support_window:cv_temperature_change:finite_count
+189,support_window:cv_temperature_mean:median
+190,support_window:cv_temperature_mean:finite_count
+191,support_window:cv_time_high_fraction:median
+192,support_window:cv_time_high_fraction:finite_count
+193,support_window:native_delta_cycle:median
+194,support_window:native_delta_cycle:finite_count
+195,support_window:protocol_C1:median
+196,support_window:protocol_C1:finite_count
+197,support_window:protocol_C2:median
+198,support_window:protocol_C2:finite_count
+199,support_window:protocol_switch_SOC:median
+200,support_window:protocol_switch_SOC:finite_count
+201,support_window:window_match:median
+202,support_window:window_match:finite_count
+203,support_window:experiment_temperature_C:median
+204,support_window:experiment_temperature_C:finite_count
+205,support_window:low38_40_Q:median
+206,support_window:low38_40_Q:finite_count
+207,support_window:low_window_valid:median
+208,support_window:low_window_valid:finite_count
+209,native_cycle_since_support_end
+210,support_native_cycle_origin
+211,NCA_qv_increment_3.6_3.8
+212,NCA_qv_increment_3.8_4.0
+213,NCA_qv_increment_4.0_4.18
+214,NCA_qv_amplitude
+215,NCA_qv_valid
+216,XJTU_lowQ_relative
+217,XJTU_history:lowQ_slope16
+218,XJTU_history:CCQ_slope16
+219,XJTU_history:temperature_slope16
+220,XJTU_history:lowQ_current_minus_mean16
+221,XJTU_history:CCQ_current_minus_mean16
+222,XJTU_history:temperature_current_minus_mean16
+223,encoder:0
+224,encoder:1
+225,encoder:2
+226,encoder:3
+227,encoder:4
+228,encoder:5
+229,encoder:6
+230,encoder:7
+231,encoder:8
+232,encoder:9
+233,encoder:10
+234,encoder:11
+235,encoder:12
+236,encoder:13
+237,encoder:14
+238,encoder:15
+239,encoder:16
+240,encoder:17
+241,encoder:18
+242,encoder:19
+243,encoder:20
+244,encoder:21
+245,encoder:22
+246,encoder:23
+247,encoder:24
+248,encoder:25
+249,encoder:26
+250,encoder:27
+251,encoder:28
+252,encoder:29
+253,encoder:30
+254,encoder:31
+255,encoder:32
+256,encoder:33
+257,encoder:34
+258,encoder:35

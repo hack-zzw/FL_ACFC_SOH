@@ -1,0 +1,112 @@
+{
+  "selected_20_40_60": {
+    "20": {
+      "20260903": {
+        "NASA_01": "personalized_models/20_20260903_NASA_01_trend_10.pt",
+        "NASA_02": "personalized_models/20_20260903_NASA_02_trend_10.pt",
+        "NASA_03": "personalized_models/20_20260903_NASA_03_trend_10.pt",
+        "NASA_04": "personalized_models/20_20260903_NASA_04_trend_10.pt",
+        "NASA_05": "personalized_models/20_20260903_NASA_05_trend_10.pt",
+        "NASA_06": "personalized_models/20_20260903_NASA_06_trend_10.pt",
+        "NASA_07": "personalized_models/20_20260903_NASA_07_trend_10.pt",
+        "NASA_08": "personalized_models/20_20260903_NASA_08_trend_10.pt",
+        "NASA_09": "personalized_models/20_20260903_NASA_09_trend_10.pt"
+      },
+      "20260904": {
+        "NASA_01": "personalized_models/20_20260904_NASA_01_trend_10.pt",
+        "NASA_02": "personalized_models/20_20260904_NASA_02_trend_10.pt",
+        "NASA_03": "personalized_models/20_20260904_NASA_03_trend_10.pt",
+        "NASA_04": "personalized_models/20_20260904_NASA_04_trend_10.pt",
+        "NASA_05": "personalized_models/20_20260904_NASA_05_trend_10.pt",
+        "NASA_06": "personalized_models/20_20260904_NASA_06_trend_10.pt",
+        "NASA_07": "personalized_models/20_20260904_NASA_07_trend_10.pt",
+        "NASA_08": "personalized_models/20_20260904_NASA_08_trend_10.pt",
+        "NASA_09": "personalized_models/20_20260904_NASA_09_trend_10.pt"
+      },
+      "20260905": {
+        "NASA_01": "personalized_models/20_20260905_NASA_01_trend_10.pt",
+        "NASA_02": "personalized_models/20_20260905_NASA_02_trend_10.pt",
+        "NASA_03": "personalized_models/20_20260905_NASA_03_trend_10.pt",
+        "NASA_04": "personalized_models/20_20260905_NASA_04_trend_10.pt",
+        "NASA_05": "personalized_models/20_20260905_NASA_05_trend_10.pt",
+        "NASA_06": "personalized_models/20_20260905_NASA_06_trend_10.pt",
+        "NASA_07": "personalized_models/20_20260905_NASA_07_trend_10.pt",
+        "NASA_08": "personalized_models/20_20260905_NASA_08_trend_10.pt",
+        "NASA_09": "personalized_models/20_20260905_NASA_09_trend_10.pt"
+      }
+    },
+    "40": {
+      "20260903": {
+        "NASA_01": "personalized_models/40_20260903_NASA_01_trend_1.pt",
+        "NASA_02": "personalized_models/40_20260903_NASA_02_trend_1.pt",
+        "NASA_03": "personalized_models/40_20260903_NASA_03_trend_1.pt",
+        "NASA_04": "personalized_models/40_20260903_NASA_04_trend_1.pt",
+        "NASA_05": "personalized_models/40_20260903_NASA_05_trend_1.pt",
+        "NASA_06": "personalized_models/40_20260903_NASA_06_trend_1.pt",
+        "NASA_07": "personalized_models/40_20260903_NASA_07_trend_1.pt",
+        "NASA_08": "personalized_models/40_20260903_NASA_08_trend_1.pt",
+        "NASA_09": "personalized_models/40_20260903_NASA_09_trend_1.pt"
+      },
+      "20260904": {
+        "NASA_01": "personalized_models/40_20260904_NASA_01_trend_1.pt",
+        "NASA_02": "personalized_models/40_20260904_NASA_02_trend_1.pt",
+        "NASA_03": "personalized_models/40_20260904_NASA_03_trend_1.pt",
+        "NASA_04": "personalized_models/40_20260904_NASA_04_trend_1.pt",
+        "NASA_05": "personalized_models/40_20260904_NASA_05_trend_1.pt",
+        "NASA_06": "personalized_models/40_20260904_NASA_06_trend_1.pt",
+        "NASA_07": "personalized_models/40_20260904_NASA_07_trend_1.pt",
+        "NASA_08": "personalized_models/40_20260904_NASA_08_trend_1.pt",
+        "NASA_09": "personalized_models/40_20260904_NASA_09_trend_1.pt"
+      },
+      "20260905": {
+        "NASA_01": "personalized_models/40_20260905_NASA_01_trend_1.pt",
+        "NASA_02": "personalized_models/40_20260905_NASA_02_trend_1.pt",
+        "NASA_03": "personalized_models/40_20260905_NASA_03_trend_1.pt",
+        "NASA_04": "personalized_models/40_20260905_NASA_04_trend_1.pt",
+        "NASA_05": "personalized_models/40_20260905_NASA_05_trend_1.pt",
+        "NASA_06": "personalized_models/40_20260905_NASA_06_trend_1.pt",
+        "NASA_07": "personalized_models/40_20260905_NASA_07_trend_1.pt",
+        "NASA_08": "personalized_models/40_20260905_NASA_08_trend_1.pt",
+        "NASA_09": "personalized_models/40_20260905_NASA_09_trend_1.pt"
+      }
+    },
+    "60": {
+      "20260903": {
+        "NASA_01": "personalized_models/60_20260903_NASA_01_trend_1.pt",
+        "NASA_02": "personalized_models/60_20260903_NASA_02_trend_1.pt",
+        "NASA_03": "personalized_models/60_20260903_NASA_03_trend_1.pt",
+        "NASA_04": "personalized_models/60_20260903_NASA_04_trend_1.pt",
+        "NASA_05": "personalized_models/60_20260903_NASA_05_trend_1.pt",
+        "NASA_06": "personalized_models/60_20260903_NASA_06_trend_1.pt",
+        "NASA_07": "personalized_models/60_20260903_NASA_07_trend_1.pt",
+        "NASA_08": "personalized_models/60_20260903_NASA_08_trend_1.pt",
+        "NASA_09": "personalized_models/60_20260903_NASA_09_trend_1.pt"
+      },
+      "20260904": {
+        "NASA_01": "personalized_models/60_20260904_NASA_01_trend_1.pt",
+        "NASA_02": "personalized_models/60_20260904_NASA_02_trend_1.pt",
+        "NASA_03": "personalized_models/60_20260904_NASA_03_trend_1.pt",
+        "NASA_04": "personalized_models/60_20260904_NASA_04_trend_1.pt",
+        "NASA_05": "personalized_models/60_20260904_NASA_05_trend_1.pt",
+        "NASA_06": "personalized_models/60_20260904_NASA_06_trend_1.pt",
+        "NASA_07": "personalized_models/60_20260904_NASA_07_trend_1.pt",
+        "NASA_08": "personalized_models/60_20260904_NASA_08_trend_1.pt",
+        "NASA_09": "personalized_models/60_20260904_NASA_09_trend_1.pt"
+      },
+      "20260905": {
+        "NASA_01": "personalized_models/60_20260905_NASA_01_trend_1.pt",
+        "NASA_02": "personalized_models/60_20260905_NASA_02_trend_1.pt",
+        "NASA_03": "personalized_models/60_20260905_NASA_03_trend_1.pt",
+        "NASA_04": "personalized_models/60_20260905_NASA_04_trend_1.pt",
+        "NASA_05": "personalized_models/60_20260905_NASA_05_trend_1.pt",
+        "NASA_06": "personalized_models/60_20260905_NASA_06_trend_1.pt",
+        "NASA_07": "personalized_models/60_20260905_NASA_07_trend_1.pt",
+        "NASA_08": "personalized_models/60_20260905_NASA_08_trend_1.pt",
+        "NASA_09": "personalized_models/60_20260905_NASA_09_trend_1.pt"
+      }
+    }
+  },
+  "no_pinn": true,
+  "purpose": "support-selected experiment checkpoints; historical main baseline not replaced",
+  "inference": "torch.load(weights_only=True); restore(saved[model],cfg,device,seed); option_predict(model,DataFrame(saved[support]),label-free features,saved[head],saved[option],device)"
+}
